@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eleven Career Ladders</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy: #1C2B3A;
+    --navy-2: #24384B;
+    --navy-3: #2E4759;
+    --orange: #E05A2B;
+    --orange-soft: #F3D9CC;
+    --paper: #F6F7F9;
+    --panel: #FFFFFF;
+    --line: #DFE3E8;
+    --ink: #1C2B3A;
+    --ink-soft: #5C6B7A;
+    --rail: #C7CDD5;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Montserrat', sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4,.display{
+    font-family:'Raleway', sans-serif;
+    letter-spacing:-0.01em;
+  }
+  a{color:inherit;}
+
+  /* ---------- Layout shell ---------- */
+  .app{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    min-height:100vh;
+  }
+  @media (max-width: 860px){
+    .app{grid-template-columns: 1fr;}
+    .sidebar{position:static; height:auto;}
+  }
+
+  /* ---------- Sidebar ---------- */
+  .sidebar{
+    background: var(--navy);
+    color:#EDEFF2;
+    padding:28px 20px 24px;
+    position:sticky;
+    top:0;
+    height:100vh;
+    overflow-y:auto;
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding-bottom:16px;
+    border-bottom:1px solid rgba(255,255,255,0.12);
+    transition: opacity .15s;
+  }
+  .brand:hover{opacity:0.8;}
+  .brand .mark-icon{
+    width:26px;height:26px;
+    object-fit:contain;
+    flex:0 0 auto;
+  }
+  .brand h1{
+    font-size:19px;
+    font-weight:800;
+    margin:0;
+    color:#fff;
+  }
+  .brand span{
+    font-size:11px;
+    color:rgba(255,255,255,0.55);
+    display:block;
+    margin-top:2px;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+  }
+  .search-wrap{position:relative;}
+  .search-wrap input{
+    width:100%;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.14);
+    border-radius:8px;
+    padding:10px 12px 10px 32px;
+    color:#fff;
+    font-family:'Montserrat',sans-serif;
+    font-size:13.5px;
+    outline:none;
+  }
+  .search-wrap input::placeholder{color:rgba(255,255,255,0.45);}
+  .search-wrap input:focus{border-color:var(--orange);}
+  .search-wrap svg{
+    position:absolute; left:10px; top:50%; transform:translateY(-50%);
+    width:14px; height:14px; opacity:0.5;
+  }
+  nav.deptnav{display:flex; flex-direction:column; gap:3px;}
+  .nav-label{
+    font-size:10.5px;
+    text-transform:uppercase;
+    letter-spacing:0.09em;
+    color:rgba(255,255,255,0.4);
+    margin:4px 4px 6px;
+  }
+  .deptnav button{
+    all:unset; box-sizing:border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    cursor:pointer;
+    padding:10px 12px;
+    border-radius:8px;
+    font-size:13.5px;
+    font-weight:500;
+    color:rgba(255,255,255,0.78);
+    transition: background 0.15s, color 0.15s;
+  }
+  .deptnav button:hover{background:rgba(255,255,255,0.06); color:#fff;}
+  .deptnav button.active{
+    background: rgba(224,90,43,0.16);
+    color:#fff;
+    font-weight:600;
+    box-shadow: inset 3px 0 0 var(--orange);
+  }
+  .deptnav button .count{
+    font-size:11px;
+    color:rgba(255,255,255,0.4);
+    font-weight:500;
+  }
+  .deptnav button.active .count{color:rgba(255,255,255,0.65);}
+  .deptnav button .rightwrap{display:flex; align-items:center; gap:6px;}
+  .status-dot{
+    width:6px; height:6px; border-radius:50%;
+    background:#E0A62B;
+    flex:0 0 auto;
+    box-shadow:0 0 0 3px rgba(224,166,43,0.18);
+  }
+  .status-pill{
+    font-size:10px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;
+    color:#3A2C0E; background:#F0B93D;
+    padding:3px 9px; border-radius:20px;
+    display:inline-flex; align-items:center; gap:5px;
+    white-space:nowrap;
+  }
+  .status-pill::before{
+    content:""; width:6px; height:6px; border-radius:50%; background:#8A5A00;
+  }
+  .status-banner{
+    display:flex; gap:12px; align-items:flex-start;
+    background:#FFF8EB; border:1px solid #F0D89A;
+    border-radius:10px; padding:14px 16px; margin:18px 0 28px;
+  }
+  .status-banner .icon{font-size:16px; line-height:1.3;}
+  .status-banner p{margin:0; font-size:13px; line-height:1.55; color:#6B4E12;}
+  .status-banner strong{color:#4d3606;}
+
+  /* ---------- Homepage ---------- */
+  .hero{
+    padding:6px 0 8px;
+    border-bottom:1px solid var(--line);
+    margin-bottom:32px;
+  }
+  .hero .kicker{
+    font-size:11.5px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em;
+    color:var(--orange); margin-bottom:10px;
+  }
+  .hero h1{
+    font-size:34px; font-weight:800; color:var(--navy); margin:0 0 12px; line-height:1.15;
+  }
+  .hero p{
+    font-size:14.5px; color:var(--ink-soft); max-width:640px; line-height:1.65; margin:0 0 24px;
+  }
+  .stat-row{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+    gap:14px; margin-bottom:8px;
+  }
+  .stat-card{
+    background:#fff; border:1px solid var(--line); border-radius:12px;
+    padding:16px 18px;
+  }
+  .stat-card .num{
+    font-family:'Raleway',sans-serif; font-size:28px; font-weight:800; color:var(--navy);
+    line-height:1;
+  }
+  .stat-card .lbl{
+    font-size:12px; color:var(--ink-soft); margin-top:6px; font-weight:500;
+  }
+  .stat-card.warn .num{color:#C97A1A;}
+
+  .section-title{
+    font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em;
+    color:var(--ink-soft); margin:38px 0 16px;
+  }
+  .dept-grid{
+    display:grid; grid-template-columns:repeat(auto-fill, minmax(220px,1fr));
+    gap:14px;
+  }
+  .dept-card{
+    background:#fff; border:1px solid var(--line); border-radius:12px;
+    padding:18px 18px 16px; cursor:pointer; text-align:left;
+    transition:border-color .15s, box-shadow .15s;
+    display:flex; flex-direction:column; gap:10px;
+  }
+  .dept-card:hover{border-color:var(--orange); box-shadow:0 2px 10px rgba(28,43,58,0.06);}
+  .dept-card .top{display:flex; justify-content:space-between; align-items:flex-start; gap:8px;}
+  .dept-card h4{font-size:15.5px; font-weight:700; color:var(--navy); margin:0;}
+  .dept-card .stats{font-size:12px; color:var(--ink-soft);}
+  .dept-card .arrow{color:var(--orange); font-size:16px; align-self:flex-end;}
+
+  .howto{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    gap:18px;
+  }
+  .howto-step{
+    background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px 18px;
+  }
+  .howto-step .top-row{
+    display:flex; align-items:center; gap:10px; margin-bottom:8px;
+  }
+  .howto-step .n{
+    width:24px; height:24px; border-radius:6px; background:var(--navy); color:#fff;
+    display:flex; align-items:center; justify-content:center; font-weight:800;
+    font-family:'Raleway',sans-serif; font-size:12px; flex:0 0 auto;
+  }
+  .howto-step h5{font-size:14px; font-weight:700; color:var(--navy); margin:0;}
+  .howto-step p{font-size:12.5px; color:var(--ink-soft); margin:0; line-height:1.5;}
+
+  .home-footer{
+    margin-top:40px; padding-top:22px; border-top:1px solid var(--line);
+    font-size:12.5px; color:var(--ink-soft);
+  }
+  .home-footer a{color:var(--navy); font-weight:600; text-decoration:underline;}
+
+  .compare-tray{
+    margin-top:auto;
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,255,255,0.12);
+    border-radius:10px;
+    padding:14px;
+  }
+  .compare-tray h4{
+    margin:0 0 8px;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:0.07em;
+    color:rgba(255,255,255,0.55);
+    font-family:'Montserrat',sans-serif;
+    font-weight:600;
+  }
+  .compare-tray .hint{
+    font-size:12px;
+    color:rgba(255,255,255,0.4);
+    line-height:1.5;
+  }
+  .compare-slot{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:12.5px;
+    padding:7px 9px;
+    background:rgba(255,255,255,0.08);
+    border-radius:6px;
+    margin-bottom:6px;
+    color:#fff;
+  }
+  .compare-slot button{
+    all:unset; box-sizing:border-box; cursor:pointer; color:rgba(255,255,255,0.5); font-size:14px; line-height:1;
+  }
+  .compare-cta{
+    all:unset; box-sizing:border-box;
+    display:block;
+    width:100%;
+    text-align:center;
+    margin-top:8px;
+    padding:9px;
+    background:var(--orange);
+    color:#fff;
+    border-radius:7px;
+    font-size:12.5px;
+    font-weight:700;
+    cursor:pointer;
+    letter-spacing:0.02em;
+  }
+  .compare-cta:disabled{
+    background:rgba(255,255,255,0.1);
+    color:rgba(255,255,255,0.35);
+    cursor:not-allowed;
+  }
+
+  /* ---------- Main ---------- */
+  main{padding:36px 44px 80px; max-width:1180px;}
+  .topline{
+    display:flex; justify-content:space-between; align-items:flex-start;
+    gap:20px; margin-bottom:6px; flex-wrap:wrap;
+  }
+  .topline h2{
+    font-size:30px; font-weight:800; margin:0; color:var(--navy);
+  }
+  .topline .sub{
+    color:var(--ink-soft); font-size:13.5px; margin-top:6px;
+  }
+  .mode-toggle{
+    display:flex; gap:8px; align-items:center;
+    background:#fff; border:1px solid var(--line);
+    padding:5px; border-radius:9px;
+  }
+  .mode-toggle button{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    padding:7px 14px; border-radius:6px;
+    font-size:12.5px; font-weight:600; color:var(--ink-soft);
+  }
+  .mode-toggle button.active{background:var(--navy); color:#fff;}
+
+  .family-block{margin-top:40px;}
+  .family-head{
+    display:flex; align-items:baseline; gap:10px; margin-bottom:18px;
+  }
+  .family-head h3{
+    font-size:15.5px; font-weight:700; color:var(--navy); margin:0;
+    text-transform:uppercase; letter-spacing:0.04em;
+  }
+  .family-head .rule{flex:1; height:1px; background:var(--line);}
+  .family-head .n{font-size:12px; color:var(--ink-soft);}
+
+  /* Ladder */
+  .ladder{
+    position:relative;
+    padding-left:34px;
+  }
+  .ladder::before{
+    content:"";
+    position:absolute;
+    left:9px; top:6px; bottom:6px;
+    width:2px;
+    background: linear-gradient(to bottom, var(--orange), var(--rail));
+  }
+  .rung{
+    position:relative;
+    margin-bottom:10px;
+  }
+  .rung::before{
+    content:"";
+    position:absolute;
+    left:-30px; top:22px;
+    width:12px; height:12px;
+    border-radius:50%;
+    background:var(--panel);
+    border:2px solid var(--rail);
+    z-index:2;
+  }
+  .rung.top-band::before{border-color:var(--orange); background:var(--orange);}
+  .rung.selected::before{border-color:var(--orange); background:var(--orange);}
+
+  .card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:14px 16px;
+    cursor:pointer;
+    transition: border-color .15s, box-shadow .15s, transform .1s;
+    display:flex; align-items:center; justify-content:space-between; gap:14px;
+  }
+  .card:hover{border-color:var(--orange); box-shadow:0 2px 10px rgba(28,43,58,0.06);}
+  .card.selected{border-color:var(--orange); box-shadow:0 0 0 3px rgba(224,90,43,0.12);}
+  .card.dim{opacity:0.35;}
+  .card.path-highlight{border-color:var(--orange); box-shadow:0 0 0 3px rgba(224,90,43,0.14);}
+
+  .card-left{display:flex; align-items:center; gap:12px; min-width:0;}
+  .band-chip{
+    flex:0 0 auto;
+    width:30px; height:30px; border-radius:7px;
+    background:var(--navy);
+    color:#fff;
+    display:flex; align-items:center; justify-content:center;
+    font-size:12px; font-weight:700; font-family:'Raleway',sans-serif;
+  }
+  .card-title{min-width:0;}
+  .card-title .t{font-size:14.5px; font-weight:700; color:var(--navy); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .card-title .m{font-size:11.5px; color:var(--ink-soft); margin-top:1px;}
+  .card-right{display:flex; align-items:center; gap:10px; flex:0 0 auto;}
+  .comp-pill{
+    font-size:10.5px; font-weight:600; color:var(--navy-3);
+    background:#EEF1F4; padding:4px 9px; border-radius:20px;
+    white-space:nowrap;
+  }
+  .add-btn{
+    all:unset; box-sizing:border-box; cursor:pointer;
+    width:26px; height:26px; border-radius:6px;
+    display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--line);
+    color:var(--ink-soft);
+    font-size:15px;
+    flex:0 0 auto;
+  }
+  .add-btn:hover{border-color:var(--orange); color:var(--orange);}
+  .add-btn.added{background:var(--orange); border-color:var(--orange); color:#fff;}
+
+  /* Detail drawer */
+  .overlay{
+    position:fixed; inset:0; background:rgba(28,43,58,0.35);
+    opacity:0; pointer-events:none; transition:opacity .18s;
+    z-index:40;
+  }
+  .overlay.show{opacity:1; pointer-events:auto;}
+  .drawer{
+    position:fixed; top:0; right:0; height:100vh;
+    width:min(460px, 92vw);
+    background:var(--panel);
+    box-shadow:-8px 0 30px rgba(28,43,58,0.18);
+    transform:translateX(100%);
+    transition:transform .22s ease;
+    z-index:41;
+    overflow-y:auto;
+    padding:30px 30px 50px;
+  }
+  .drawer.show{transform:translateX(0);}
+  .drawer-close{
+    all:unset; box-sizing:border-box; cursor:pointer; float:right;
+    font-size:20px; color:var(--ink-soft); line-height:1;
+    padding:4px;
+  }
+  .drawer .eyebrow{
+    font-size:11px; text-transform:uppercase; letter-spacing:0.08em;
+    color:var(--orange); font-weight:700; margin-bottom:6px;
+  }
+  .drawer h2{font-size:23px; color:var(--navy); margin:0 0 4px; font-weight:800;}
+  .drawer .meta-row{
+    display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 22px;
+  }
+  .meta-tag{
+    font-size:11.5px; font-weight:600; color:var(--navy-3);
+    background:#EEF1F4; padding:5px 10px; border-radius:20px;
+  }
+  .drawer section{margin-bottom:20px;}
+  .drawer section h4{
+    font-size:11.5px; text-transform:uppercase; letter-spacing:0.06em;
+    color:var(--ink-soft); font-weight:700; margin:0 0 6px;
+  }
+  .drawer section p{font-size:14px; line-height:1.6; margin:0; color:var(--ink);}
+  .next-box{
+    background:#FBF3EF; border:1px solid var(--orange-soft);
+    border-radius:10px; padding:14px 16px;
+    display:flex; justify-content:space-between; align-items:center; gap:10px;
+    cursor:pointer;
+  }
+  .next-box:hover{border-color:var(--orange);}
+  .next-box .t{font-size:13.5px; font-weight:700; color:var(--navy);}
+  .next-box .arrow{color:var(--orange); font-size:18px;}
+  .drawer-add{
+    all:unset; box-sizing:border-box; cursor:pointer; display:block; width:100%;
+    text-align:center; padding:11px; margin-top:6px;
+    border-radius:8px; border:1px solid var(--navy);
+    color:var(--navy); font-weight:700; font-size:13px;
+  }
+  .drawer-add.added{background:var(--navy); color:#fff;}
+
+  /* Compare view */
+  .compare-grid{
+    display:grid;
+    grid-template-columns: 130px repeat(auto-fit, minmax(220px, 1fr));
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+    border-radius:12px;
+    overflow:hidden;
+  }
+  .compare-grid .cell{background:var(--panel); padding:14px 16px;}
+  .compare-grid .rowlabel{
+    background:var(--paper); font-size:11.5px; font-weight:700;
+    text-transform:uppercase; letter-spacing:0.05em; color:var(--ink-soft);
+    display:flex; align-items:center;
+  }
+  .compare-grid .headcell{
+    background:var(--navy); color:#fff; position:relative;
+  }
+  .compare-grid .headcell .t{font-size:15px; font-weight:800; font-family:'Raleway',sans-serif;}
+  .compare-grid .headcell .m{font-size:11px; color:rgba(255,255,255,0.65); margin-top:3px;}
+  .compare-grid .headcell .rm{
+    position:absolute; top:10px; right:10px; all:unset; box-sizing:border-box; cursor:pointer;
+    color:rgba(255,255,255,0.6); font-size:15px;
+  }
+  .compare-grid .cell p{margin:0; font-size:13px; line-height:1.55; color:var(--ink);}
+  .empty-compare{
+    text-align:center; padding:70px 20px; color:var(--ink-soft);
+  }
+  .empty-compare .big{font-size:40px; margin-bottom:14px;}
+
+  /* Search results */
+  .search-results{margin-top:30px;}
+  .search-results .rescount{font-size:12.5px; color:var(--ink-soft); margin-bottom:16px;}
+  .result-row{
+    display:flex; justify-content:space-between; align-items:center;
+    background:#fff; border:1px solid var(--line); border-radius:10px;
+    padding:13px 16px; margin-bottom:8px; cursor:pointer;
+  }
+  .result-row:hover{border-color:var(--orange);}
+  .result-row .path{font-size:11px; color:var(--ink-soft); margin-top:2px;}
+
+  ::-webkit-scrollbar{width:9px;}
+  ::-webkit-scrollbar-thumb{background:rgba(28,43,58,0.15); border-radius:6px;}
+  .sidebar::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.15);}
+
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand" id="brandHome" style="cursor:pointer;">
+      <img src="data:image/png;base64,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" alt="Eleven" class="mark-icon">
+      <div>
+        <h1>Career Ladders</h1>
+        <span>Eleven Job Architecture</span>
+      </div>
+    </div>
+
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="searchInput" type="text" placeholder="Search a role or title…">
+    </div>
+
+    <div>
+      <div class="nav-label">Departments</div>
+      <nav class="deptnav" id="deptNav"></nav>
+    </div>
+
+    <div class="compare-tray">
+      <h4>Compare (<span id="compareCount">0</span>/3)</h4>
+      <div id="compareSlots"></div>
+      <p class="hint" id="compareHint">Click "+" on any role to add it here, then compare.</p>
+      <button class="compare-cta" id="compareBtn" disabled>Compare roles</button>
+    </div>
+  </aside>
+
+  <main>
+    <div id="mainContent"></div>
+  </main>
+</div>
+
+<div class="overlay" id="overlay"></div>
+<div class="drawer" id="drawer"></div>
+
+<script>
+const JOB_DATA = {"departments":[{"name":"Engineering","families":[{"name":"Software Engineering","roles":[{"band":"1","title":"Software Engineer","comp":"Market 25th\u201350th %ile / Market 50 - 75%","yrs":"5+","scope":"Executes well-defined tasks within a sprint team; contributes to feature delivery and bug fixes within a defined product area","complexity":"Solves routine to moderate technical problems; follows established patterns and asks for guidance when blocked","autonomy":"Works under close guidance from a senior engineer; proactively communicates blockers and progress","influence":"Contributes within the immediate sprint team; builds relationships with peers and learns cross-functional workflows","next":"Sr. Software Engineer"},{"band":"1","title":"Sr. Software Engineer","comp":"Market 50th\u201365th %ile / Market 50 - 75%","yrs":"10+","scope":"Owns features end-to-end within a team; contributes meaningfully to system design discussions and code reviews","complexity":"Navigates ambiguous technical problems independently; proposes multiple solutions and weighs tradeoffs","autonomy":"Self-directed with light oversight; drives delivery within a defined scope and flags risks proactively","influence":"Mentors junior engineers; begins influencing team technical decisions, standards, and code quality expectations","next":"Staff Software Engineer or Engineering Manager"},{"band":"2","title":"Staff Software Engineer","comp":"Market 65th\u201375th %ile / Market 50 - 75%","yrs":"10+","scope":"Leads technical design across multiple services or product areas; defines interfaces, patterns, and cross-team standards","complexity":"Tackles cross-team technical challenges; drives architectural decisions that unblock multiple teams or improve system reliability","autonomy":"Highly self-directed; defines approach for complex workstreams and aligns stakeholders without being asked","influence":"Shapes team norms, coding standards, and technical direction; trusted technical voice across squads","next":"Sr. Staff Software Engineer or Principal Engineer"},{"band":"2","title":"Sr. Staff Software Engineer","comp":"Market 75th %ile / Market 50 - 75%","yrs":"10+","scope":"Owns the technical strategy for an engineering domain; accountable for scalability, reliability, and long-term maintainability","complexity":"Resolves systemic technical issues; drives improvements to scalability, performance, and operational resilience across the org","autonomy":"Operates independently across teams; sets technical direction and brings others along without formal authority","influence":"Recognized technical authority across engineering; shapes roadmap direction and is consulted on critical architecture decisions","next":"Principal Engineer or Principal Architect"},{"band":"3","title":"Principal Engineer","comp":"Market 75th\u201390th %ile / Market 50 - 75%","yrs":"10+","scope":"Drives multi-year technical strategy and company-wide engineering standards. May require project management.","complexity":"Defines solutions for the most complex and ambiguous technical problems; comfortable with incomplete information and long time horizons","autonomy":"Fully autonomous; self-selects the highest-impact work and operates across boundaries with no prompting","influence":"Shapes engineering culture, hiring bar, and org-wide practices; trusted by the CTO and product leadership","next":"Principal Architect, Distinguished Engineer, or Engineering Manager"},{"band":"3","title":"Principal Architect","comp":"Market 75th\u201390th %ile / Market 50 - 75%","yrs":"10+","scope":"Defines platform architecture end-to-end; owns coherence and long-range technical viability. May require project management.","complexity":"Addresses bleeding-edge technical risk and long-horizon design challenges; makes irreversible decisions thoughtfully","autonomy":"Strategic autonomy; partners with CTO and executive team on platform vision and major investment decisions","influence":"Industry-facing thought leader; serves as internal architect-of-record; shapes hiring and the technical reputation of the company","next":"Distinguished Engineer or Engineering Manager"},{"band":"3","title":"Engineering Manager","comp":"Market 65th\u201375th %ile / Market 50 - 75%","yrs":"10+","scope":"Manages a team of 4\u20138 engineers; accountable for delivery, velocity, and growth. May require project management.","complexity":"Balances people, process, and technical tradeoffs; navigates performance issues, delivery risks, and sprint health simultaneously","autonomy":"Owns team outcomes; escalates strategic decisions to Director; runs hiring, 1:1s, and performance cycles independently","influence":"Hires, develops, and retains talent; represents the team to Product and leadership; fosters psychological safety and high standards","next":"Sr. Engineering Manager"},{"band":"3","title":"Sr. Engineering Manager","comp":"Market 75th %ile / Market 50 - 75%","yrs":"12\u201315","scope":"Manages multiple teams; owns cross-team programs, dependencies, and resource allocation. May require project management.","complexity":"Resolves organizational friction and delivery conflicts; leads complex multi-team initiatives with competing priorities","autonomy":"Significant autonomy over resourcing and delivery strategy; partners with Directors and PMs on roadmap planning","influence":"Strong org-level influence; partners with Directors and VPs on roadmap, headcount, and technical strategy","next":"Director of Engineering"},{"band":"4","title":"Distinguished Engineer","comp":"Market 85th\u201390th %ile / Market 50 - 75%","yrs":"15+","scope":"Defines org-wide engineering standards and leads company-wide technical initiatives. IC equivalent of Director. May require project management.","complexity":"Architects solutions to the most complex, ambiguous problems with long-term, company-wide implications.","autonomy":"Fully autonomous; self-identifies the highest-leverage technical opportunities and drives resolution across org boundaries without direction","influence":"Definitive technical authority; shapes hiring standards and engineering culture; trusted by CTO on all major decisions.","next":"Sr. Distinguished Engineer or Director of Engineering (management track)"},{"band":"4","title":"Sr. Distinguished Engineer","comp":"Market 90th %ile / Market 50 - 75%","yrs":"15+","scope":"Defines long-range architectural vision and multi-generational platform strategy; consulted on all major technical decisions. May require project management.","complexity":"Advises CTO on technical risk, investment, and emerging technology; navigates long-horizon platform strategy.","autonomy":"VP-equivalent autonomy; self-directs the most strategic IC work and represents engineering externally.","influence":"Industry-facing thought leader; consulted by board on technical strategy; shapes external technical reputation.","next":"Engineering Fellow or VP of Engineering track"},{"band":"4","title":"Director of Engineering","comp":"Market 75th\u201385th %ile / Market 50 - 75%","yrs":"15+","scope":"Owns an engineering department; accountable for org health, team OKRs, hiring plan, and delivery quality","complexity":"Drives org-wide process improvement; navigates business-engineering alignment and multi-team technical strategy","autonomy":"High autonomy; sets direction for managers and teams; proactively surfaces risks and opportunities to VP","influence":"Shapes engineering culture, headcount strategy, and vendor relationships; primary engineering partner to Product","next":"Sr. Director of Engineering"},{"band":"4","title":"Sr. Director of Engineering","comp":"Market 85th %ile / Market 50 - 75%","yrs":"15+","scope":"Oversees multiple engineering departments; owns cross-functional execution, headcount planning, and org-wide delivery accountability","complexity":"Navigates org-level tradeoffs and business-engineering alignment across multiple departments and stakeholders","autonomy":"Operates at VP level; represents engineering to exec team; makes decisions on hiring, structure, and investment","influence":"Org-wide influence; shapes hiring bar, culture, and technical strategy; key partner to Product and GTM leadership","next":"VP of Engineering"},{"band":"5","title":"VP of Engineering","comp":"Market 90th+ %ile / Market 50 - 75%","yrs":"15+","scope":"Owns the entire engineering organization; accountable to the CEO and board for delivery, culture, and technical vision","complexity":"Sets the technical and organizational vision; manages risk, prioritization, and investment at scale across the full eng org","autonomy":"Full autonomy; defines engineering priorities in alignment with CEO/CTO and company strategy","influence":"Company-wide authority; board-facing on technical matters; shapes the external technical brand and recruits top talent","next":"CTO / Executive leadership"}]},{"name":"DevOps","roles":[{"band":"1","title":"DevOps Engineer","comp":"Market 25th\u201350th %ile / Market 50 - 75%","yrs":"5+","scope":"Manages CI/CD pipelines, deployments, and infrastructure provisioning tasks; supports reliability of core services","complexity":"Handles routine infrastructure issues and incidents; follows runbooks and escalates novel failures appropriately","autonomy":"Works with close guidance; escalates novel issues and infrastructure changes above a defined risk threshold","influence":"Contributes within the DevOps team; collaborates with developers on deployment readiness and environment stability","next":"Sr. DevOps Engineer"},{"band":"1","title":"Sr. DevOps Engineer","comp":"Market 50th\u201365th %ile / Market 50 - 75%","yrs":"10+","scope":"Designs and improves CI/CD pipelines; owns reliability for key services; leads infra improvements that reduce toil","complexity":"Solves complex infrastructure challenges; proposes automation and tooling improvements to reduce manual overhead","autonomy":"Self-directed; drives improvements proactively; partners with engineering teams without waiting to be asked","influence":"Mentors peers on DevOps best practices; influences tooling and process decisions across engineering teams","next":"Staff DevOps Engineer or DevOps Manager"},{"band":"2","title":"Staff DevOps Engineer","comp":"Market 65th\u201375th %ile / Market 50 - 75%","yrs":"10+","scope":"Owns platform reliability strategy; leads infrastructure architecture decisions across multiple systems or environments","complexity":"Tackles multi-system reliability and scalability challenges; drives incident post-mortems and systemic improvements","autonomy":"Highly self-directed; defines the DevOps roadmap and drives adoption of SRE principles across engineering","influence":"Cross-team technical authority on infrastructure; shapes tooling standards, on-call culture, and SLO frameworks","next":"Sr. Staff DevOps Engineer or DevOps Manager"},{"band":"2","title":"Sr. Staff DevOps Engineer","comp":"Market 75th %ile / Market 50 - 75%","yrs":"10+","scope":"Defines company-wide platform strategy; leads SRE function; accountable for uptime SLAs and infrastructure investment","complexity":"Defines solutions for the most challenging infrastructure and reliability problems; comfortable with high-stakes tradeoffs","autonomy":"Full autonomy; sets infrastructure vision and partners with VP of Engineering on long-range platform strategy","influence":"Shapes DevOps culture, tooling philosophy, and hiring bar; recognized infrastructure authority across the org","next":"Director of DevOps (technical path)"},{"band":"3","title":"DevOps Manager","comp":"Market 65th\u201375th %ile / Market 50 - 75%","yrs":"12\u201315","scope":"Manages DevOps and/or SecOps team; owns reliability, release engineering, and on-call health for their org","complexity":"Balances technical debt, security posture, and engineering velocity; navigates competing priorities across infrastructure and product","autonomy":"Self-directed; owns team OKRs and delivery commitments; escalates people or strategic issues to Director","influence":"Hires and develops team; cross-functional partner to Engineering Managers and Product on platform reliability","next":"Sr. DevOps Manager"},{"band":"3","title":"Sr. DevOps Manager","comp":"Market 75th %ile / Market 50 - 75%","yrs":"15+","scope":"Manages multiple DevOps squads; owns infrastructure strategy, roadmap, and org-level reliability programs","complexity":"Drives org-wide reliability and security programs; resolves cross-team infrastructure conflicts and prioritization","autonomy":"High autonomy; partners with Director and VP on infrastructure strategy and headcount planning","influence":"Shapes DevOps culture and hiring bar; org-wide influence on platform architecture and tooling decisions","next":"Director of DevOps"},{"band":"4","title":"Director of DevOps","comp":"Market 75th\u201385th %ile / Market 50 - 75%","yrs":"15+","scope":"Owns the entire DevOps and SecOps function; accountable for uptime SLAs, security compliance, and platform investment","complexity":"Resolves the most complex platform and security challenges; navigates business continuity risk and regulatory demands","autonomy":"High autonomy; represents infrastructure to engineering leadership; sets direction for all platform and security teams","influence":"Org-wide influence on infrastructure strategy; governs vendor relationships and architecture decisions","next":"Sr. Director of DevOps"},{"band":"4","title":"Sr. Director of DevOps","comp":"Market 85th+ %ile / Market 50 - 75%","yrs":"15+","scope":"Owns company-wide platform and security vision; accountable to VP/CTO for all infrastructure outcomes.","complexity":"Navigates enterprise-scale risk and regulatory complexity; advises the board on security posture and infrastructure resilience","autonomy":"VP-equivalent autonomy; exec-facing on platform and security; represents DevOps/SecOps at the leadership table","influence":"Shapes platform culture; drives the company's external security reputation; board-level security and compliance reporting","next":"VP of Engineering / CTO track"}]},{"name":"SecOps","roles":[{"band":"1","title":"SecOps Engineer","comp":"Market 25th\u201350th %ile / Market 50 - 75%","yrs":"5+","scope":"Monitors security posture; implements controls and compliance checks; responds to vulnerability findings","complexity":"Addresses routine security alerts and vulnerabilities; follows established remediation procedures and escalates critical findings","autonomy":"Works under guidance; escalates threats and incidents appropriately; builds familiarity with the threat landscape","influence":"Contributes within the Security team; supports engineering teams with secure coding guidance and access reviews","next":"Sr. SecOps Engineer"},{"band":"1","title":"Sr. SecOps Engineer","comp":"Market 50th\u201365th %ile / Market 50 - 75%","yrs":"10+","scope":"Leads security initiatives; owns compliance programs (SOC 2, GDPR); drives security awareness across engineering","complexity":"Investigates complex threats and incidents; designs defense-in-depth strategies and improves detection capabilities","autonomy":"Largely self-directed; defines security standards and tooling choices within their domain","influence":"Advises engineering on secure design patterns; trains team on threat modeling and security best practices","next":"Staff SecOps Engineer or DevOps Manager"},{"band":"2","title":"Staff SecOps Engineer","comp":"Market 65th\u201375th %ile / Market 50 - 75%","yrs":"10+","scope":"Leads enterprise security architecture; drives risk management, access governance, and secure SDLC adoption","complexity":"Designs complex security systems and frameworks; leads major incident response and forensics investigations","autonomy":"Self-directed; partners with engineering and legal leadership on security strategy and regulatory obligations","influence":"Cross-org authority on security policy; primary partner to engineering leadership on compliance and risk","next":"Sr. Staff SecOps or Director of DevOps"},{"band":"2","title":"Sr. Staff SecOps Engineer","comp":"Market 75th %ile / Market 50 - 75%","yrs":"10+","scope":"Owns the enterprise-wide security vision; leads regulatory and compliance programs; accountable for company-wide risk posture","complexity":"Addresses sophisticated threat actors and regulatory risk; shapes zero-trust architecture and security investment","autonomy":"Fully autonomous; board-facing on security compliance; defines the organization's security posture and roadmap","influence":"External security brand; sets policy and standards; shapes the security culture company-wide","next":"Director of DevOps or CISO track"}]},{"name":"QA Engineering","roles":[{"band":"1","title":"QA Engineer","comp":"Market 25th\u201350th %ile / Market 50 - 75%","yrs":"5+","scope":"Executes manual and automated test cases; logs bugs with clear reproduction steps, severity, and supporting evidence","complexity":"Validates defined acceptance criteria; follows test plans and raises gaps in coverage to senior team members","autonomy":"Works under close guidance; pairs with developers to understand features and build test coverage","influence":"Contributes quality feedback within the sprint team; develops relationships with developers and product stakeholders","next":"Sr. QA Engineer"},{"band":"1","title":"Sr. QA Engineer","comp":"Market 50th\u201365th %ile / Market 50 - 75%","yrs":"10+","scope":"Designs test strategies for features and releases; builds and maintains automation frameworks; leads regression cycles","complexity":"Identifies gaps in test coverage; leads performance and regression testing; investigates flaky tests and systemic quality risks","autonomy":"Self-directed; proactively improves test processes and automation coverage without waiting to be asked","influence":"Mentors QA team members; advocates for quality culture within engineering; influences release readiness criteria","next":"Staff QA Engineer or QA Manager"},{"band":"2","title":"Staff QA Engineer","comp":"Market 65th\u201375th %ile / Market 50 - 75%","yrs":"10+","scope":"Owns QA strategy across multiple product areas; defines test architecture, automation infrastructure, and quality metrics","complexity":"Architects test infrastructure to scale with engineering; drives quality metrics and holds engineering accountable to standards","autonomy":"Highly self-directed; defines the QA roadmap and partners directly with engineering and product leadership","influence":"Cross-team quality authority; shapes release standards, test tooling, and the definition of done across squads","next":"Sr. Staff QA Engineer or QA Manager"},{"band":"2","title":"Sr. Staff QA Engineer","comp":"Market 75th %ile / Market 50 - 75%","yrs":"10+","scope":"Drives the company-wide quality vision; owns platform-level test strategy including chaos engineering and AI/ML validation","complexity":"Drives advanced testing practices; defines the approach for validating complex, distributed, and AI-driven systems","autonomy":"Full autonomy; partners with VP and Director on quality strategy, investment, and engineering standards","influence":"Org-wide quality evangelist; sets the hiring bar for QA; defines standards that engineering teams build toward","next":"Director of QA (technical path)"},{"band":"3","title":"QA Manager","comp":"Market 65th\u201375th %ile / Market 50 - 75%","yrs":"12\u201315","scope":"Manages QA team; owns release quality, test coverage goals, and the day-to-day health of the QA function","complexity":"Balances automation investment, engineering velocity, and risk; navigates competing priorities across releases and squads","autonomy":"Self-directed; owns team OKRs and delivery commitments; escalates people and strategic issues to Director","influence":"Develops team; cross-functional quality advocate; partners with Engineering Managers and Product on release readiness","next":"Sr. QA Manager"},{"band":"3","title":"Sr. QA Manager","comp":"Market 75th %ile / Market 50 - 75%","yrs":"15+","scope":"Manages multiple QA squads; owns org-level quality programs, tooling strategy, and QA hiring roadmap","complexity":"Drives systemic quality improvements across engineering; resolves cross-team coverage gaps and release blockers","autonomy":"High autonomy; partners with Director on quality strategy, headcount planning, and tooling investment","influence":"Shapes QA culture and hiring bar; org-wide influence on quality standards and release governance","next":"Director of QA"},{"band":"4","title":"Director of QA","comp":"Market 75th\u201385th %ile / Market 50 - 75%","yrs":"15+","scope":"Owns the entire QA function; accountable for product quality SLAs, automation maturity, and release confidence","complexity":"Resolves systemic quality failures; drives automation maturity and engineering-wide quality accountability","autonomy":"High autonomy; represents quality to engineering leadership; sets the direction for all QA teams and programs","influence":"Org-wide quality governance; governs vendor and tooling strategy; primary quality partner to VP of Engineering","next":"Sr. Director of QA"},{"band":"4","title":"Sr. Director of QA","comp":"Market 85th+ %ile / Market 50 - 75%","yrs":"15+","scope":"Owns company-wide reliability and quality vision; accountable to VP/CTO.","complexity":"Navigates complex regulatory and compliance quality requirements; drives engineering excellence across the full org","autonomy":"VP-equivalent autonomy; exec-facing on quality; represents QA at the engineering leadership table","influence":"Shapes engineering culture through quality excellence; board-level quality and compliance reporting as needed","next":"VP of Engineering / Quality leadership track"}]}]},{"name":"Customer Success","families":[{"name":"Customer Success","roles":[{"band":"1","title":"Customer Success Associate","comp":"Market 50 - 75%","yrs":"0\u20132","scope":"Supports CSMs with account tasks, customer data hygiene, and QBR prep","complexity":"Handles routine customer inquiries and admin tasks; follows playbooks","autonomy":"Works under close guidance; escalates all non-standard situations","influence":"Learns customer relationships; internal collaborator","next":"Customer Success Manager"},{"band":"1","title":"Customer Success Manager","comp":"Market 50 - 75%","yrs":"2+","scope":"Owns a portfolio of customers end-to-end; drives health, retention, and expansion","complexity":"Manages competing priorities across diverse accounts; identifies churn risk and expansion opportunities","autonomy":"Self-directed within portfolio; escalates strategic decisions to manager","influence":"Primary customer advocate; collaborates cross-functionally with Sales, Product, and Support","next":"Sr. Customer Success Manager"},{"band":"2","title":"Sr. Customer Success Manager","comp":"Market 50 - 75%","yrs":"7+","scope":"Owns strategic or complex accounts; leads executive-level relationships (VP/C-suite)","complexity":"Navigates multi-stakeholder environments; resolves escalations independently","autonomy":"Highly self-directed; proactively builds account growth plans","influence":"Mentors CSMs; contributes to process improvements and playbook development","next":"Lead Customer Success Manager"},{"band":"2","title":"Lead Customer Success Manager","comp":"Market 50 - 75%","yrs":"8+","scope":"Manages highest-value accounts; supports team-wide onboarding and enablement","complexity":"Drives complex upsell/cross-sell motions; shapes CS strategy for a segment","autonomy":"Operates independently; defines approach for team-wide programs","influence":"Peer leader and mentor; shapes CS best practices and tooling","next":"CS Operations Manager I (people mgr path) or Director of Customer Success"},{"band":"3","title":"Customer Success Operations Manager I","comp":"Market 50-75%","yrs":"3+ (mgmt)","scope":"Manages a team of CSMs; owns day-to-day people operations including 1:1s, performance feedback, and team development; accountable for portfolio health across the team","complexity":"Balances team performance, retention targets, and customer escalations; handles people situations using established management frameworks","autonomy":"Self-directed within team; escalates complex HR or strategic decisions to Director","influence":"Develops direct reports; partners with Director on team OKRs, NRR, and customer health","next":"Customer Success Operations Manager II"},{"band":"3","title":"Customer Success Operations Manager II","comp":"Market 50-75%","yrs":"5+ (mgmt)","scope":"Manages a larger or more complex CS team; right-hand to Director on people strategy, hiring, and team development; owns team-wide retention and NRR targets","complexity":"Navigates complex people situations, PIPs, and cross-team dynamics; drives team-wide change management and CS program strategy","autonomy":"Near-full autonomy; acts as Director proxy in cross-functional forums and escalations","influence":"Mentors Ops Manager I; shapes CS people culture; Director's primary internal partner and successor candidate","next":"Director of Customer Success"},{"band":"4","title":"Director of Customer Success","comp":"Market 50 - 75%","yrs":"5+ (mgmt)","scope":"Leads CS team; accountable for retention, NRR, and customer satisfaction metrics","complexity":"Drives strategy for scaling CS; resolves systemic account issues","autonomy":"High autonomy; defines team OKRs and go-to-market CS strategy","influence":"Builds and develops high-performing team; partners with Sales and Product leadership","next":"VP of Customer Success"},{"band":"4","title":"Sr. Director of Customer Success","comp":"Market 50 - 75%","yrs":"8+ (mgmt)","scope":"Oversees CS and Implementation functions; owns customer lifecycle strategy","complexity":"Navigates org-level trade-offs; drives cross-functional alignment","autonomy":"VP-equivalent autonomy; exec-facing; represents CS at leadership level","influence":"Shapes CS culture; influences product roadmap and company strategy","next":"VP of Customer Success"},{"band":"5","title":"VP of Customer Success","comp":"Market 50 - 75%","yrs":"7+ (exec)","scope":"Owns entire customer success organization including customer support; accountable to CEO for NPS, NRR, and retention","complexity":"Sets company-wide CS vision; navigates competitive and market dynamics","autonomy":"Full executive autonomy; board-facing","influence":"C-suite partner; shapes company direction on customer experience","next":"Chief Customer Officer / Executive leadership"}]}]},{"name":"Customer Support","families":[{"name":"Customer Support","roles":[{"band":"1","title":"Support Specialist / Tier 1","comp":"Market 50-75%","yrs":"0\u20132","scope":"Handles inbound customer tickets and calls; resolves common issues","complexity":"Follows established scripts and runbooks; escalates Tier 2+ issues","autonomy":"Works under close supervision; uses knowledge base independently","influence":"First point of customer contact; represents Eleven's support brand","next":"Tier 2 Support Specialist"},{"band":"1","title":"Support Specialist / Tier 2","comp":"Market 50-75%","yrs":"2\u20134","scope":"Resolves escalated Tier 1 issues; handles moderate network and SaaS problems","complexity":"Diagnoses network and software issues; applies broader technical judgment","autonomy":"Largely self-directed; escalates only complex or critical situations","influence":"Contributes to knowledge base; mentors Tier 1 peers","next":"Network Engineer (Tier 3)"},{"band":"2","title":"Network Engineer (Tier 3)","comp":"Market 50-75%","yrs":"3+ (CCNA+)","scope":"Provides L3 technical support; leads resolution of escalated and critical issues","complexity":"Deep troubleshooting of complex network issues (LAN/WAN/WLAN/SD-WAN)","autonomy":"Highly self-directed; owns resolution for most complex support cases","influence":"Technical escalation point; collaborates with Product & Engineering on systemic issues","next":"Sr. Network Engineer or Customer Support Manager"},{"band":"2","title":"Sr. Network Engineer (Tier 3)","comp":"Market 50-75%","yrs":"5+ (CCNP+)","scope":"Leads most complex technical investigations; supports lab environment and tooling","complexity":"Resolves novel, high-impact issues; contributes to root cause analysis","autonomy":"Fully autonomous; sets technical standards for support engineering","influence":"Mentors engineering team; shapes technical knowledge base","next":"Customer Support Manager or Support Operations Manager I (people mgr path)"},{"band":"2","title":"Customer Support Manager","comp":"Market 50-75%","yrs":"3+","scope":"Senior IC; owns complex support workflows, process documentation, and tooling; contributes to knowledge base and quality standards; right-hand to Director on operational strategy","complexity":"Drives highest-complexity operational initiatives independently; shapes how support scales as a senior IC","autonomy":"Fully autonomous as an IC; defines operational excellence standards across the support org","influence":"Senior IC voice shaping support culture and strategy; cross-functional partner to Director and engineering on tooling and quality","next":"Support Operations Manager I (people mgr path) or Director of Customer Support"},{"band":"3","title":"Support Operations Manager I","comp":"Market 50-75%","yrs":"3+ (mgmt)","scope":"Manages a team of support specialists; owns day-to-day people operations including scheduling, 1:1s, performance feedback, and team development","complexity":"Balances team performance, coverage, and quality; handles people situations using established management frameworks","autonomy":"Self-directed within team; escalates complex HR or performance matters to Director","influence":"Develops direct reports; partners with Director on team OKRs and SLA performance","next":"Support Operations Manager II"},{"band":"3","title":"Support Operations Manager II","comp":"Market 50-75%","yrs":"5+ (mgmt)","scope":"Manages a larger or more complex support team; right-hand to Director on people strategy, hiring, and team development; owns team-wide OKRs","complexity":"Navigates complex people situations, PIPs, and cross-team dynamics; drives team-wide change management","autonomy":"Near-full autonomy; acts as Director proxy in cross-functional forums and escalations","influence":"Mentors Ops Manager I; shapes support people culture; Director's primary internal partner and successor candidate","next":"Director of Customer Support"},{"band":"4","title":"Director of Customer Support","comp":"Market 50-75%","yrs":"5+ (mgmt)","scope":"Owns global support operations; accountable for CSAT, SLAs, and support scalability","complexity":"Drives AI/automation adoption; builds scalable support models","autonomy":"High autonomy; reports to VP of Customer Success","influence":"Shapes support culture; leads a team of managers; partners with Engineering on product supportability","next":"Sr. Director of Customer Support"},{"band":"4","title":"Sr. Director of Customer Support","comp":"Market 50-75%","yrs":"8+ (mgmt)","scope":"Oversees all support functions including technical support, operations, and workforce; owns support org strategy, headcount planning, and cross-functional alignment with Product, Engineering, and CS","complexity":"Navigates org-level trade-offs across quality, cost, and scale; drives multi-year support transformation and AI/automation roadmap","autonomy":"High autonomy; reports to VP of Customer Success; represents support in cross-functional leadership forums","influence":"Shapes support culture and org design; influences product roadmap and company strategy through customer insight; key partner to VP of Customer Success","next":"VP of Customer Success"}]}]},{"name":"Sales & Marketing","families":[{"name":"Sales","roles":[{"band":"1","title":"Sales Associate","comp":"Market 25th\u201340th %ile","yrs":"2+","scope":"Generates leads, qualifies prospects, and supports senior reps in managing channel partners","complexity":"Handles straightforward inbound and outbound sales activities; follows defined sales plays","autonomy":"Works under close guidance; executes on pre-set pipeline and scripts","influence":"Internal learner; supports partner and customer-facing activities","next":"Sales Associate II"},{"band":"1","title":"Sales Associate II","comp":"Market 40th\u201355th %ile","yrs":"5+","scope":"Manages a portfolio of channel partners and accounts; owns pipeline and quota independently","complexity":"Navigates multi-stakeholder deals; identifies and pursues upsell opportunities","autonomy":"Self-directed within assigned territory; escalates only on major deals","influence":"Trusted partner contact; contributes market feedback to Sales leadership","next":"Sales Engineer or BDM"},{"band":"2","title":"Sales Engineer","comp":"Market 50th\u201365th %ile","yrs":"5+","scope":"Provides pre- and post-sales technical support; delivers product demonstrations and responds to technical RFP sections","complexity":"Translates ElevenOS technical capabilities into customer value; handles moderate to complex technical questions","autonomy":"Self-directed in supporting sales cycles; partners closely with BDMs and Channel Reps","influence":"Technical credibility bridge between Sales and customers; feeds product insights back to Engineering","next":"Sr. Sales Engineer"},{"band":"2","title":"Sr. Sales Engineer","comp":"Market 62nd\u201375th %ile","yrs":"7+","scope":"Owns complex technical presales engagements; leads solution design, POCs, and enterprise-tier technical solutioning","complexity":"Navigates highly technical, multi-integration scenarios; architects network solutions for enterprise customers","autonomy":"Highly self-directed; defines SE approach and tooling for complex accounts","influence":"Shapes SE methodology; advocates for product roadmap based on field insights; mentors SEs","next":"BDM or Director, Global Business Dev"},{"band":"3","title":"Business Development Manager (BDM)","comp":"Market 55th\u201368th %ile","yrs":"7+","scope":"Drives new revenue by prospecting, qualifying, and closing managed Wi-Fi and network services deals; owns full sales cycle across hospitality, MDU, and enterprise verticals","complexity":"Manages complex, multi-stakeholder deals; balances short-cycle wins with long-horizon strategic accounts","autonomy":"Highly self-directed; defines account strategies and manages pipeline independently","influence":"External brand ambassador; provides market and competitor intelligence to Product and Marketing","next":"Sr. BDM"},{"band":"3","title":"Sr. Business Development Manager (Sr. BDM)","comp":"Market 65th\u201378th %ile","yrs":"10+","scope":"Owns strategic, high-value accounts and complex enterprise deals; mentors BDMs and shapes territory strategy","complexity":"Drives multi-location, multi-stakeholder negotiations; develops custom solution proposals","autonomy":"Operates independently; sets direction for segment or vertical go-to-market","influence":"Senior advisor to VP of Sales; shapes sales methodology and partner strategy","next":"Director, Global Business Dev"},{"band":"4","title":"Director, Global Business Development","comp":"Market 75th\u201385th %ile","yrs":"15+","scope":"Leads global BD function; owns revenue targets, team performance, and market expansion strategy across verticals and geographies","complexity":"Develops and refines the go-to-market strategy; navigates complex enterprise relationships and partner ecosystems","autonomy":"High autonomy; partners with VP of Sales on strategy and key accounts","influence":"Shapes BD culture; represents Eleven at industry events and executive-level partnerships","next":"VP of Sales / Global Business"},{"band":"5","title":"VP of Sales / Global Business","comp":"Market 85th\u201392nd %ile","yrs":"15+","scope":"Owns Eleven's entire revenue-generating Sales function; accountable to CEO for ARR, pipeline health, and market expansion","complexity":"Develops comprehensive sales strategy; navigates competitive dynamics, pricing, and global GTM execution","autonomy":"Full executive autonomy; partners directly with CEO and board on revenue strategy","influence":"Company-wide sales culture setter; external brand at industry level; drives cross-functional alignment with CS, Product, and Marketing","next":"Chief Revenue Officer / Executive leadership"}]},{"name":"Marketing","roles":[{"band":"1","title":"Marketing Specialist I","comp":"Market 25th\u201342nd %ile","yrs":"0\u20132","scope":"Supports execution of marketing campaigns, content calendars, and event logistics under close guidance","complexity":"Handles defined, routine tasks; follows established processes and brand guidelines","autonomy":"Works under close supervision; learns marketing tools and channel strategies","influence":"Internal contributor; begins building awareness of market and competitive landscape","next":"Marketing Specialist II"},{"band":"1","title":"Marketing Specialist II","comp":"Market 40th\u201355th %ile","yrs":"2+","scope":"Executes multi-channel marketing programs; manages content, social media, and event support independently","complexity":"Identifies opportunities to improve campaigns; applies analytical thinking to optimize performance","autonomy":"Self-directed on assigned channels; escalates strategic decisions","influence":"Contributes to brand and campaign quality; collaborates with Sales and Product teams","next":"Content/Digital Marketing Specialist or Field Event Marketing Specialist"},{"band":"2","title":"Content / Digital Marketing Specialist","comp":"Market 50th\u201365th %ile","yrs":"5+","scope":"Owns digital content strategy and SEO/SEM programs; manages website copy, blog, and thought leadership content","complexity":"Drives data-informed content decisions; develops messaging for multiple personas and verticals","autonomy":"Highly self-directed; defines content calendar and digital priorities","influence":"Shapes Eleven's digital voice; drives inbound pipeline through content marketing","next":"Marketing Innovation Manager or Product Marketing Manager"},{"band":"2","title":"Field / Event Marketing Specialist","comp":"Market 50th\u201365th %ile","yrs":"5+","scope":"Plans and executes industry events, trade shows, and field marketing programs end-to-end","complexity":"Manages complex event logistics, vendor relationships, and post-event lead follow-up campaigns","autonomy":"Self-directed on event planning and execution; partners with Sales on field strategy","influence":"Represents Eleven's brand externally at key industry events; drives event-sourced pipeline","next":"Marketing Innovation Manager or Product Marketing Manager"},{"band":"3","title":"Marketing Innovation Manager","comp":"Market 58th\u201372nd %ile","yrs":"5+","scope":"Owns Eleven's GTM storytelling, brand, events, and content engine; drives sales enablement and product launch marketing","complexity":"Balances strategic brand positioning with hands-on execution across events, content, and digital channels","autonomy":"Highly self-directed; manages budget, external consultants, and cross-functional campaigns","influence":"Shapes how Eleven shows up externally; key partner to VP of Sales and Product leadership","next":"Director of Marketing or Sr. Director of Marketing"},{"band":"3","title":"Product Marketing Manager","comp":"Market 58th\u201372nd %ile","yrs":"5+","scope":"Owns product positioning, competitive intelligence, and sales enablement for ElevenOS; develops launch plans and go-to-market materials","complexity":"Translates technical product capabilities into compelling narratives for target personas and verticals","autonomy":"Highly self-directed; defines messaging frameworks and launch strategy independently","influence":"Bridges Product, Sales, and Marketing; shapes roadmap priorities through customer and market insights","next":"Director of Marketing or Sr. Director of Marketing"},{"band":"4","title":"Director of Marketing","comp":"Market 72nd\u201382nd %ile","yrs":"10+","scope":"Owns Eleven's marketing function; leads demand gen, product marketing, content, and events strategy","complexity":"Drives integrated marketing strategy aligned to revenue goals; manages budget and team","autonomy":"High autonomy; reports to VP of Sales; defines marketing OKRs and priorities","influence":"Org-wide influence on brand, pipeline, and go-to-market; partners with Sales and Product leadership","next":"Sr. Director of Marketing"},{"band":"4","title":"Sr. Director of Marketing","comp":"Market 80th\u201388th %ile","yrs":"15+","scope":"Leads enterprise marketing strategy and team; accountable for brand, demand gen, and pipeline contribution","complexity":"Shapes multi-year marketing vision; navigates complex GTM motions across verticals and geographies","autonomy":"VP-equivalent autonomy; represents marketing at exec level","influence":"Company-wide brand and market positioning authority; board-facing on marketing performance","next":"VP of Marketing / CMO track"}]}]},{"name":"Product","families":[{"name":"Product","roles":[{"band":"1","title":"Associate Product Manager","comp":"Market 50-75%","yrs":"2+","scope":"Supports discovery and delivery for a focused product area; assists with backlog, requirements, and release readiness; participates in user research; and contributes to product documentation","complexity":"Translates customer needs and engineering constraints into clear specs and acceptance criteria","autonomy":"Guided by a senior PM; runs day-to-day execution independently within a defined area","influence":"Partners with engineering, design, and CS on feature delivery; building stakeholder credibility","next":"Product Manager"},{"band":"2","title":"Product Manager","comp":"Market 50-75%","yrs":"5+","scope":"Owns a product domain end-to-end; defines roadmap, requirements, and outcomes; leads cross-functional collaboration with engineering, design, CS, and GTM; conducts research; writes customer-facing docs; and handles ad hoc reporting","complexity":"Balances customer needs, technical tradeoffs, and business goals; manages competing priorities across releases","autonomy":"Self-directed within domain; sets priorities, sequencing, and success metrics with limited oversight","influence":"Influences roadmap; drives cross-functional alignment with engineering, design, CS, and GTM on launches and adoption","next":"Senior Product Manager"},{"band":"2","title":"Technical Product Manager","comp":"Market 50-75%","yrs":"5+","scope":"Owns delivery of technically complex domains (API-first, data, infrastructure); defines requirements; leads cross-functional collaboration; conducts technical research; authors technical docs; and handles ad hoc reporting","complexity":"Translates engineering constraints into product requirements; manages tradeoffs between technical debt and product velocity","autonomy":"Self-directed within technical domain; exercises judgment on scope, feasibility, and architecture-adjacent decisions","influence":"Drives technical-product alignment; shapes platform and API standards; trusted counterpart for engineering leads and architects","next":"Senior Product Manager"},{"band":"2","title":"UX / Design Product Manager","comp":"Market 50-75%","yrs":"5+","scope":"Owns user-facing product areas; integrates design thinking and user research into roadmap; leads cross-functional collaboration; writes customer-facing docs; and handles ad hoc reporting","complexity":"Balances UX quality, technical feasibility, and business goals; applies research insights to roadmap and prioritization decisions","autonomy":"Self-directed within UX-focused domain; drives design-product collaboration cadence and priorities","influence":"Bridges product and design; shapes UX strategy for assigned area; aligns design, engineering, and business on experience-critical features","next":"Senior Product Manager"},{"band":"3","title":"Senior Product Manager","comp":"Market 50-75%","yrs":"8+","scope":"Owns a strategic product area or platform; shapes multi-quarter roadmap; engages enterprise customers; leads cross-functional workstreams; encompasses all APM/PM responsibilities plus CS and Implementations training, customer-facing documentation, research, ad hoc reporting, and spec review","complexity":"Navigates cross-domain, ambiguous problems; integrates platform thinking, AI strategy, and enterprise commitments","autonomy":"Highly self-directed; defines strategy, priorities, and outcome metrics; partners with engineering and design leadership","influence":"Shapes product strategy across teams; trusted partner to senior leadership and enterprise customers; drives cross-functional alignment","next":"Staff PM (IC) or Director of Product Management"},{"band":"3","title":"Staff Product Manager","comp":"Market 50-75%","yrs":"10+","scope":"Owns a strategic, high-ambiguity platform initiative as a senior IC; defines multi-year roadmap without team management","complexity":"Solves cross-domain problems requiring platform-level thinking and multi-stakeholder alignment; takes on challenges without predefined scope","autonomy":"Fully self-directed; operates as a peer to Directors and engineering leads without management responsibilities","influence":"Platform-wide influence on product strategy; trusted partner to engineering, design, CS, and GTM leadership; elevates product craft across the org","next":"Director of Product Management"},{"band":"4","title":"Director of Product Management","comp":"Market 50-75%","yrs":"10+","scope":"Owns a product portfolio spanning multiple domains; accountable for roadmap quality, delivery outcomes, and platform coherence; may manage PMs or lead an IC track","complexity":"Drives portfolio prioritization, resource allocation, and platform investment; resolves cross-team tradeoffs and dependencies","autonomy":"High autonomy; reports to VP of Product; defines product OKRs, hiring plan, and operating cadence","influence":"Org-wide influence on roadmap and platform strategy; partners with Engineering, Design, CS, and GTM leadership","next":"VP of Product"},{"band":"5","title":"VP of Product","comp":"Market 50-75%","yrs":"15+","scope":"Leads the Product function; accountable for product strategy, roadmap, platform direction, and revenue growth outcomes","complexity":"Shapes multi-year product vision; navigates enterprise commitments, partner ecosystems, and AI productization","autonomy":"Exec-level autonomy; sets strategy, governance, and investment priorities; represents Product at the leadership table","influence":"Company-wide product authority; board-facing on performance; primary voice with key partners and enterprise accounts","next":"Chief Product Officer"},{"band":"6","title":"Chief Product Officer","comp":"Market 50-75%","yrs":"20+","scope":"Owns enterprise product strategy and the full Product org; accountable for product vision, platform direction, and product-led ARR","complexity":"Shapes long-range platform and AI strategy; balances enterprise commitments with platform durability and growth","autonomy":"Full executive autonomy; member of the executive leadership team; sets investment thesis, org design, and governance","influence":"Board-level influence on product, platform, and innovation strategy; primary voice with investors, strategic partners, and enterprise accounts","next":"Executive / C-suite terminal level"}]}]},{"name":"G&A","families":[{"name":"IC Track","roles":[{"band":"1","title":"Implementation Specialist","comp":"Market 50 - 75%","yrs":"0\u20132","scope":"Runs implementations independently; handles defined scope of site activations and onboarding tasks; reports directly to VP","complexity":"Manages straightforward to moderate site activations with increasing autonomy; follows defined playbooks","autonomy":"Works independently within defined playbooks; self-manages project milestones; escalates as needed","influence":"IC; collaborates cross-functionally; supports customer-facing communications","next":"Implementation Manager or Solutions Engineer"},{"band":"2","title":"Implementation Manager","comp":"Market 50 - 75%","yrs":"3\u20135","scope":"Manages end-to-end customer implementations; owns go-live timelines and project delivery (process/work manager, not people manager)","complexity":"Navigates technical and organizational complexity during onboarding; manages competing project variables","autonomy":"Self-directed on projects; escalates high-risk situations to VP","influence":"IC; manages customer expectations; cross-functional coordinator","next":"Sr. Implementation Manager or Manager, Implementation (people mgr path)"},{"band":"2","title":"Sr. Implementation Manager","comp":"Market 50 - 75%","yrs":"5\u20138","scope":"Leads complex, multi-site or enterprise-tier implementations; contributes to playbook development","complexity":"Manages competing priorities and high-stakes deployments; highly adaptable","autonomy":"Highly self-directed; defines implementation approach for complex accounts","influence":"Mentors IMs; contributes to process and playbook improvements","next":"Implementation Lead (IC) or Manager, Implementation (people mgr path)"},{"band":"3","title":"Solutions Engineer","comp":"Market 50 - 75%","yrs":"3\u20135","scope":"Technical IC within implementation; supports complex deployments requiring deep product/systems knowledge; may specialize in hospitality, MDU, or other verticals as team scales","complexity":"Handles technically complex implementations; bridges product and field deployment challenges","autonomy":"Self-directed on technical workstreams; partners closely with Implementation Managers","influence":"Technical collaborator; elevates team capability; customer-facing on technical topics","next":"Sr. Solutions Engineer"},{"band":"3","title":"Sr. Solutions Engineer","comp":"Market 50 - 75%","yrs":"5\u20138","scope":"Leads technical implementation work for most complex accounts; develops technical standards and documentation; may own a vertical specialization (e.g. hospitality, MDU)","complexity":"Navigates the most technically demanding deployments; contributes to scalable technical frameworks","autonomy":"Highly autonomous; sets technical direction for their workstream; minimal supervision","influence":"Mentors Solutions Engineers; shapes technical practices for implementation function","next":"Principal Solutions Engineer or Staff Solutions Engineer"},{"band":"4","title":"Principal Solutions Engineer","comp":"Market 50 - 75%","yrs":"8+","scope":"Top-of-ladder IC technical role; defines technical standards across implementation; owns vertical specialization(s); consulted on product integrations and architecture decisions","complexity":"Handles org-wide technical challenges; influences product roadmap; cross-functional technical authority","autonomy":"Fully autonomous; operates without direct oversight; self-directed on strategic technical initiatives","influence":"Org-wide technical influence; elevates entire implementation function's technical capability","next":"Director, Implementation (Technical Track) or Staff Solutions Engineer"},{"band":"3","title":"Partner Implementations Manager","comp":"Market 50 - 75%","yrs":"5\u20138","scope":"Owns partner (LSP/local service provider) relationship and performance; manages contractors doing deployments; ensures documentation, training materials, and contracts are current; bridge between Sales, Training, and partner network","complexity":"Operates across implementation and technical domains; manages external partners and contractors with diverse deployment environments","autonomy":"Self-directed; manages partner ecosystem independently; escalates to VP on strategic partner issues","influence":"Cross-functional; bridges Sales, Training, and Implementation; external-facing with partner network","next":"Director, Implementation or Sr. Partner Operations Manager"},{"band":"4","title":"Implementation Lead","comp":"Market 50 - 75%","yrs":"8+","scope":"Senior IC; owns implementation strategy for a customer tier or region; drives process improvement and tooling for scalable delivery","complexity":"Drives process improvement and tooling for scalable delivery; shapes implementation standards","autonomy":"Operates independently; defines standards for the broader team","influence":"Team leader (IC); shapes implementation culture and best practices; informal mentor","next":"VP, Implementation (IC escalation path) or Director, Implementation"}]},{"name":"People Manager Track","roles":[{"band":"3","title":"Manager, Implementation","comp":"Market 50 - 75%","yrs":"5\u20138","scope":"First-line people manager for the implementation team; coaches and develops ICs; owns team performance, hiring, and resourcing","complexity":"Manages team of ICs across varied implementation projects; balances people development with delivery accountability","autonomy":"Self-directed on people management; coordinates with VP on resourcing and escalations","influence":"People manager; internal advocate for team; cross-functional partner on delivery and process","next":"Director, Implementation"},{"band":"4","title":"Director, Implementation","comp":"Market 50 - 75%","yrs":"8+","scope":"Oversees implementation delivery vertical; as team scales, may also oversee technical track (Solutions Engineers); drives cross-functional alignment between implementation, Sales, and CS","complexity":"Manages managers and senior ICs; balances operational delivery with strategic planning and org growth","autonomy":"Highly autonomous; sets direction for implementation sub-function; escalates to VP on budget and executive decisions","influence":"Manages across two potential verticals (delivery + technical); shapes hiring and org design; VP-level partner","next":"VP, Implementation"},{"band":"5","title":"VP, Implementation","comp":"Market 50 - 75%","yrs":"5+ (exec)","scope":"Owns global implementation function; accountable for on-time delivery, CSAT, and cost-per-implementation; all ICs currently report directly to VP","complexity":"Builds scalable systems and playbooks; drives 50%+ reduction in deployment timelines; manages org growth across IC and people manager tracks","autonomy":"Full executive autonomy; reports to CEO","influence":"C-suite partner; shapes Sales\u2192Implementation\u2192CS operating model; owns partner and technical strategy","next":"Chief Operations Officer / Executive leadership"}]}],"status":"in_progress","statusLabel":"In Progress","statusNote":"The G&A job architecture has not been finalized yet. This department's levels are still being built out."},{"name":"Implementation","families":[{"name":"Implementation","roles":[{"band":"1","title":"Implementation Specialist","comp":"Market 50 - 75%","yrs":"0\u20132","scope":"Runs implementations independently; handles defined scope of site activations and onboarding tasks; reports directly to VP","complexity":"Manages straightforward to moderate site activations with increasing autonomy; follows defined playbooks","autonomy":"Works independently within defined playbooks; self-manages project milestones; escalates as needed","influence":"IC; collaborates cross-functionally; supports customer-facing communications","next":"Implementation Manager or Solutions Engineer"},{"band":"2","title":"Implementation Manager","comp":"Market 50 - 75%","yrs":"3\u20135","scope":"Manages end-to-end customer implementations; owns go-live timelines and project delivery (process/work manager, not people manager)","complexity":"Navigates technical and organizational complexity during onboarding; manages competing project variables","autonomy":"Self-directed on projects; escalates high-risk situations to VP","influence":"IC; manages customer expectations; cross-functional coordinator","next":"Sr. Implementation Manager"},{"band":"2","title":"Sr. Implementation Manager","comp":"Market 50 - 75%","yrs":"5\u20138","scope":"Leads complex, multi-site or enterprise-tier implementations; contributes to playbook development","complexity":"Manages competing priorities and high-stakes deployments; highly adaptable","autonomy":"Highly self-directed; defines implementation approach for complex accounts","influence":"Mentors IMs; contributes to process and playbook improvements","next":"Implementation Lead"},{"band":"3","title":"Solutions Engineer","comp":"Market 50 - 75%","yrs":"3\u20135","scope":"Technical IC within implementation; supports complex deployments requiring deep product/systems knowledge; may specialize in hospitality, MDU, or other verticals as team scales","complexity":"Handles technically complex implementations; bridges product and field deployment challenges","autonomy":"Self-directed on technical workstreams; partners closely with Implementation Managers","influence":"Technical collaborator; elevates team capability; customer-facing on technical topics","next":"Sr. Solutions Engineer"},{"band":"3","title":"Sr. Solutions Engineer","comp":"Market 50 - 75%","yrs":"5\u20138","scope":"Leads technical implementation work for most complex accounts; develops technical standards and documentation; may own a vertical specialization (e.g. hospitality, MDU)","complexity":"Navigates the most technically demanding deployments; contributes to scalable technical frameworks","autonomy":"Highly autonomous; sets technical direction for their workstream; minimal supervision","influence":"Mentors Solutions Engineers; shapes technical practices for implementation function","next":"Principal Solutions Engineer or Staff Solutions Engineer"},{"band":"3","title":"Partner Implementations Manager","comp":"Market 50 - 75%","yrs":"5\u20138","scope":"Owns partner (LSP/local service provider) relationship and performance; manages contractors doing deployments; ensures documentation, training materials, and contracts are current; bridge between Sales, Training, and partner network","complexity":"Operates across implementation and technical domains; manages external partners and contractors with diverse deployment environments","autonomy":"Self-directed; manages partner ecosystem independently; escalates to VP on strategic partner issues","influence":"Cross-functional; bridges Sales, Training, and Implementation; external-facing with partner network","next":"Director, Implementation or Sr. Partner Operations Manager"},{"band":"4","title":"Principal Solutions Engineer","comp":"Market 50 - 75%","yrs":"8+","scope":"Top-of-ladder IC technical role; defines technical standards across implementation; owns vertical specialization(s); consulted on product integrations and architecture decisions","complexity":"Handles org-wide technical challenges; influences product roadmap; cross-functional technical authority","autonomy":"Fully autonomous; operates without direct oversight; self-directed on strategic technical initiatives","influence":"Org-wide technical influence; elevates entire implementation function's technical capability","next":"Director, Implementation (Technical Track) or Staff Solutions Engineer"},{"band":"4","title":"Implementation Lead","comp":"Market 50 - 75%","yrs":"8+","scope":"Senior IC; owns implementation strategy for a customer tier or region; drives process improvement and tooling for scalable delivery","complexity":"Drives process improvement and tooling for scalable delivery; shapes implementation standards","autonomy":"Operates independently; defines standards for the broader team","influence":"Team leader (IC); shapes implementation culture and best practices; informal mentor","next":"VP, Implementation (IC escalation path) or Director, Implementation"},{"band":"4","title":"Director, Implementation","comp":"Market 50 - 75%","yrs":"8+","scope":"Oversees implementation delivery vertical; as team scales, may also oversee technical track (Solutions Engineers); drives cross-functional alignment between implementation, Sales, and CS","complexity":"Manages managers and senior ICs; balances operational delivery with strategic planning and org growth","autonomy":"Highly autonomous; sets direction for implementation sub-function; escalates to VP on budget and executive decisions","influence":"Manages across two potential verticals (delivery + technical); shapes hiring and org design; VP-level partner","next":"VP, Implementation"},{"band":"5","title":"VP, Implementation","comp":"Market 50 - 75%","yrs":"5+ (exec)","scope":"Owns global implementation function; accountable for on-time delivery, CSAT, and cost-per-implementation; all ICs currently report directly to VP","complexity":"Builds scalable systems and playbooks; drives 50%+ reduction in deployment timelines; manages org growth across IC and people manager tracks","autonomy":"Full executive autonomy; reports to CEO","influence":"C-suite partner; shapes Sales\u2192Implementation\u2192CS operating model; owns partner and technical strategy","next":"Chief Operations Officer / Executive leadership"}]}]},{"name":"Finance & Accounting","families":[{"name":"Finance & Accounting","roles":[{"band":"1","title":"Accounting Clerk","comp":"Market 50 - 75%","yrs":"2+","scope":"Handles routine accounting tasks (data entry, reconciliations, AP/AR support); follows established procedures; works under direct supervision","complexity":"Straightforward, well-defined tasks; follows established procedures and checklists; limited ambiguity","autonomy":"Works under direct supervision; follows defined playbooks; escalates questions to manager","influence":"Limited cross-functional interaction; primarily supports immediate team","next":"Staff Accountant"},{"band":"1","title":"Staff Accountant","comp":"Market 50 - 75%","yrs":"2\u20133+","scope":"Performs full-cycle accounting tasks including journal entries, reconciliations, and month-end close support; maintains GL accuracy and assists with AP/AR; works with moderate supervision and growing independence","complexity":"Moderate tasks with some ambiguity; manages multiple accounting processes and reconciliation workflows; adapts to period-end close demands","autonomy":"Works with moderate supervision; independently manages routine accounting tasks; escalates complex or judgment-heavy issues to senior staff or manager","influence":"Primarily supports the accounting team; limited cross-functional interaction; provides GL and reconciliation data to peers and manager","next":"Financial Analyst"},{"band":"1","title":"Financial Analyst","comp":"Market 50 - 75%","yrs":"3+","scope":"Supports financial reporting, general ledger accuracy, and month-end close activities; assists with budgeting, forecasting, and variance analysis; works within defined accounting and analytical frameworks","complexity":"Moderate complexity; works across multiple data sources, accounting entries, and reporting scenarios; some ambiguity in analysis and reconciliations","autonomy":"Works independently on defined assignments; escalates judgment calls, accounting questions, and ambiguous situations to manager","influence":"Collaborates cross-functionally with budget owners and operations; supports data requests and account reconciliations for leadership","next":"Sr. Financial Analyst"},{"band":"2","title":"Sr. Financial Analyst","comp":"Market 50 - 75%","yrs":"4+","scope":"Leads complex financial analyses and owns recurring reporting cycles; manages month-end close entries and account reconciliations; drives process improvement, automation, and forecast modeling initiatives","complexity":"Higher complexity; owns end-to-end reporting and close cycles; navigates cross-functional data, accounting gaps, and multi-scenario planning","autonomy":"Largely self-directed; manages own workstreams across accounting and FP&A deliverables; escalates on high-stakes or cross-functional decisions","influence":"Mentors junior analysts and accountants; influences reporting standards, close processes, and financial planning improvements","next":"Accounting Supervisor / Manager"},{"band":"3","title":"Accounting Supervisor / Manager","comp":"Market 50 - 75%","yrs":"5\u20137","scope":"Manages accounting operations for one or more functions (AP, AR, payroll, or close) while overseeing budgeting, forecasting, and financial planning cycles; supervises junior staff and owns accuracy of financial records and reports","complexity":"Manages competing priorities across accounting operations and FP&A deliverables; balances close accuracy, forecast quality, and team oversight simultaneously","autonomy":"Self-directed on both operational accounting and financial planning; coordinates with leadership on policy, forecasting assumptions, and staffing decisions","influence":"Manages and develops junior accounting and finance staff; cross-functional partner for department budget owners and business planning","next":"Controller"},{"band":"4","title":"Controller","comp":"Market 50 - 75%","yrs":"10+","scope":"Oversees all accounting operations and financial close; owns internal controls, compliance, and audit readiness; partners with leadership on financial reporting and planning","complexity":"High complexity; manages month-end close, audit, and compliance simultaneously; navigates regulatory and operational demands","autonomy":"Highly autonomous; owns accounting operations end-to-end; escalates to Sr. Controller/VP on strategic matters","influence":"Org-wide influence on financial controls and reporting standards; key partner to leadership team","next":"Sr. Controller"},{"band":"4","title":"Sr. Controller","comp":"Market 50 - 75%","yrs":"12\u201315","scope":"Leads advanced accounting and financial strategy; drives audit readiness and complex technical accounting decisions; right hand to VP","complexity":"Very high complexity; resolves technical accounting issues, drives audit prep, and supports strategic financial decisions","autonomy":"Operates with minimal oversight; independently drives complex accounting and reporting; partners closely with VP","influence":"High influence; shapes accounting policy and financial reporting across the org; trusted advisor to VP","next":"VP of Finance"},{"band":"5","title":"VP of Finance","comp":"Market 50 - 75%","yrs":"15+","scope":"Owns the full finance function; partners with COO/CEO and board on financial strategy, fundraising, and long-range planning; accountable for all financial reporting and compliance","complexity":"Full-function complexity; manages financial strategy, fundraising, investor relations, and operational finance concurrently","autonomy":"Full executive autonomy over finance function; reports to COO/CEO; self-directed on strategy and execution","influence":"Company-wide influence; partners with COO/CEO, board, and investors; shapes financial culture and strategy","next":"CFO"},{"band":"6","title":"CFO","comp":"Market 50 - 75%","yrs":"15+","scope":"Top executive; sets company-wide financial vision and strategy; accountable to board and investors; drives capital allocation, M&A, and financial risk management","complexity":"Enterprise-level complexity; navigates board, investor, regulatory, and strategic financial demands simultaneously","autonomy":"Full board-level autonomy; sets financial direction independently; accountable to COO/CEO and board","influence":"Board-level influence; sets financial vision for entire organization; external-facing with investors and stakeholders","next":"Board / Executive leadership"}]}]}]};
+</script>
+<script>
+(function(){
+  const state = {
+    activeDept: JOB_DATA.departments[0].name,
+    mode: 'home', // home | browse | compare
+    compare: [], // array of {dept, family, role}
+    selectedKey: null,
+    search: ''
+  };
+
+  function roleKey(dept, family, role){ return dept+'|'+family+'|'+role.title; }
+
+  function allRolesFlat(){
+    const out = [];
+    JOB_DATA.departments.forEach(d=>{
+      if(d.status) return; // skip departments whose framework isn't finalized yet
+      d.families.forEach(f=>{
+        f.roles.forEach(r=>{
+          out.push({dept:d.name, family:f.name, role:r});
+        });
+      });
+    });
+    return out;
+  }
+  const FLAT = allRolesFlat();
+
+  function findRoleByTitle(title){
+    // fuzzy: exact match first, else includes
+    let hit = FLAT.find(x => x.role.title.toLowerCase() === title.toLowerCase());
+    if(hit) return hit;
+    hit = FLAT.find(x => title.toLowerCase().includes(x.role.title.toLowerCase()) || x.role.title.toLowerCase().includes(title.toLowerCase()));
+    return hit;
+  }
+
+  function renderNav(){
+    const nav = document.getElementById('deptNav');
+    nav.innerHTML = '';
+    JOB_DATA.departments.forEach(d=>{
+      const count = d.families.reduce((a,f)=>a+f.roles.length,0);
+      const btn = document.createElement('button');
+      btn.className = (d.name===state.activeDept && state.mode==='browse') ? 'active' : '';
+      const statusHtml = d.status ? `<span class="status-dot" title="${d.statusLabel||'In progress'}"></span>` : '';
+      const countHtml = d.status ? '' : `<span class="count">${count}</span>`;
+      btn.innerHTML = `<span>${d.name}</span><span class="rightwrap">${statusHtml}${countHtml}</span>`;
+      btn.onclick = ()=>{ state.mode='browse'; state.activeDept=d.name; state.search=''; document.getElementById('searchInput').value=''; render(); };
+      nav.appendChild(btn);
+    });
+  }
+
+  function renderCompareTray(){
+    document.getElementById('compareCount').textContent = state.compare.length;
+    const slots = document.getElementById('compareSlots');
+    slots.innerHTML = '';
+    state.compare.forEach((c,i)=>{
+      const div = document.createElement('div');
+      div.className = 'compare-slot';
+      div.innerHTML = `<span>${c.role.title}</span>`;
+      const btn = document.createElement('button');
+      btn.textContent = '×';
+      btn.onclick = (e)=>{ e.stopPropagation(); state.compare.splice(i,1); render(); };
+      div.appendChild(btn);
+      slots.appendChild(div);
+    });
+    document.getElementById('compareHint').style.display = state.compare.length ? 'none' : 'block';
+    const cbtn = document.getElementById('compareBtn');
+    cbtn.disabled = state.compare.length < 2;
+    cbtn.textContent = state.compare.length < 2 ? 'Add 2+ to compare' : `Compare ${state.compare.length} roles`;
+    cbtn.onclick = ()=>{ if(state.compare.length>=2){ state.mode='compare'; render(); } };
+  }
+
+  function isInCompare(key){
+    return state.compare.some(c => roleKey(c.dept,c.family,c.role)===key);
+  }
+
+  function toggleCompare(dept, family, role){
+    const key = roleKey(dept,family,role);
+    const idx = state.compare.findIndex(c=>roleKey(c.dept,c.family,c.role)===key);
+    if(idx>-1){ state.compare.splice(idx,1); }
+    else{
+      if(state.compare.length>=3) return;
+      state.compare.push({dept,family,role});
+    }
+    renderCompareTray();
+    // also refresh main to update add-btn state visuals without full rerender jank
+    renderMain();
+  }
+
+  function openDrawer(dept, family, role){
+    state.selectedKey = roleKey(dept,family,role);
+    const drawer = document.getElementById('drawer');
+    const overlay = document.getElementById('overlay');
+    const key = state.selectedKey;
+    const inCompare = isInCompare(key);
+    drawer.innerHTML = `
+      <button class="drawer-close" id="drawerClose">×</button>
+      <div class="eyebrow">${dept} · ${family}</div>
+      <h2>${role.title}</h2>
+      <div class="meta-row">
+        <span class="meta-tag">Band ${role.band}</span>
+        ${role.yrs ? `<span class="meta-tag">${role.yrs} yrs experience</span>`: ''}
+        ${role.comp ? `<span class="meta-tag">${role.comp}</span>` : ''}
+      </div>
+      ${role.scope ? `<section><h4>Scope</h4><p>${role.scope}</p></section>` : ''}
+      ${role.complexity ? `<section><h4>Complexity</h4><p>${role.complexity}</p></section>` : ''}
+      ${role.autonomy ? `<section><h4>Autonomy</h4><p>${role.autonomy}</p></section>` : ''}
+      ${role.influence ? `<section><h4>Influence</h4><p>${role.influence}</p></section>` : ''}
+      ${role.next ? `
+      <section>
+        <h4>Career path</h4>
+        <div id="nextBox" class="next-box"><span class="t">${role.next}</span><span class="arrow">→</span></div>
+      </section>` : ''}
+      <button class="drawer-add ${inCompare?'added':''}" id="drawerAddBtn">${inCompare ? '✓ Added to compare' : '+ Add to compare'}</button>
+    `;
+    document.getElementById('drawerClose').onclick = closeDrawer;
+    document.getElementById('drawerAddBtn').onclick = ()=>{ toggleCompare(dept,family,role); openDrawer(dept,family,role); };
+    const nextBox = document.getElementById('nextBox');
+    if(nextBox){
+      nextBox.onclick = ()=>{
+        // next may list multiple options separated by "or"; try first title match
+        const candidates = role.next.split(/ or |\/| \(| — /i);
+        let hit = null;
+        for(const c of candidates){
+          hit = findRoleByTitle(c.trim());
+          if(hit) break;
+        }
+        if(hit){
+          state.mode='browse';
+          state.activeDept = hit.dept;
+          state.search='';
+          document.getElementById('searchInput').value='';
+          render();
+          setTimeout(()=>openDrawer(hit.dept, hit.family, hit.role), 60);
+        }
+      };
+    }
+    overlay.classList.add('show');
+    drawer.classList.add('show');
+    overlay.onclick = closeDrawer;
+  }
+  function closeDrawer(){
+    document.getElementById('overlay').classList.remove('show');
+    document.getElementById('drawer').classList.remove('show');
+    state.selectedKey = null;
+  }
+
+  function roleCardHTML(dept, family, role, opts){
+    opts = opts || {};
+    const key = roleKey(dept,family,role);
+    const inCompare = isInCompare(key);
+    return `
+      <div class="rung">
+        <div class="card ${opts.highlight?'path-highlight':''}" data-key="${key}">
+          <div class="card-left">
+            <div class="band-chip">${role.band}</div>
+            <div class="card-title">
+              <div class="t">${role.title}</div>
+              <div class="m">${role.yrs ? role.yrs+' yrs · ' : ''}${family}</div>
+            </div>
+          </div>
+          <div class="card-right">
+            ${role.comp ? `<span class="comp-pill">${role.comp.split(' / ')[0]}</span>` : ''}
+            <button class="add-btn ${inCompare?'added':''}" data-addkey="${key}" title="Add to compare">${inCompare?'✓':'+'}</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  function attachCardHandlers(container){
+    container.querySelectorAll('.card').forEach(el=>{
+      el.addEventListener('click', (e)=>{
+        if(e.target.closest('.add-btn')) return;
+        const key = el.getAttribute('data-key');
+        const found = FLAT.find(x=>roleKey(x.dept,x.family,x.role)===key);
+        if(found) openDrawer(found.dept, found.family, found.role);
+      });
+    });
+    container.querySelectorAll('.add-btn').forEach(el=>{
+      el.addEventListener('click', (e)=>{
+        e.stopPropagation();
+        const key = el.getAttribute('data-addkey');
+        const found = FLAT.find(x=>roleKey(x.dept,x.family,x.role)===key);
+        if(found) toggleCompare(found.dept, found.family, found.role);
+      });
+    });
+  }
+
+  function renderHome(){
+    const totalDepts = JOB_DATA.departments.length;
+    const finalizedDepts = JOB_DATA.departments.filter(d=>!d.status);
+    const inProgressDepts = JOB_DATA.departments.filter(d=>d.status);
+    const totalRoles = finalizedDepts.reduce((sum,d)=>sum + d.families.reduce((a,f)=>a+f.roles.length,0), 0);
+    const totalFamilies = finalizedDepts.reduce((sum,d)=>sum + d.families.length, 0);
+
+    let html = `
+      <div class="hero">
+        <div class="kicker">People Team</div>
+        <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
+          <img src="data:image/png;base64,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" alt="Eleven" style="height:38px; width:auto; display:block;">
+          <div style="width:1px; height:34px; background:var(--line);"></div>
+          <h1 style="margin:0;">Career Ladders</h1>
+        </div>
+        <p>A living map of every job family, level, and career path at Eleven. See what's expected at each level, compare roles side by side, and find out what's next on your path, without digging through spreadsheets.</p>
+        <div class="stat-row">
+          <div class="stat-card"><div class="num">${totalDepts}</div><div class="lbl">Departments mapped</div></div>
+          <div class="stat-card"><div class="num">${totalRoles}</div><div class="lbl">Defined roles</div></div>
+          <div class="stat-card"><div class="num">${totalFamilies}</div><div class="lbl">Job families</div></div>
+          <div class="stat-card warn"><div class="num">${inProgressDepts.length}</div><div class="lbl">Still being built out</div></div>
+        </div>
+      </div>
+
+      <div class="section-title">Browse by department</div>
+      <div class="dept-grid">
+        ${JOB_DATA.departments.map(d=>{
+          const count = d.families.reduce((a,f)=>a+f.roles.length,0);
+          return `
+            <button class="dept-card" data-goto="${d.name}">
+              <div class="top">
+                <h4>${d.name}</h4>
+                ${d.status ? `<span class="status-pill">${d.statusLabel||'In progress'}</span>` : ''}
+              </div>
+              <div class="stats">${d.status ? 'Framework in progress' : `${d.families.length} job famil${d.families.length===1?'y':'ies'} · ${count} roles`}</div>
+              <span class="arrow">→</span>
+            </button>
+          `;
+        }).join('')}
+      </div>
+
+      <div class="section-title">How to use this dashboard</div>
+      <div class="howto">
+        <div class="howto-step">
+          <div class="top-row"><div class="n">1</div><h5>Browse levels</h5></div>
+          <p>Pick a department to see its job families laid out as career ladders, from entry level to senior leadership.</p>
+        </div>
+        <div class="howto-step">
+          <div class="top-row"><div class="n">2</div><h5>Click a role</h5></div>
+          <p>See exactly what's expected at each level: scope, complexity, autonomy, influence, and typical years of experience.</p>
+        </div>
+        <div class="howto-step">
+          <div class="top-row"><div class="n">3</div><h5>Compare or search</h5></div>
+          <p>Add up to three roles to compare side by side, or use the search bar to jump straight to a title across every department.</p>
+        </div>
+      </div>
+
+      <div class="home-footer">
+        Part of the <a href="https://eleven.atlassian.net/wiki/spaces/HR/pages/4314529912/Job+Architecture+Framework" target="_blank" rel="noopener">Job Architecture Framework</a> project. Questions? Reach out to the People Team.
+      </div>
+    `;
+    return html;
+  }
+
+  function renderBrowse(){
+    const dept = JOB_DATA.departments.find(d=>d.name===state.activeDept);
+    let html = `
+      <div class="topline">
+        <div>
+          <h2>${dept.name} ${dept.status ? `<span class="status-pill">${dept.statusLabel||'In progress'}</span>` : ''}</h2>
+          <div class="sub">${dept.status ? "This department's framework is still being built out." : `${dept.families.length} job famil${dept.families.length===1?'y':'ies'} · ${dept.families.reduce((a,f)=>a+f.roles.length,0)} defined roles. Click any role for full details, or add roles to compare.`}</div>
+        </div>
+        ${dept.status ? '' : `
+        <div class="mode-toggle">
+          <button class="active">Browse</button>
+          <button id="toCompareBtn">Compare</button>
+        </div>`}
+      </div>
+    `;
+
+    if(dept.status){
+      html += `
+        <div class="empty-compare" style="padding:90px 20px;">
+          <div class="big">🚧</div>
+          <h3 style="color:var(--navy); font-size:18px; margin:0 0 8px;">${dept.statusLabel||'In progress'}</h3>
+          <p style="max-width:440px; margin:0 auto;">${dept.statusNote || "This department's job architecture hasn't been finalized yet. Check back once the framework has been built out."}</p>
+        </div>
+      `;
+      return html;
+    }
+
+    dept.families.forEach(fam=>{
+      // display senior-to-junior top-to-bottom (reverse of stored ascending-band order)
+      const roles = fam.roles.slice().reverse();
+      html += `
+        <div class="family-block">
+          <div class="family-head">
+            <h3>${fam.name}</h3>
+            <div class="rule"></div>
+            <span class="n">${fam.roles.length} levels</span>
+          </div>
+          <div class="ladder">
+            ${roles.map((r,i)=>roleCardHTML(dept.name, fam.name, r, {})).join('')}
+          </div>
+        </div>
+      `;
+    });
+    return html;
+  }
+
+  function renderSearch(){
+    const q = state.search.toLowerCase();
+    const results = FLAT.filter(x => x.role.title.toLowerCase().includes(q) || x.dept.toLowerCase().includes(q) || x.family.toLowerCase().includes(q));
+    let html = `
+      <div class="topline">
+        <div>
+          <h2>Search results</h2>
+          <div class="sub">Matches for "${state.search}"</div>
+        </div>
+      </div>
+      <div class="search-results">
+        <div class="rescount">${results.length} role${results.length===1?'':'s'} found</div>
+        ${results.map(r=>`
+          <div class="result-row" data-key="${roleKey(r.dept,r.family,r.role)}">
+            <div>
+              <div style="font-weight:700; color:var(--navy); font-size:14px;">${r.role.title}</div>
+              <div class="path">${r.dept} · ${r.family} · Band ${r.role.band}</div>
+            </div>
+            <span class="comp-pill">${r.role.comp ? r.role.comp.split(' / ')[0] : ''}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+    return html;
+  }
+
+  function renderCompare(){
+    if(state.compare.length < 2){
+      return `
+        <div class="topline">
+          <div><h2>Compare roles</h2><div class="sub">Pick at least two roles to see them side by side.</div></div>
+          <div class="mode-toggle"><button id="toBrowseBtn">Browse</button><button class="active">Compare</button></div>
+        </div>
+        <div class="empty-compare">
+          <div class="big">⇄</div>
+          <p>Add roles from the sidebar tray or any role card, then come back here.</p>
+        </div>
+      `;
+    }
+    const rows = [
+      ['Band', r=>r.band],
+      ['Comp band', r=>r.comp],
+      ['Experience', r=>r.yrs],
+      ['Scope', r=>r.scope],
+      ['Complexity', r=>r.complexity],
+      ['Autonomy', r=>r.autonomy],
+      ['Influence', r=>r.influence],
+      ['Next level', r=>r.next],
+    ];
+    let html = `
+      <div class="topline">
+        <div><h2>Compare roles</h2><div class="sub">Side-by-side view of ${state.compare.length} roles.</div></div>
+        <div class="mode-toggle"><button id="toBrowseBtn">Browse</button><button class="active">Compare</button></div>
+      </div>
+      <div class="compare-grid" style="grid-template-columns: 130px repeat(${state.compare.length}, minmax(220px,1fr));">
+        <div class="cell rowlabel"></div>
+        ${state.compare.map((c,i)=>`
+          <div class="cell headcell">
+            <button class="rm" data-rmidx="${i}">×</button>
+            <div class="t">${c.role.title}</div>
+            <div class="m">${c.dept} · ${c.family}</div>
+          </div>
+        `).join('')}
+        ${rows.map(([label, get])=>`
+          <div class="cell rowlabel">${label}</div>
+          ${state.compare.map(c=>`<div class="cell"><p>${get(c.role)||'—'}</p></div>`).join('')}
+        `).join('')}
+      </div>
+    `;
+    return html;
+  }
+
+  function renderMain(){
+    const main = document.getElementById('mainContent');
+    let html;
+    if(state.search.trim().length>0){
+      html = renderSearch();
+    } else if(state.mode==='compare'){
+      html = renderCompare();
+    } else if(state.mode==='home'){
+      html = renderHome();
+    } else {
+      html = renderBrowse();
+    }
+    main.innerHTML = html;
+    attachCardHandlers(main);
+
+    main.querySelectorAll('[data-goto]').forEach(card=>{
+      card.onclick = ()=>{
+        state.mode='browse';
+        state.activeDept = card.getAttribute('data-goto');
+        render();
+      };
+    });
+
+    const toCompareBtn = document.getElementById('toCompareBtn');
+    if(toCompareBtn) toCompareBtn.onclick = ()=>{ state.mode='compare'; render(); };
+    const toBrowseBtn = document.getElementById('toBrowseBtn');
+    if(toBrowseBtn) toBrowseBtn.onclick = ()=>{ state.mode='browse'; render(); };
+
+    main.querySelectorAll('.result-row').forEach(row=>{
+      row.onclick = ()=>{
+        const key = row.getAttribute('data-key');
+        const found = FLAT.find(x=>roleKey(x.dept,x.family,x.role)===key);
+        if(found) openDrawer(found.dept, found.family, found.role);
+      };
+    });
+    main.querySelectorAll('[data-rmidx]').forEach(btn=>{
+      btn.onclick = ()=>{
+        state.compare.splice(parseInt(btn.getAttribute('data-rmidx')),1);
+        render();
+      };
+    });
+  }
+
+  function render(){
+    renderNav();
+    renderCompareTray();
+    renderMain();
+  }
+
+  document.getElementById('searchInput').addEventListener('input', (e)=>{
+    state.search = e.target.value;
+    renderMain();
+    renderNav();
+  });
+
+  document.getElementById('brandHome').addEventListener('click', ()=>{
+    state.mode='home'; state.search='';
+    document.getElementById('searchInput').value='';
+    render();
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
