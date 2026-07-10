@@ -7322,6 +7322,635 @@
           }
         ]
       }
+    },
+    "G&A||People & Culture||People & Culture (HR) Generalist~People Business Partner": {
+      "contentHash": "8c70e113",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "People & Culture (HR) Generalist",
+      "seniorTitle": "People Business Partner",
+      "generatedAt": "2026-07-10T21:49:54.219Z",
+      "analysis": {
+        "headline": "Moving from People & Culture (HR) Generalist to People Business Partner is a 1-band step from owning company-wide HR programs to becoming the dedicated HR partner for specific teams or groups.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the People Business Partner role calls for that the HR Generalist role doesn't, grounded in the People & Culture career framework.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Trusted resource for employees and managers; shapes onboarding and engagement initiatives"
+            ],
+            "right": [
+              "Trusted advisor to managers; connects people programs to team goals",
+              "Partners with one or more teams or groups as their dedicated HR contact"
+            ],
+            "synthesis": "Being a trusted resource company-wide carries over as a strong foundation, but the PBP role narrows that trust into a dedicated, ongoing advisory relationship with specific managers and teams."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Handles a broad range of HR topics; applies judgment to employee relations and policy questions"
+            ],
+            "right": [
+              "Navigates team-level employee relations, coaching, and change; balances multiple stakeholder priorities"
+            ],
+            "synthesis": "Handling broad HR topics becomes navigating deeper, team-specific coaching and change situations, a shift from breadth to depth within assigned groups."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "2-4 years of progressive HR Generalist experience"
+            ],
+            "right": [
+              "4-6 years of relevant HR experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a modest step up in required tenure."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs between broad HR program ownership and dedicated team partnership.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Owns core people programs end-to-end, including onboarding, benefits administration, HRIS, and the employee lifecycle"
+            ],
+            "right": [
+              "Supports managers on performance, engagement, and org needs as their dedicated point of contact"
+            ],
+            "synthesis": "Day-to-day, expect ongoing, embedded partnership with specific managers to replace broad administrative and program coordination work."
+          }
+        ],
+        "mainTakeaways": [
+          "The jump from HR Generalist to People Business Partner shows up most in <strong>Leadership & People Management</strong>, from being a company-wide resource to a dedicated advisor for specific teams.",
+          "Day-to-day, that plays out as deeper, ongoing manager relationships replacing broad program administration.",
+          "Since this is the very next step on the ladder, worth asking your manager what dedicated client-group ownership would look like in your current role."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Ask to take ownership of ongoing HR support for one specific team or department, to build the dedicated-advisor experience this role expects."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||People & Culture (HR) Generalist~Sr People Business Partner": {
+      "contentHash": "3891a800",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "People & Culture (HR) Generalist",
+      "seniorTitle": "Sr People Business Partner",
+      "generatedAt": "2026-07-10T21:49:54.249Z",
+      "analysis": {
+        "headline": "Moving from People & Culture (HR) Generalist to Sr People Business Partner is a 2-band step from broad HR program ownership to strategic partnership with senior leaders.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the Sr People Business Partner role calls for that the HR Generalist role doesn't, grounded in the People & Culture career framework.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Trusted resource for employees and managers; shapes onboarding and engagement initiatives"
+            ],
+            "right": [
+              "Influences leadership on people strategy; shapes talent and engagement across client groups",
+              "May mentor a People Business Partner"
+            ],
+            "synthesis": "Both roles build trust with employees and managers, but the Sr PBP role adds influencing senior leadership directly and mentoring more junior HR staff, a step beyond day-to-day trust-building."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Handles a broad range of HR topics; applies judgment to employee relations and policy questions"
+            ],
+            "right": [
+              "Handles complex org design, talent, and employee relations situations; drives cross-team people initiatives"
+            ],
+            "synthesis": "Applying judgment on individual HR topics becomes driving cross-team org design and talent initiatives, a significant jump in strategic scope."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "2-4 years of progressive HR Generalist experience"
+            ],
+            "right": [
+              "6-9 years of relevant HR experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a significant step up in tenure and strategic scope."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs across this 2-band gap.",
+        "dayToDay": [
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Escalates complex employee relations or compliance matters"
+            ],
+            "right": [
+              "Sets HRBP approach for their groups; escalates strategic and budget decisions"
+            ],
+            "synthesis": "Day-to-day, expect setting the overall HR approach for larger client groups to replace escalating individual complex matters upward."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a 2-band jump, bypassing the People Business Partner step that normally builds dedicated client-group experience first.",
+          "Day-to-day, that gap shows up as a jump into strategic, cross-team people initiatives without first building single-team advisory experience.",
+          "If this is a near-term goal, worth discussing with your manager whether the People Business Partner step first would build the missing foundation."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Ask your manager what a realistic path through the People Business Partner role first would look like, since that step builds the client-group advisory experience this role assumes."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||Director, People & Culture~People & Culture (HR) Generalist": {
+      "contentHash": "788563f",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "People & Culture (HR) Generalist",
+      "seniorTitle": "Director, People & Culture",
+      "generatedAt": "2026-07-10T21:49:54.249Z",
+      "analysis": {
+        "headline": "Moving from People & Culture (HR) Generalist to Director, People & Culture is a large 3-band step from owning day-to-day HR programs to leading the entire people function.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the Director role calls for that the HR Generalist role doesn't, grounded in the People & Culture career framework.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Trusted resource for employees and managers; shapes onboarding and engagement initiatives"
+            ],
+            "right": [
+              "Advises the executive team on people matters; drives culture, DEI, and org effectiveness company-wide",
+              "Leads HRBPs and people programs across talent, performance, compensation, and culture"
+            ],
+            "synthesis": "This is a large gap: the current role builds trust at the individual employee level, while the Director role assumes advising the executive team and leading other HR professionals company-wide."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Handles a broad range of HR topics; applies judgment to employee relations and policy questions"
+            ],
+            "right": [
+              "Navigates org-level trade-offs, policy design, and change management as the company scales"
+            ],
+            "synthesis": "Applying judgment to individual HR situations becomes navigating company-wide policy design and change management, a very different level of strategic ownership."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "2-4 years of progressive HR Generalist experience"
+            ],
+            "right": [
+              "8-12 years of relevant HR experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a large step up in tenure and organizational scope."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs across this large 3-band gap.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Administers and maintains employee data within HR systems, ensuring accuracy and compliance"
+            ],
+            "right": [
+              "Sets people processes and standards; owns function budget within guidelines"
+            ],
+            "synthesis": "Day-to-day, expect setting company-wide people processes and owning a budget to replace hands-on HR systems administration."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a large 3-band jump, spanning several intermediate steps (People Business Partner, Sr People Business Partner) that this comparison bypasses.",
+          "Day-to-day, there is minimal overlap between hands-on HR administration and leading the entire people function.",
+          "This comparison is most useful as a long-range orientation tool, worth focusing on the next realistic step (People Business Partner) instead."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Use this comparison to understand the long-range shape of the People & Culture ladder, then focus near-term energy on the People Business Partner step first."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||People Business Partner~Sr People Business Partner": {
+      "contentHash": "a6a5106e",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "People Business Partner",
+      "seniorTitle": "Sr People Business Partner",
+      "generatedAt": "2026-07-10T21:49:54.249Z",
+      "analysis": {
+        "headline": "Moving from People Business Partner to Sr People Business Partner is a 1-band step from partnering with a team or two to becoming a strategic partner for senior leaders and larger client groups.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the Sr People Business Partner role calls for that the People Business Partner role doesn't, grounded in the People & Culture career framework.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Trusted advisor to managers; connects people programs to team goals"
+            ],
+            "right": [
+              "Influences leadership on people strategy; shapes talent and engagement across client groups",
+              "May mentor a People Business Partner"
+            ],
+            "synthesis": "Advising managers carries over as a strong foundation, but the Sr PBP role extends that influence to senior leadership and adds mentoring responsibility for more junior HRBPs."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Navigates team-level employee relations, coaching, and change; balances multiple stakeholder priorities"
+            ],
+            "right": [
+              "Handles complex org design, talent, and employee relations situations; drives cross-team people initiatives"
+            ],
+            "synthesis": "Team-level employee relations work becomes complex org design and cross-team initiative leadership, a step up in scope and ambiguity."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "4-6 years of relevant HR experience"
+            ],
+            "right": [
+              "6-9 years of relevant HR experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a modest step up in tenure and scope of client groups supported."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs between team-level partnership and strategic senior-leader partnership.",
+        "dayToDay": [
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Self-directed within assigned client groups; escalates complex or company-wide matters"
+            ],
+            "right": [
+              "Sets HRBP approach for their groups; escalates strategic and budget decisions"
+            ],
+            "synthesis": "Day-to-day, expect setting the overall approach for larger or more complex client groups to replace escalating company-wide matters upward."
+          }
+        ],
+        "mainTakeaways": [
+          "The jump from People Business Partner to Sr People Business Partner shows up most in <strong>Leadership & People Management</strong>, extending influence to senior leadership and adding mentoring.",
+          "Day-to-day, that plays out as setting HRBP strategy for larger groups, rather than escalating complex matters upward.",
+          "Since this is the very next step on the ladder, worth asking your manager what a larger or more complex client group assignment would look like."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Ask to mentor a newer People Business Partner or take on a more complex client group, to build the senior-level influence this role expects."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||Director, People & Culture~People Business Partner": {
+      "contentHash": "28aa0d45",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "People Business Partner",
+      "seniorTitle": "Director, People & Culture",
+      "generatedAt": "2026-07-10T21:49:54.249Z",
+      "analysis": {
+        "headline": "Moving from People Business Partner to Director, People & Culture is a large 2-band step from partnering with specific teams to leading the entire people function.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the Director role calls for that the People Business Partner role doesn't, grounded in the People & Culture career framework.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Trusted advisor to managers; connects people programs to team goals"
+            ],
+            "right": [
+              "Advises the executive team on people matters; drives culture, DEI, and org effectiveness company-wide",
+              "Leads HRBPs and people programs across talent, performance, compensation, and culture"
+            ],
+            "synthesis": "Advising individual managers carries over as a foundation, but the Director role assumes advising the executive team directly and leading other HR professionals, a significant jump in scope."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Navigates team-level employee relations, coaching, and change; balances multiple stakeholder priorities"
+            ],
+            "right": [
+              "Navigates org-level trade-offs, policy design, and change management as the company scales"
+            ],
+            "synthesis": "Team-level employee relations becomes company-wide policy design and change management, a large step up in strategic ownership."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "4-6 years of relevant HR experience"
+            ],
+            "right": [
+              "8-12 years of relevant HR experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a significant step up in tenure and organizational scope."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs across this large 2-band gap.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Self-directed within assigned client groups; escalates complex or company-wide matters"
+            ],
+            "right": [
+              "Sets people processes and standards; owns function budget within guidelines"
+            ],
+            "synthesis": "Day-to-day, expect setting company-wide people processes and owning a budget to replace working within one or two assigned client groups."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a large 2-band jump, bypassing the Sr People Business Partner step that normally builds senior strategic partnership experience first.",
+          "Day-to-day, that gap shows up as a jump into company-wide policy and budget ownership without first leading larger client groups.",
+          "If this is a near-term goal, worth discussing with your manager whether the Sr People Business Partner step first would build the missing foundation."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Strategy & Planning",
+            "rec": "Ask your manager what a realistic path through the Sr People Business Partner role first would look like, since that step builds the senior strategic partnership experience this role assumes."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||People Business Partner~VP, People & Culture": {
+      "contentHash": "cc9fd6f4",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "People Business Partner",
+      "seniorTitle": "VP, People & Culture",
+      "generatedAt": "2026-07-10T21:49:54.250Z",
+      "analysis": {
+        "headline": "Moving from People Business Partner to VP, People & Culture is a very large 3-band step from partnering with specific teams to owning people strategy for the entire company at an executive level.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the VP of Human Resources role calls for that the People Business Partner role doesn't, grounded in both the framework and the VP job description.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Trusted advisor to managers; connects people programs to team goals"
+            ],
+            "right": [
+              "Builds and owns the HR strategy and manages its execution, aligning HR policies, programs, and company culture to the vision and strategic objectives of the company"
+            ],
+            "synthesis": "Advising individual managers carries over as a foundation, but the VP role assumes owning and authoring the entire company's HR strategy, a vast difference in scope."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Navigates team-level employee relations, coaching, and change; balances multiple stakeholder priorities"
+            ],
+            "right": [
+              "Partners closely with the Leadership Team to develop and execute cohesive strategies for staffing, recruiting, retention, and development of human capital"
+            ],
+            "synthesis": "Team-level employee relations work becomes direct strategic partnership with the executive Leadership Team on company-wide human capital strategy."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "4-6 years of relevant HR experience"
+            ],
+            "right": [
+              "At least 10 years of human resource experience and at least 4 years of people management experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a very significant step up in tenure and formal people-management track record."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs across this very large gap.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Self-directed within assigned client groups; escalates complex or company-wide matters"
+            ],
+            "right": [
+              "Provides inspired leadership for the organization, leading change management and communication when appropriate"
+            ],
+            "synthesis": "Day-to-day, expect organization-wide change leadership and communication to replace working within one or two assigned client groups."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a very large 3-band jump, spanning several intermediate leadership steps that this comparison bypasses.",
+          "Day-to-day, there is minimal meaningful overlap between these two roles' daily activities.",
+          "This comparison is most useful as a long-range orientation tool, worth focusing on the next realistic step (Sr People Business Partner) instead."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Use this comparison to understand the long-range shape of the People & Culture ladder, then focus near-term energy on the next realistic step in your own path."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||Director, People & Culture~Sr People Business Partner": {
+      "contentHash": "77fcac02",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "Sr People Business Partner",
+      "seniorTitle": "Director, People & Culture",
+      "generatedAt": "2026-07-10T21:49:54.250Z",
+      "analysis": {
+        "headline": "Moving from Sr People Business Partner to Director, People & Culture is a 1-band step from strategic partnership with senior leaders to leading the entire people function day-to-day.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the Director role calls for that the Sr People Business Partner role doesn't, grounded in the People & Culture career framework.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Influences leadership on people strategy; shapes talent and engagement across client groups",
+              "May mentor a People Business Partner"
+            ],
+            "right": [
+              "Advises the executive team on people matters; drives culture, DEI, and org effectiveness company-wide",
+              "Leads HRBPs and people programs across talent, performance, compensation, and culture"
+            ],
+            "synthesis": "Influencing leadership and light mentoring carries over as a strong foundation, but the Director role adds formal leadership of the HRBP team and direct executive advising, a genuine step into people management."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Handles complex org design, talent, and employee relations situations; drives cross-team people initiatives"
+            ],
+            "right": [
+              "Navigates org-level trade-offs, policy design, and change management as the company scales"
+            ],
+            "synthesis": "Driving cross-team people initiatives carries over well, but the Director role extends that to owning company-wide policy design and change management as the company scales."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "6-9 years of relevant HR experience"
+            ],
+            "right": [
+              "8-12 years of relevant HR experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a modest step up in tenure and formal management scope."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs between strategic partnership and running the people function day-to-day.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Sets HRBP approach for their groups; escalates strategic and budget decisions"
+            ],
+            "right": [
+              "Sets people processes and standards; owns function budget within guidelines"
+            ],
+            "synthesis": "Day-to-day, expect owning the function's budget and standards directly to replace escalating strategic and budget decisions upward."
+          }
+        ],
+        "mainTakeaways": [
+          "The jump from Sr People Business Partner to Director shows up most in <strong>Leadership & People Management</strong>, moving from influencing leadership to formally leading the HRBP team.",
+          "Day-to-day, that plays out as direct budget and standards ownership replacing escalation of strategic decisions.",
+          "Since this is the very next step on the ladder, worth asking your manager what formal leadership of other HRBPs would look like in your current role."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Ask to take on informal leadership of a cross-team people initiative or a newer People Business Partner, to build the formal team-leadership experience this role expects."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||Sr People Business Partner~VP, People & Culture": {
+      "contentHash": "c3bc9b43",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "Sr People Business Partner",
+      "seniorTitle": "VP, People & Culture",
+      "generatedAt": "2026-07-10T21:49:54.250Z",
+      "analysis": {
+        "headline": "Moving from Sr People Business Partner to VP, People & Culture is a large 2-band step from strategic partnership with senior leaders to owning people strategy for the entire company at an executive level.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the VP of Human Resources role calls for that the Sr People Business Partner role doesn't, grounded in both the framework and the VP job description.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Influences leadership on people strategy; shapes talent and engagement across client groups"
+            ],
+            "right": [
+              "Builds and owns the HR strategy and manages its execution, aligning HR policies, programs, and company culture to the vision and strategic objectives of the company"
+            ],
+            "synthesis": "Influencing leadership on people strategy carries over as a strong foundation, but the VP role assumes owning and authoring the entire HR strategy directly, rather than influencing it."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Handles complex org design, talent, and employee relations situations; drives cross-team people initiatives"
+            ],
+            "right": [
+              "Partners closely with the Leadership Team to develop and execute cohesive strategies for staffing, recruiting, retention, and development of human capital"
+            ],
+            "synthesis": "Driving cross-team people initiatives carries over well, but the VP role extends that to direct, ongoing partnership with the executive Leadership Team on company-wide strategy."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "6-9 years of relevant HR experience"
+            ],
+            "right": [
+              "At least 10 years of human resource experience and at least 4 years of people management experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a significant step up in tenure and formal people-management track record."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs across this large 2-band gap.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Sets HRBP approach for their groups; escalates strategic and budget decisions"
+            ],
+            "right": [
+              "Manages all traditional HR functions within the organization, including day-to-day operational issues"
+            ],
+            "synthesis": "Day-to-day, expect owning all HR functions company-wide to replace setting HRBP approach for a specific set of client groups."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a large 2-band jump, bypassing the Director step that normally builds company-wide people-function leadership experience first.",
+          "Day-to-day, that gap shows up as a jump into owning all HR functions company-wide, without first leading the function day-to-day as Director.",
+          "If this is a near-term goal, worth discussing with your manager whether the Director step first would build the missing foundation."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Ask your manager what a realistic path through the Director, People & Culture role first would look like, since that step builds the company-wide leadership experience this role assumes."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||Director, People & Culture~VP, People & Culture": {
+      "contentHash": "a4d7a5d0",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "Director, People & Culture",
+      "seniorTitle": "VP, People & Culture",
+      "generatedAt": "2026-07-10T21:49:54.250Z",
+      "analysis": {
+        "headline": "Moving from Director, People & Culture to VP, People & Culture is a 1-band step from leading the people function day-to-day to owning people strategy for the entire company at an executive level.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the VP of Human Resources role calls for that the Director role doesn't, grounded in both the framework and the VP job description.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Leads HRBPs and people programs across talent, performance, compensation, and culture"
+            ],
+            "right": [
+              "Builds and owns the HR strategy and manages its execution, aligning HR policies, programs, and company culture to the vision and strategic objectives of the company"
+            ],
+            "synthesis": "Leading HRBPs and people programs carries over as a strong foundation, but the VP role adds full ownership and authorship of the company's overall HR strategy, not just executing programs within it."
+          },
+          {
+            "theme": "Cross-Functional & Stakeholder Collaboration",
+            "left": [
+              "Advises the executive team on people matters; drives culture, DEI, and org effectiveness company-wide"
+            ],
+            "right": [
+              "Serves as a key advisor to executive leadership",
+              "Reports to the CEO; owns people strategy and budget"
+            ],
+            "synthesis": "Advising the executive team carries over directly, but the VP role formalizes that into a direct reporting relationship with the CEO and full budget ownership."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "8-12 years of relevant HR experience"
+            ],
+            "right": [
+              "At least 10 years of human resource experience and at least 4 years of people management experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a similar tenure range applied at full executive scope."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs between running the people function and setting company-wide executive strategy.",
+        "dayToDay": [
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Navigates org-level trade-offs, policy design, and change management as the company scales"
+            ],
+            "right": [
+              "Maintains an effective level of business literacy including company goals, values, financial position, strategy, competition, technology, and culture"
+            ],
+            "synthesis": "Day-to-day, expect broader business strategy fluency across financial and competitive topics to become part of the role, alongside the policy and change work that already carries over well."
+          }
+        ],
+        "mainTakeaways": [
+          "The jump from Director to VP shows up most in <strong>Leadership & People Management</strong>, moving from executing HR strategy to owning and authoring it.",
+          "Day-to-day, that plays out as broader business strategy fluency and a direct CEO reporting relationship, on top of policy work that already carries over well.",
+          "Since this is the very next step on the ladder, worth asking your VP for exposure to board-level or company-wide strategy conversations before targeting this move."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Strategy & Planning",
+            "rec": "Ask to sit in on a company-wide strategy or board-prep conversation, to build the broader business fluency this role expects beyond HR specifically."
+          }
+        ]
+      }
     }
   }
 }
