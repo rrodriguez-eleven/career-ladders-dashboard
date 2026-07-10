@@ -6608,6 +6608,720 @@
           }
         ]
       }
+    },
+    "Development||Software Engineering||Chief Technology Officer~VP of Engineering": {
+      "contentHash": "841e07a5",
+      "dept": "Development",
+      "family": "Software Engineering",
+      "juniorTitle": "VP of Engineering",
+      "seniorTitle": "Chief Technology Officer",
+      "generatedAt": "2026-07-10T16:18:53.772Z",
+      "analysis": {
+        "headline": "Moving from VP of Engineering to Chief Technology Officer is a 1-band jump from running the engineering organization to setting technology strategy across the entire company.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the CTO JD calls for that the VP of Engineering JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Cross-Functional & Stakeholder Collaboration",
+            "left": [
+              "Works heavily with the product team to set expectations, allocate resources and prioritize, and follow through on commitments"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors",
+              "Collaborates with the CEO and President to develop presentations and materials that showcase the company's technical capabilities to investors"
+            ],
+            "synthesis": "Cross-functional partnership with Product carries over directly, but the CTO JD adds external-facing responsibility with investors and vendors, a new audience beyond internal departments."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Works with the CTO to set goals and KPIs for the engineering team overall"
+            ],
+            "right": [
+              "Sets the technical vision and strategy for the company and ensures that it aligns with the overall business goals",
+              "Keeps up to date with new technologies and trends and identifies opportunities to incorporate them into the product or the company's operations"
+            ],
+            "synthesis": "Setting goals in partnership with the CTO becomes owning technical vision and strategy independently, the step from executing a shared plan to authoring the plan itself."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "10+ years of combined engineering experience, ideally starting as an individual contributor, then transitioning to senior management roles"
+            ],
+            "right": [
+              "Provides technical expertise to clients during the sales process, working closely with the sales team to create custom solutions"
+            ],
+            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, mainly direct involvement in the sales process itself rather than supporting it from an engineering leadership seat."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from running engineering operations to setting company-wide technology direction.",
+        "dayToDay": [
+          {
+            "theme": "Cross-Functional & Stakeholder Collaboration",
+            "left": [
+              "Represents and communicates team capabilities and engineering priorities to the Leadership Team and across the organization"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors"
+            ],
+            "synthesis": "Day-to-day, expect investor and vendor conversations to become a regular part of the week, alongside continued internal leadership communication."
+          }
+        ],
+        "mainTakeaways": [
+          "The jump from VP of Engineering to Chief Technology Officer shows up most in <strong>Strategy & Planning</strong>, moving from executing shared goals with the CTO to independently setting company-wide technical vision.",
+          "Day-to-day, that plays out as new external-facing time with investors and vendors, on top of the internal leadership work that already carries over well.",
+          "Since investor and external-partner communication is new and high-visibility, worth asking your current CTO for exposure to an investor update or vendor negotiation before targeting this move."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Cross-Functional & Stakeholder Collaboration",
+            "rec": "Ask to sit in on or help prepare an investor-facing technical update, since that's a new and highly visible part of this role."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "rec": "Propose an emerging-technology evaluation (like a new AI capability or infrastructure pattern) to leadership, to build a track record of independently driving technical strategy."
+          }
+        ]
+      }
+    },
+    "Development||Software Engineering||Chief Technology Officer~Senior AI Engineer": {
+      "contentHash": "5182e51b",
+      "dept": "Development",
+      "family": "Software Engineering",
+      "juniorTitle": "Senior AI Engineer",
+      "seniorTitle": "Chief Technology Officer",
+      "generatedAt": "2026-07-10T16:18:53.785Z",
+      "analysis": {
+        "headline": "Moving from Senior AI Engineer to Chief Technology Officer is a 3-band jump from a specialized AI-focused technical leadership role to owning technology strategy for the entire company.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the CTO JD calls for that the Senior AI Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Serves as the organization's subject matter expert on AI tooling",
+              "Reports to a Senior Engineering Manager with no direct reports"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "This is a large gap: the current role has no direct reports and reports into a Sr. Engineering Manager, while the CTO JD assumes leading the entire engineering organization."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Manages AI-related vendor and tech partner relationships, evaluating tools and platforms for fit, security, and cost-effectiveness"
+            ],
+            "right": [
+              "Sets the technical vision and strategy for the company and ensures that it aligns with the overall business goals",
+              "Manages the technology budget and makes decisions about resource allocation"
+            ],
+            "synthesis": "AI-specific vendor evaluation carries over as a relevant skill, but the CTO JD extends that to company-wide technology budget and vision, not just one specialized domain."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "8+ years of professional software engineering experience",
+              "3+ years with demonstrated leadership in AI adoption and tooling"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors"
+            ],
+            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, mainly a shift from AI-specific specialization to broad executive technology leadership and external representation."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from AI-specific technical leadership to running the entire technology organization.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Designs, builds, and maintains AI-powered workflows, tools, and automation that improve productivity, code quality, and operational efficiency"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "Day-to-day, expect team leadership and prioritization decisions across all of engineering to replace hands-on AI tooling work."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a large 3-band jump combining a skip in scale with a domain shift, from specialized AI leadership to broad executive technology leadership.",
+          "Day-to-day, that gap shows up as a jump straight into leading the entire engineering organization, without first managing even a single team.",
+          "If pursuing this path, worth building direct people-management experience first (such as through an Engineering Manager or VP of Engineering role) since this JD assumes it."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Ask your manager whether a direct people-management role first would build the foundation this JD assumes, since the current role has no direct reports today."
+          }
+        ]
+      }
+    },
+    "Development||Software Engineering||Chief Technology Officer~Sr. Engineering Manager": {
+      "contentHash": "9c2372b0",
+      "dept": "Development",
+      "family": "Software Engineering",
+      "juniorTitle": "Sr. Engineering Manager",
+      "seniorTitle": "Chief Technology Officer",
+      "generatedAt": "2026-07-10T16:18:53.785Z",
+      "analysis": {
+        "headline": "Moving from Sr. Engineering Manager to Chief Technology Officer is a 3-band jump from managing multiple teams to owning technology strategy for the entire company.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the CTO JD calls for that the Sr. Engineering Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Significant autonomy over resourcing and delivery strategy; partners with Directors and PMs on roadmap planning"
+            ],
+            "right": [
+              "Sets the technical vision and strategy for the company and ensures that it aligns with the overall business goals",
+              "Manages the technology budget and makes decisions about resource allocation"
+            ],
+            "synthesis": "Resourcing and delivery strategy carries over as a strong foundation, but the CTO JD extends that to company-wide technology vision and budget, well beyond engineering resourcing alone."
+          },
+          {
+            "theme": "Cross-Functional & Stakeholder Collaboration",
+            "left": [
+              "Strong org-level influence; partners with Directors and VPs on roadmap, headcount, and technical strategy"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors",
+              "Provides technical expertise to clients during the sales process"
+            ],
+            "synthesis": "Internal org-level influence carries over, but the CTO JD adds direct, external-facing responsibility with investors, vendors, and clients, a new audience entirely."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "8+ years of progressive experience in software engineering, including 5+ years leading teams and 2+ years managing managers"
+            ],
+            "right": [
+              "Keeps up to date with new technologies and trends and identifies opportunities to incorporate them into the product or the company's operations"
+            ],
+            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, mainly a shift toward broader technology trend-scouting at the company level."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from managing multiple engineering teams to setting company-wide technology direction.",
+        "dayToDay": [
+          {
+            "theme": "Cross-Functional & Stakeholder Collaboration",
+            "left": [
+              "Partners with the CTO to define long-term organizational structure, resource plans, and engineering capacity"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors"
+            ],
+            "synthesis": "Day-to-day, expect external investor and vendor conversations to replace the internal partnership work that used to go toward planning with the CTO directly."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a large 3-band jump, spanning what would normally be several separate leadership promotions (Director, Sr. Director, VP) before reaching CTO.",
+          "Day-to-day, this involves a near-complete shift from internal engineering-organization leadership to external, company-wide technology representation.",
+          "If this is a long-term aspiration, worth building a realistic path through Director and VP of Engineering roles rather than targeting this jump directly."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Strategy & Planning",
+            "rec": "Treat this as a long-term, multi-step goal, and ask your VP what a realistic path through Director and VP of Engineering roles would look like."
+          }
+        ]
+      }
+    },
+    "Development||Software Engineering||Chief Technology Officer~Engineering Manager": {
+      "contentHash": "f3761816",
+      "dept": "Development",
+      "family": "Software Engineering",
+      "juniorTitle": "Engineering Manager",
+      "seniorTitle": "Chief Technology Officer",
+      "generatedAt": "2026-07-10T16:18:53.791Z",
+      "analysis": {
+        "headline": "Moving from Engineering Manager to Chief Technology Officer is a very large 3-band jump from managing one team to owning technology strategy for the entire company.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the CTO JD calls for that the Engineering Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Manages a team of 4-8 engineers; accountable for delivery, velocity, and growth"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "This is a large gap in scale: managing a single team of 4-8 engineers is a strong foundation, but the CTO JD assumes leading the entire engineering organization across every team."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Works with Product Management and Engineering leadership to prioritize sprints that balance roadmap features, tech debt, and bugs"
+            ],
+            "right": [
+              "Sets the technical vision and strategy for the company and ensures that it aligns with the overall business goals",
+              "Manages the technology budget and makes decisions about resource allocation"
+            ],
+            "synthesis": "Sprint-level prioritization becomes company-wide technology vision and budget ownership, a much broader strategic scope."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "Experience shipping commercial software product in a small-team environment"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors"
+            ],
+            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, mainly a shift toward company-wide, externally visible technology leadership."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from managing one team to running the entire technology organization.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Balances people, process, and technical tradeoffs; navigates performance issues, delivery risks, and sprint health simultaneously"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "Day-to-day, expect the same kind of people and delivery management work, but scaled to the entire engineering organization instead of one team, plus new external-facing time."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a very large 3-band jump, spanning several leadership levels (Sr. Engineering Manager, Director, VP) that this comparison bypasses.",
+          "Day-to-day, virtually every aspect of the role scales up significantly, from one team's delivery to the entire organization's technology direction.",
+          "If this is a long-term goal, worth mapping a realistic multi-step path through Sr. Engineering Manager and VP of Engineering rather than targeting this move directly."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Focus on the next realistic step (managing multiple teams as a Sr. Engineering Manager) rather than targeting this jump directly."
+          }
+        ]
+      }
+    },
+    "Development||Software Engineering||Chief Technology Officer~Principal Architect": {
+      "contentHash": "5985bc28",
+      "dept": "Development",
+      "family": "Software Engineering",
+      "juniorTitle": "Principal Architect",
+      "seniorTitle": "Chief Technology Officer",
+      "generatedAt": "2026-07-10T16:18:53.791Z",
+      "analysis": {
+        "headline": "Moving from Principal Architect to Chief Technology Officer is a 3-band jump from the top of the individual-contributor technical track to owning technology strategy for the entire company.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the CTO JD calls for that the Principal Architect JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Industry-facing thought leader; serves as internal architect-of-record; shapes hiring and the technical reputation of the company"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "Principal Architect already shapes hiring and reputation through technical authority, but the CTO JD adds direct, formal management of the entire engineering team, a genuine track change into people leadership."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Strategic autonomy; partners with CTO and executive team on platform vision and major investment decisions"
+            ],
+            "right": [
+              "Sets the technical vision and strategy for the company and ensures that it aligns with the overall business goals",
+              "Manages the technology budget and makes decisions about resource allocation"
+            ],
+            "synthesis": "Partnering with the CTO on platform vision carries over as a strong foundation, but this JD means owning that vision and the budget independently, rather than advising on it."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "10+ years of experience of full stack development in a SaaS environment, preferably B2B"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors"
+            ],
+            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, mainly direct investor and vendor relationship ownership rather than internal architectural authority."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from architectural advising to running the entire technology organization.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Addresses bleeding-edge technical risk and long-horizon design challenges; makes irreversible decisions thoughtfully"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "Day-to-day, expect team management and task prioritization across all of engineering to replace deep individual architectural risk assessment."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a genuine track change combined with a large skip, from platform architecture ownership straight to executive people and technology leadership.",
+          "Day-to-day, that shift plays out as replacing deep architectural work with team management and external representation.",
+          "If considering this move, worth talking to a current CTO about the tradeoff between architectural depth and broad organizational leadership, since this is a significant change in daily focus."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Shadow a VP of Engineering or CTO for a week of team management and external meetings before deciding this track change is the right fit."
+          }
+        ]
+      }
+    },
+    "Development||Software Engineering||Chief Technology Officer~Principal Engineer": {
+      "contentHash": "a6dc5976",
+      "dept": "Development",
+      "family": "Software Engineering",
+      "juniorTitle": "Principal Engineer",
+      "seniorTitle": "Chief Technology Officer",
+      "generatedAt": "2026-07-10T16:18:53.792Z",
+      "analysis": {
+        "headline": "Moving from Principal Engineer to Chief Technology Officer is a 3-band jump from the top of the individual-contributor technical track to owning technology strategy for the entire company.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the CTO JD calls for that the Principal Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Shapes engineering culture, hiring bar, and org-wide practices; trusted by the CTO and product leadership"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "Principal Engineer already shapes hiring bar and culture at an org level; the CTO JD adds direct, formal management of the entire engineering team, a genuine track change into people leadership."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Fully autonomous; self-selects the highest-impact work and operates across boundaries with no prompting"
+            ],
+            "right": [
+              "Sets the technical vision and strategy for the company and ensures that it aligns with the overall business goals",
+              "Manages the technology budget and makes decisions about resource allocation"
+            ],
+            "synthesis": "Self-selecting high-impact technical work becomes owning company-wide technology vision and budget, a shift from technical prioritization to business and organizational management."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "8+ years of experience of development in modern coding languages"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors"
+            ],
+            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, mainly direct investor and vendor relationship ownership rather than deep individual technical work."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from deep technical work to running the entire technology organization.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Defines solutions for the most complex and ambiguous technical problems; comfortable with incomplete information and long time horizons"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "Day-to-day, expect team management, budget, and external conversations to replace deep, independent technical problem-solving almost entirely."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a genuine track change combined with a large skip, from the top of the individual-contributor ladder straight to executive people and technology leadership.",
+          "Day-to-day, that shift plays out as budget, hiring, and external representation work replacing deep individual technical ownership.",
+          "If considering this move, worth talking to a current CTO about how much they miss hands-on technical work, since that tradeoff is real and significant."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Shadow a VP of Engineering or CTO for a week of budget, hiring, and external meetings before deciding this track change is the right fit for you."
+          }
+        ]
+      }
+    },
+    "Development||Software Engineering||Chief Technology Officer~Sr. Software Engineer": {
+      "contentHash": "f7423b41",
+      "dept": "Development",
+      "family": "Software Engineering",
+      "juniorTitle": "Sr. Software Engineer",
+      "seniorTitle": "Chief Technology Officer",
+      "generatedAt": "2026-07-10T16:18:53.792Z",
+      "analysis": {
+        "headline": "Moving from Sr. Software Engineer to Chief Technology Officer is the largest possible jump in this family, a 5-band skip from owning features within a team to setting technology strategy for the entire company.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the CTO JD calls for that the Sr. Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Mentors junior engineers; begins influencing team technical decisions, standards, and code quality expectations"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "This is one of the largest possible gaps in this family: team-level mentoring is a world away from leading the entire engineering organization at a company level."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Self-directed with light oversight; drives delivery within a defined scope and flags risks proactively"
+            ],
+            "right": [
+              "Sets the technical vision and strategy for the company and ensures that it aligns with the overall business goals",
+              "Manages the technology budget and makes decisions about resource allocation"
+            ],
+            "synthesis": "Driving delivery within a defined scope becomes setting company-wide technology vision and owning the technology budget, representing nearly the full span of this career ladder."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "5+ years of experience of development in C#"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect the maximum possible span of technical and leadership experience in this family."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs across nearly the full span of this career ladder.",
+        "dayToDay": [
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Mentors junior engineers; begins influencing team technical decisions, standards, and code quality expectations"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "Day-to-day, there is minimal overlap: company-wide technology leadership and investor relations replace hands-on feature ownership almost entirely."
+          }
+        ],
+        "mainTakeaways": [
+          "This is one of the largest possible jumps within this family, spanning nearly the entire engineering career ladder.",
+          "Day-to-day, there is minimal meaningful overlap between these two roles' daily activities.",
+          "This comparison is most useful as a long-range orientation tool, worth focusing on the next actual step in your path instead."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Use this comparison to understand the long-range shape of the engineering ladder, then focus near-term energy on the very next realistic step in your own path."
+          }
+        ]
+      }
+    },
+    "Development||Software Engineering||Chief Technology Officer~Software Engineer": {
+      "contentHash": "90105279",
+      "dept": "Development",
+      "family": "Software Engineering",
+      "juniorTitle": "Software Engineer",
+      "seniorTitle": "Chief Technology Officer",
+      "generatedAt": "2026-07-10T16:18:53.792Z",
+      "analysis": {
+        "headline": "Moving from Software Engineer to Chief Technology Officer is the largest possible jump in this family, a 5-band skip from executing defined tasks to setting technology strategy for the entire company.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the CTO JD calls for that the Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Works under close guidance from a senior engineer; proactively communicates blockers and progress"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "This is the largest possible gap in this family: the current role has no leadership responsibility at all, while the CTO JD assumes leading the entire engineering organization."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Solves routine to moderate technical problems; follows established patterns and asks for guidance when blocked"
+            ],
+            "right": [
+              "Sets the technical vision and strategy for the company and ensures that it aligns with the overall business goals",
+              "Manages the technology budget and makes decisions about resource allocation"
+            ],
+            "synthesis": "Solving defined technical problems becomes setting company-wide technology vision and owning the technology budget, representing the complete span of this career ladder."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "5+ years of experience of development in C# with substantial experience in data management systems and storage design"
+            ],
+            "right": [
+              "Acts as the main technical point of contact with external partners, such as vendors and investors"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect the maximum possible span of technical and leadership experience in this family."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs across the full span of this career ladder.",
+        "dayToDay": [
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Works under close guidance from a senior engineer; proactively communicates blockers and progress"
+            ],
+            "right": [
+              "Manages and leads the Engineering team, including assigning tasks, setting priorities, and providing guidance and mentorship"
+            ],
+            "synthesis": "Day-to-day, there is essentially no overlap: executive-level technology leadership replaces close individual guidance and task execution entirely."
+          }
+        ],
+        "mainTakeaways": [
+          "This is the largest possible jump within this family, spanning the entire engineering career ladder from entry to top executive.",
+          "Day-to-day, there is no meaningful overlap between these two roles' daily activities.",
+          "This comparison is most useful as a long-range orientation tool, worth focusing on the next actual step in your path instead."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Use this comparison to understand the long-range shape of the engineering ladder, then focus near-term energy on the very next realistic step in your own path."
+          }
+        ]
+      }
+    },
+    "G&A||People & Culture||People & Culture (HR) Generalist~VP, People & Culture": {
+      "contentHash": "e815064a",
+      "dept": "G&A",
+      "family": "People & Culture",
+      "juniorTitle": "People & Culture (HR) Generalist",
+      "seniorTitle": "VP, People & Culture",
+      "generatedAt": "2026-07-10T16:18:53.792Z",
+      "analysis": {
+        "headline": "Moving from People & Culture (HR) Generalist to VP, People & Culture is a very large 4-band skip from owning day-to-day HR programs to setting people strategy for the entire company at an executive level.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the VP of Human Resources JD calls for that the HR Generalist JD doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Serves as the first point of contact for employee inquiries related to HR policies, procedures, benefits, and other HR-related matters"
+            ],
+            "right": [
+              "Builds and owns the HR strategy and manages its execution, aligning HR policies, programs, and company culture to the vision and strategic objectives of the company"
+            ],
+            "synthesis": "This is a large gap: the current role administers and supports existing HR programs, while the VP JD assumes owning and authoring the entire HR strategy from the top."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Contributes to the development and implementation of HR policies and procedures, ensuring compliance with federal, state, and local labor laws"
+            ],
+            "right": [
+              "Partners closely with the Leadership Team to develop and execute cohesive strategies for staffing, recruiting, retention, and development of human capital",
+              "Provides insightful crisis management advice and coordination when required"
+            ],
+            "synthesis": "Contributing to policy implementation becomes co-developing company-wide people strategy directly with the executive Leadership Team, a very different level of strategic partnership."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "3-5 years of progressive HR Generalist experience"
+            ],
+            "right": [
+              "At least 10 years of human resource experience and at least 4 years of people management experience"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a significant step up in tenure and formal people-management track record."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from supporting HR operations to setting company-wide people strategy.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Administers and maintains employee data within HR systems, including the HRIS, ensuring accuracy and compliance"
+            ],
+            "right": [
+              "Provides inspired leadership for the organization, leading change management and communication when appropriate"
+            ],
+            "synthesis": "Day-to-day, expect executive-level change management and leadership communication to replace HR systems administration and day-to-day employee support."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a large 4-band skip-level jump, spanning what would normally be several separate HR leadership promotions.",
+          "Day-to-day, that gap shows up as a jump from operational HR support directly into executive people strategy and change leadership.",
+          "If this is a long-term goal, worth mapping a realistic multi-step path (People Business Partner, then Director) rather than targeting this move directly."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Ask your manager what a realistic path through a People Business Partner role first would look like, since that step builds the strategic partnership experience this JD assumes."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "rec": "Ask to be involved in a company-wide people initiative (like a policy redesign or engagement program) beyond your current portfolio, to build exposure to strategic HR work."
+          }
+        ]
+      }
+    },
+    "Executive Leadership||Executive Leadership||Chief Executive Officer~President and Chief Operating Officer": {
+      "contentHash": "62e88c04",
+      "dept": "Executive Leadership",
+      "family": "Executive Leadership",
+      "juniorTitle": "President and Chief Operating Officer",
+      "seniorTitle": "Chief Executive Officer",
+      "generatedAt": "2026-07-10T16:18:53.792Z",
+      "analysis": {
+        "headline": "President and Chief Operating Officer and Chief Executive Officer sit at the same top executive band, splitting company-wide operational execution from board-facing strategic leadership.",
+        "section1Title": "Key Differences",
+        "growthAreasSub": "What each role calls for that the other doesn't, pulled from each role's job description, with notes on what each difference tends to mean.",
+        "growthAreas": [
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Oversees the financial health of the company, including budgeting, forecasting, and financial reporting",
+              "Ensures efficient and effective day-to-day operations across all departments"
+            ],
+            "right": [
+              "Grows the company as a leader in guest Wi-Fi management software",
+              "Develops short- and long-term strategies to achieve targeted growth and revenue goals"
+            ],
+            "synthesis": "The President/COO role is centered on operational execution and financial health day-to-day, while the CEO role is centered on setting overall company growth strategy and vision, a difference in operational versus visionary focus."
+          },
+          {
+            "theme": "Customer & External Relationships",
+            "left": [
+              "Builds and maintains strong relationships with clients, partners, investors, and the Board of Directors"
+            ],
+            "right": [
+              "Positions Eleven as a leader in the software space by attending key trade events, vendor conferences, and serving as a global thought leader",
+              "Actively participates in the sales process, aiding the sales team in growing initial relationships, lead generation, strengthening partnerships, and closing key deals"
+            ],
+            "synthesis": "Both roles maintain external relationships, but the CEO role is more focused on public thought leadership and direct sales involvement, while the President/COO role is more focused on operational partner and investor relationships."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "Allocates and manages resources effectively, including personnel, technology, and capital"
+            ],
+            "right": [
+              "Reports to the Board of Directors and is responsible for hiring and managing the senior Leadership Team, which spans Marketing, Customer Success & Information Security, Human Resources, and Sales"
+            ],
+            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, and reflect that the CEO role carries formal Board accountability and leadership-team hiring authority, while the President/COO role is more focused on day-to-day resource allocation."
+          }
+        ],
+        "dayToDaySub": "How the daily work differs between operational execution and company-wide strategic leadership.",
+        "dayToDay": [
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Implements processes and systems to improve operational efficiency, scalability, and customer satisfaction"
+            ],
+            "right": [
+              "Evaluates the impact of long-range planning, introduction of new strategies and actions"
+            ],
+            "synthesis": "Day-to-day, the President/COO is likely spending more time on operational process and systems work, while the CEO spends more time on long-range strategic evaluation and Board-facing planning."
+          }
+        ],
+        "mainTakeaways": [
+          "President and Chief Operating Officer and Chief Executive Officer differ most in <strong>Strategy & Planning</strong>, one is operationally focused, the other sets overall company vision and Board strategy.",
+          "Day-to-day, that split shows up as more hands-on operational and financial work on one side, more long-range strategic and external thought-leadership work on the other.",
+          "If you're weighing these two, the fastest way to tell them apart is asking each how much of their week is spent on internal operations versus external vision-setting and Board engagement."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Strategy & Planning",
+            "rec": "Ask each role how much of their week goes to internal operational execution versus external strategy and Board engagement, that ratio is the clearest way to tell these two apart."
+          }
+        ]
+      }
     }
   }
 }

@@ -69,7 +69,9 @@ const rolesByFamily = {}; // "dept||family" -> [{title, dept, family, role}]
 const roleIndex = {};     // "dept||family||title" -> {title, dept, family, role}
 
 jobData.departments.forEach(dept => {
-  if (dept.status === 'in_progress') return; // e.g. G&A — not finalized, skip for now
+  // Note: departments can be partially built (see dept.status/statusNote) — we don't skip
+  // them wholesale here, since the hasRealJD() filter below already correctly excludes any
+  // individual role that doesn't have real JD text yet.
   (dept.families || []).forEach(fam => {
     const famKey = `${dept.name}||${fam.name}`;
     rolesByFamily[famKey] = rolesByFamily[famKey] || [];
