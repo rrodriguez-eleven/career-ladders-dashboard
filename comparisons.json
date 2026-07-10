@@ -9,7 +9,7 @@
       "generatedAt": "2026-07-10T05:27:03.712Z",
       "analysis": {
         "headline": "Moving from Software Engineer to Sr. Software Engineer is a 1-band jump in the same family, with the biggest shift in ownership and technical judgment rather than new tools.",
-        "growthAreasSub": "What the Sr. Software Engineer JD calls for that the Software Engineer JD doesn't yet, grounded in both job descriptions.",
+        "growthAreasSub": "What the Sr. Software Engineer role calls for that the Software Engineer role doesn't yet, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -21,7 +21,7 @@
               "Owns features end-to-end within a team; contributes meaningfully to system design discussions",
               "Navigates ambiguous technical problems independently, proposing multiple solutions and weighing tradeoffs"
             ],
-            "synthesis": "The Software Engineer JD is scoped to defined tasks within a sprint; the Sr. JD explicitly adds end-to-end feature ownership and independent tradeoff analysis. This is less about learning a new stack and more about being trusted to make the call when there isn't one obvious answer."
+            "synthesis": "The Software Engineer role is scoped to defined tasks within a sprint; the Sr. role explicitly adds end-to-end feature ownership and independent tradeoff analysis. This is less about learning a new stack and more about being trusted to make the call when there isn't one obvious answer."
           },
           {
             "theme": "Leadership & People Management",
@@ -43,7 +43,7 @@
               "MVC frameworks (Angular1 preferred)",
               "Experience building scalable cloud services"
             ],
-            "synthesis": "These are additional hard skills the Sr. JD calls for that don't cluster into one theme, mostly broader framework and cloud-scaling exposure layered on top of the same core C#/SQL foundation."
+            "synthesis": "These are additional hard skills the Sr. role calls for that don't cluster into one theme, mostly broader framework and cloud-scaling exposure layered on top of the same core C#/SQL foundation."
           }
         ],
         "dayToDaySub": "How the daily rhythm actually differs once you're navigating ambiguous problems instead of well-defined tickets.",
@@ -99,7 +99,7 @@
       "generatedAt": "2026-07-10T05:27:03.733Z",
       "analysis": {
         "headline": "Moving from Sr. DevOps Engineer to DevOps Manager is a 2-band jump that trades hands-on infrastructure ownership for team leadership and cross-functional delivery.",
-        "growthAreasSub": "What the DevOps Manager JD calls for that the Sr. DevOps Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the DevOps Manager role calls for that the Sr. DevOps Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -110,7 +110,7 @@
               "Leads and manages the DevOps team, ensuring effective collaboration and project delivery",
               "Trains and mentors team members, especially within development and support teams"
             ],
-            "synthesis": "The Sr. Engineer JD already has informal mentoring built in, so this isn't a cold start. What's new is formal accountability for the team's delivery and collaboration, not just their technical growth."
+            "synthesis": "The Sr. Engineer role already has informal mentoring built in, so this isn't a cold start. What's new is formal accountability for the team's delivery and collaboration, not just their technical growth."
           },
           {
             "theme": "Cross-Functional & Stakeholder Collaboration",
@@ -133,7 +133,7 @@
               "Proven experience in DevOps, system administration, or a related field",
               "Documentation skills to thoroughly document processes and solutions"
             ],
-            "synthesis": "The formal requirements actually converge quite a bit at this step, the Manager JD reads more like a leadership overlay on the same technical foundation rather than a new specialty."
+            "synthesis": "The formal requirements actually converge quite a bit at this step, the Manager role reads more like a leadership overlay on the same technical foundation rather than a new specialty."
           }
         ],
         "dayToDaySub": "How the daily work shifts from doing infrastructure work to running a team that does it.",
@@ -162,7 +162,7 @@
         "mainTakeaways": [
           "The jump from Sr. DevOps Engineer to DevOps Manager shows up most in <strong>Leadership & People Management</strong>, this is a genuine move from doing the work to leading people who do it.",
           "Day-to-day, the biggest shift is in <strong>Leadership & People Management</strong> too, expect meaningfully less hands-on infrastructure time.",
-          "Talk to your manager or the People Team about a stretch project leading a small initiative or informally managing a contractor, since formal people-management experience is the one thing this JD calls for that a strong IC track alone won't build."
+          "Talk to your manager or the People Team about a stretch project leading a small initiative or informally managing a contractor, since formal people-management experience is the one thing this role calls for that a strong IC track alone won't build."
         ],
         "worthExploring": [
           {
@@ -185,7 +185,7 @@
       "generatedAt": "2026-07-10T05:27:03.733Z",
       "analysis": {
         "headline": "Moving from Customer Support Manager to Director of Customer Support is a 1-band jump from managing one front-line team to owning the entire global support function.",
-        "growthAreasSub": "What the Director JD calls for that the Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director role calls for that the Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -196,7 +196,7 @@
               "Sets support strategy, staffing plans, and operational goals aligned with company growth and customer needs",
               "Owns support-wide performance metrics (SLAs, CSAT, resolution time) and drives continuous improvement initiatives"
             ],
-            "synthesis": "The Manager JD is about hitting SLA targets within an existing structure; the Director JD is about setting that structure and the goals themselves for the whole function, which is a genuinely different planning horizon."
+            "synthesis": "The Manager role is about hitting SLA targets within an existing structure; the Director role is about setting that structure and the goals themselves for the whole function, which is a genuinely different planning horizon."
           },
           {
             "theme": "Leadership & People Management",
@@ -217,7 +217,7 @@
               "7+ years of experience in technical support leadership, including managing managers",
               "Experience with support tooling, ticketing systems, and performance analytics"
             ],
-            "synthesis": "These are additional experience thresholds the Director JD calls for that don't cluster into one theme, mostly tenure and analytics fluency layered on top of the same support-leadership foundation."
+            "synthesis": "These are additional experience thresholds the Director role calls for that don't cluster into one theme, mostly tenure and analytics fluency layered on top of the same support-leadership foundation."
           }
         ],
         "dayToDaySub": "How the daily work shifts from running one team's queue to setting direction for the whole function.",
@@ -269,7 +269,7 @@
       "generatedAt": "2026-07-10T05:27:03.733Z",
       "analysis": {
         "headline": "Moving from Sales Engineer to Sr. Sales Engineer is a 1-band jump that trades supporting deals for owning the most complex and strategic ones.",
-        "growthAreasSub": "What the Sr. Sales Engineer JD calls for that the Sales Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Sr. Sales Engineer role calls for that the Sales Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -355,7 +355,7 @@
       "generatedAt": "2026-07-10T05:27:03.734Z",
       "analysis": {
         "headline": "Moving from Product Manager to Senior Product Manager is a 1-band jump from owning a product domain to shaping strategy and enterprise relationships across it.",
-        "growthAreasSub": "What the Senior PM JD calls for that the PM JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Senior PM role calls for that the PM role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -365,7 +365,7 @@
             "right": [
               "Establishes a product vision and roadmap that supports and aligns with the overall product strategy and vision"
             ],
-            "synthesis": "Both roles own vision at the component level, but the Senior PM JD explicitly ties that vision to the company-wide product strategy, meaning the planning horizon and the audience for that thinking both expand."
+            "synthesis": "Both roles own vision at the component level, but the Senior PM role explicitly ties that vision to the company-wide product strategy, meaning the planning horizon and the audience for that thinking both expand."
           },
           {
             "theme": "Customer & External Relationships",
@@ -376,7 +376,7 @@
               "Serves as the chief sales engineer for assigned products as needed, demonstrating and selling the value of the ElevenOS platform",
               "Establishes and maintains relationships with tech vendors and integration partners"
             ],
-            "synthesis": "Customer-facing work carries over, but the Senior PM JD adds a sales-facing dimension (literally selling the platform's value) and vendor/integration-partner relationships, which is a broader external footprint than the PM level calls for."
+            "synthesis": "Customer-facing work carries over, but the Senior PM role adds a sales-facing dimension (literally selling the platform's value) and vendor/integration-partner relationships, which is a broader external footprint than the PM level calls for."
           },
           {
             "theme": "Other",
@@ -387,7 +387,7 @@
               "5+ years as a product manager for a complex product at an enterprise SaaS company, having launched multiple new products",
               "Participates in industry workgroups and associations, providing thought leadership on emerging trends"
             ],
-            "synthesis": "The core experience bar is similar, but the Senior PM JD specifically calls for a track record of shipped new products, plus an external thought-leadership presence that the PM level doesn't ask for."
+            "synthesis": "The core experience bar is similar, but the Senior PM role specifically calls for a track record of shipped new products, plus an external thought-leadership presence that the PM level doesn't ask for."
           }
         ],
         "dayToDaySub": "How the daily work shifts once you're expected to represent the product externally, not just build it internally.",
@@ -439,7 +439,7 @@
       "generatedAt": "2026-07-10T05:27:03.734Z",
       "analysis": {
         "headline": "Moving from Accounting Supervisor / Manager to Controller is a 1-band jump from running accounting operations to owning the company's financial controls end to end.",
-        "growthAreasSub": "What the Controller JD calls for that the Accounting Supervisor / Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Controller role calls for that the Accounting Supervisor / Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Process, Risk & Compliance",
@@ -450,7 +450,7 @@
               "Establishes and maintains strong internal controls and accounting policies",
               "Leads external audit processes and manages relationships with auditors"
             ],
-            "synthesis": "The Supervisor/Manager JD is about following and enforcing existing controls; the Controller JD is about designing those controls and personally owning the external audit relationship, a meaningfully bigger risk surface."
+            "synthesis": "The Supervisor/Manager role is about following and enforcing existing controls; the Controller role is about designing those controls and personally owning the external audit relationship, a meaningfully bigger risk surface."
           },
           {
             "theme": "Leadership & People Management",
@@ -502,7 +502,7 @@
         "mainTakeaways": [
           "The jump from Accounting Supervisor / Manager to Controller shows up most in <strong>Process, Risk & Compliance</strong>, moving from following controls to designing and owning them.",
           "Day-to-day, that same shift plays out as direct ownership of the external audit relationship, which is a new and highly visible responsibility at this level.",
-          "A CPA certification and 7+ years of progressive experience are explicit in the Controller JD, worth mapping out a timeline for those with your manager if you're targeting this move."
+          "A CPA certification and 7+ years of progressive experience are explicit in the Controller role, worth mapping out a timeline for those with your manager if you're targeting this move."
         ],
         "worthExploring": [
           {
@@ -511,7 +511,7 @@
           },
           {
             "theme": "Other",
-            "rec": "If you don't already hold a CPA, ask your manager whether Eleven supports exam costs or study time, since it's explicitly called out in the Controller JD."
+            "rec": "If you don't already hold a CPA, ask your manager whether Eleven supports exam costs or study time, since it's explicitly called out in the Controller role."
           }
         ]
       }
@@ -525,7 +525,7 @@
       "generatedAt": "2026-07-10T05:27:03.735Z",
       "analysis": {
         "headline": "Moving from Director of Customer Success to VP of Customer Success is a 1-band jump from running the CS function to owning the entire customer success and support organization at an executive level.",
-        "growthAreasSub": "What the VP JD calls for that the Director JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the Director role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -536,7 +536,7 @@
               "Sets company-wide CS vision; navigates competitive and market dynamics",
               "Develops strategies and business plans with partners and executes against objectives and milestones"
             ],
-            "synthesis": "Both roles involve strategy, but the VP JD explicitly ties it to market and competitive dynamics company-wide, plus formal partner business planning, a broader and more externally exposed kind of strategic work."
+            "synthesis": "Both roles involve strategy, but the VP role explicitly ties it to market and competitive dynamics company-wide, plus formal partner business planning, a broader and more externally exposed kind of strategic work."
           },
           {
             "theme": "Customer & External Relationships",
@@ -547,7 +547,7 @@
               "Conducts visits to current and prospective clients, creating connections at the VP or C-Level",
               "Manages SLA agreements and reporting with the brands, and is available 24/7 for any service disruptions"
             ],
-            "synthesis": "Key-account relationship ownership carries over, but the VP JD adds direct C-level relationship building and personal SLA accountability, which is a different level of external visibility and always-on responsibility."
+            "synthesis": "Key-account relationship ownership carries over, but the VP role adds direct C-level relationship building and personal SLA accountability, which is a different level of external visibility and always-on responsibility."
           },
           {
             "theme": "Other",
@@ -611,7 +611,7 @@
       "generatedAt": "2026-07-10T05:41:13.889Z",
       "analysis": {
         "headline": "Moving from Sr. Software Engineer to Engineering Manager is a 2-band jump onto the management track, trading individual technical ownership for team accountability.",
-        "growthAreasSub": "What the Engineering Manager JD calls for that the Sr. Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Engineering Manager role calls for that the Sr. Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -622,7 +622,7 @@
               "Manages a team of 4-8 engineers; accountable for delivery, velocity, and growth",
               "Hires, develops, and retains talent; represents the team to Product and leadership"
             ],
-            "synthesis": "The Sr. Engineer JD already has informal mentoring; the Manager JD adds formal accountability for hiring, performance, and team delivery, this is the actual management step, not an extension of technical mentoring."
+            "synthesis": "The Sr. Engineer role already has informal mentoring; the Manager role adds formal accountability for hiring, performance, and team delivery, this is the actual management step, not an extension of technical mentoring."
           },
           {
             "theme": "Process, Risk & Compliance",
@@ -695,7 +695,7 @@
       "generatedAt": "2026-07-10T05:41:13.904Z",
       "analysis": {
         "headline": "Moving from Principal Engineer to Engineering Manager is a lateral track change from the top of the individual-contributor ladder to the management ladder, not a step up in seniority.",
-        "growthAreasSub": "What the Engineering Manager JD calls for that the Principal Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Engineering Manager role calls for that the Principal Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -754,7 +754,7 @@
       "generatedAt": "2026-07-10T05:41:13.910Z",
       "analysis": {
         "headline": "Moving from Principal Architect to Engineering Manager is a lateral track change from owning platform architecture to owning a team's people and delivery.",
-        "growthAreasSub": "What the Engineering Manager JD calls for that the Principal Architect JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Engineering Manager role calls for that the Principal Architect role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -765,7 +765,7 @@
               "Manages a team of 4-8 engineers; accountable for delivery, velocity, and growth",
               "Runs hiring, 1:1s, and performance cycles independently"
             ],
-            "synthesis": "The Architect JD already includes mentoring and role-modeling, but Engineering Manager adds direct, formal accountability for a specific team's hiring, performance reviews, and delivery, real management authority rather than influence through expertise."
+            "synthesis": "The Architect job description already includes mentoring and role-modeling, but Engineering Manager adds direct, formal accountability for a specific team's hiring, performance reviews, and delivery, real management authority rather than influence through expertise."
           },
           {
             "theme": "Other",
@@ -813,7 +813,7 @@
       "generatedAt": "2026-07-10T05:41:13.915Z",
       "analysis": {
         "headline": "Moving from Engineering Manager to Sr. Engineering Manager is a 1-band jump from running one team to owning multiple teams and their cross-team dependencies.",
-        "growthAreasSub": "What the Sr. Engineering Manager JD calls for that the Engineering Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Sr. Engineering Manager role calls for that the Engineering Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -823,7 +823,7 @@
             "right": [
               "Significant autonomy over resourcing and delivery strategy; partners with Directors and PMs on roadmap planning"
             ],
-            "synthesis": "Team-level hiring and development carries over, but the Sr. EM JD adds resourcing decisions across multiple teams, meaning you're now balancing competing needs between teams, not just developing one."
+            "synthesis": "Team-level hiring and development carries over, but the Sr. EM role adds resourcing decisions across multiple teams, meaning you're now balancing competing needs between teams, not just developing one."
           },
           {
             "theme": "Cross-Functional & Stakeholder Collaboration",
@@ -885,7 +885,7 @@
       "generatedAt": "2026-07-10T05:41:13.916Z",
       "analysis": {
         "headline": "Moving from DevOps Engineer to Sr. DevOps Engineer is a 1-band jump from handling infrastructure tasks under guidance to proactively driving infrastructure improvements.",
-        "growthAreasSub": "What the Sr. DevOps Engineer JD calls for that the DevOps Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Sr. DevOps Engineer role calls for that the DevOps Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -895,7 +895,7 @@
             "right": [
               "Solves complex infrastructure challenges; proposes automation and tooling improvements to reduce manual overhead"
             ],
-            "synthesis": "The DevOps Engineer JD scopes coding to occasional troubleshooting; the Sr. JD expects you to proactively propose and build automation, a shift from reactive fixes to designing improvements."
+            "synthesis": "The DevOps Engineer role scopes coding to occasional troubleshooting; the Sr. role expects you to proactively propose and build automation, a shift from reactive fixes to designing improvements."
           },
           {
             "theme": "Leadership & People Management",
@@ -957,7 +957,7 @@
       "generatedAt": "2026-07-10T05:41:13.916Z",
       "analysis": {
         "headline": "Moving from Sr. SecOps Engineer to DevOps Manager is a cross-family, 2-band jump from deep security ownership to leading a DevOps and/or SecOps team.",
-        "growthAreasSub": "What the DevOps Manager JD calls for that the Sr. SecOps Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the DevOps Manager role calls for that the Sr. SecOps Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -969,7 +969,7 @@
               "Leads and manages the DevOps team, ensuring effective collaboration and project delivery",
               "Trains and mentors team members, especially within development and support teams"
             ],
-            "synthesis": "The Sr. SecOps JD already includes training and mentoring; the Manager JD adds formal team leadership and delivery accountability, a real management step rather than an extension of the security specialty."
+            "synthesis": "The Sr. SecOps role already includes training and mentoring; the Manager role adds formal team leadership and delivery accountability, a real management step rather than an extension of the security specialty."
           },
           {
             "theme": "Technical Depth & Architecture",
@@ -1009,7 +1009,7 @@
         "mainTakeaways": [
           "This is a cross-family jump from a deep security specialty to a broader DevOps leadership role, worth confirming with your manager how much day-to-day security depth this specific manager role retains.",
           "Day-to-day, the biggest shift is trading hands-on security engineering for team leadership across a wider DevOps scope.",
-          "Since the JD calls for DevOps and/or SecOps team leadership, ask specifically which team composition this role would inherit, that changes how much of your existing specialty carries over directly."
+          "Since the role calls for DevOps and/or SecOps team leadership, ask specifically which team composition this role would inherit, that changes how much of your existing specialty carries over directly."
         ],
         "worthExploring": [
           {
@@ -1028,7 +1028,7 @@
       "generatedAt": "2026-07-10T05:41:13.917Z",
       "analysis": {
         "headline": "Moving from Sr. Network Engineer (Tier 3) to Customer Support Manager is a cross-family jump from deep technical escalation work to formally managing a front-line support team.",
-        "growthAreasSub": "What the Customer Support Manager JD calls for that the Sr. Network Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Customer Support Manager role calls for that the Sr. Network Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -1038,7 +1038,7 @@
             "right": [
               "Leads, manages, hires and trains offshore Tier 1 and Tier 2 support teams, providing guidance, performance monitoring, ongoing coaching and support"
             ],
-            "synthesis": "Mentoring within the engineering team carries over in spirit, but the Manager JD adds formal hiring, performance monitoring, and coaching responsibility for a whole front-line team, a real management step."
+            "synthesis": "Mentoring within the engineering team carries over in spirit, but the Manager role adds formal hiring, performance monitoring, and coaching responsibility for a whole front-line team, a real management step."
           },
           {
             "theme": "Strategy & Planning",
@@ -1097,7 +1097,7 @@
       "generatedAt": "2026-07-10T05:41:13.919Z",
       "analysis": {
         "headline": "Moving from Support Operations Manager II to Customer Support Manager is a lateral move from a senior individual-contributor operations role to formal front-line team management.",
-        "growthAreasSub": "What the Customer Support Manager JD calls for that the Support Operations Manager II JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Customer Support Manager role calls for that the Support Operations Manager II role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -1155,7 +1155,7 @@
       "generatedAt": "2026-07-10T05:41:13.919Z",
       "analysis": {
         "headline": "Moving from Support Operations Manager II to Director of Customer Support is a 1-band jump from senior IC operations work to owning the entire global support function.",
-        "growthAreasSub": "What the Director JD calls for that the Support Operations Manager II JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director role calls for that the Support Operations Manager II role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -1175,7 +1175,7 @@
             "right": [
               "Sets support strategy, staffing plans, and operational goals aligned with company growth and customer needs"
             ],
-            "synthesis": "Operational initiative-driving carries over conceptually, but the Director JD adds formal accountability for staffing plans and company-aligned goals, a different kind of ownership than executing initiatives as an IC."
+            "synthesis": "Operational initiative-driving carries over conceptually, but the Director role adds formal accountability for staffing plans and company-aligned goals, a different kind of ownership than executing initiatives as an IC."
           },
           {
             "theme": "Other",
@@ -1209,7 +1209,7 @@
         "worthExploring": [
           {
             "theme": "Leadership & People Management",
-            "rec": "Talk to your manager about whether a Customer Support Manager stint first would set you up better for managing managers later, since this JD assumes prior direct people-management experience."
+            "rec": "Talk to your manager about whether a Customer Support Manager stint first would set you up better for managing managers later, since this role assumes prior direct people-management experience."
           }
         ]
       }
@@ -1223,7 +1223,7 @@
       "generatedAt": "2026-07-10T05:41:13.920Z",
       "analysis": {
         "headline": "Moving from Marketing Innovation Manager to Director of Marketing is a 1-band jump from owning brand and content execution to leading the entire integrated marketing function.",
-        "growthAreasSub": "What the Director of Marketing JD calls for that the Marketing Innovation Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director of Marketing role calls for that the Marketing Innovation Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -1233,7 +1233,7 @@
             "right": [
               "Leads and develops a team of marketing professionals across multiple disciplines"
             ],
-            "synthesis": "The Marketing Innovation Manager JD explicitly has no direct reports (may oversee external consultants); the Director JD adds formal team leadership across multiple marketing disciplines, a genuine first step into people management here."
+            "synthesis": "The Marketing Innovation Manager role explicitly has no direct reports (may oversee external consultants); the Director role adds formal team leadership across multiple marketing disciplines, a genuine first step into people management here."
           },
           {
             "theme": "Strategy & Planning",
@@ -1244,7 +1244,7 @@
               "Develops and executes an integrated marketing strategy spanning brand, demand generation, content, and product marketing",
               "Owns marketing-sourced pipeline targets and reports on marketing performance against company goals"
             ],
-            "synthesis": "Brand and content strategy carries over, but the Director JD adds formal pipeline targets and demand-generation ownership, tying marketing directly to revenue outcomes rather than brand presence alone."
+            "synthesis": "Brand and content strategy carries over, but the Director role adds formal pipeline targets and demand-generation ownership, tying marketing directly to revenue outcomes rather than brand presence alone."
           },
           {
             "theme": "Other",
@@ -1282,7 +1282,7 @@
           },
           {
             "theme": "Strategy & Planning",
-            "rec": "Get involved in setting next quarter's marketing-sourced pipeline targets, even in a supporting role, to build fluency with that side of the Director JD."
+            "rec": "Get involved in setting next quarter's marketing-sourced pipeline targets, even in a supporting role, to build fluency with that side of the Director role."
           }
         ]
       }
@@ -1296,7 +1296,7 @@
       "generatedAt": "2026-07-10T05:41:13.920Z",
       "analysis": {
         "headline": "Moving from Product Marketing Manager to Director of Marketing is a 1-band jump from owning product positioning to leading the entire integrated marketing function.",
-        "growthAreasSub": "What the Director of Marketing JD calls for that the Product Marketing Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director of Marketing role calls for that the Product Marketing Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -1306,7 +1306,7 @@
             "right": [
               "Leads and develops a team of marketing professionals across multiple disciplines"
             ],
-            "synthesis": "The Product Marketing Manager JD is individual-contributor and cross-functional by nature; the Director JD adds formal team leadership across disciplines the PMM role doesn't currently own, like brand and demand generation."
+            "synthesis": "The Product Marketing Manager role is individual-contributor and cross-functional by nature; the Director role adds formal team leadership across disciplines the PMM role doesn't currently own, like brand and demand generation."
           },
           {
             "theme": "Strategy & Planning",
@@ -1345,7 +1345,7 @@
           }
         ],
         "mainTakeaways": [
-          "The jump from Product Marketing Manager to Director of Marketing shows up most in <strong>Leadership & People Management</strong>, since this JD is the first with formal team leadership.",
+          "The jump from Product Marketing Manager to Director of Marketing shows up most in <strong>Leadership & People Management</strong>, since this role is the first with formal team leadership.",
           "Day-to-day, that plays out as owning strategy and team leadership across all of marketing, not just product positioning.",
           "Since this expands well beyond product marketing into brand, demand gen, and events, it's worth building visibility into those other disciplines before targeting this move."
         ],
@@ -1366,7 +1366,7 @@
       "generatedAt": "2026-07-10T05:41:13.920Z",
       "analysis": {
         "headline": "Moving from Technical Product Manager to Senior Product Manager is a 1-band jump from owning technical infrastructure areas to shaping strategic, customer-facing product direction.",
-        "growthAreasSub": "What the Senior PM JD calls for that the Technical PM JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Senior PM role calls for that the Technical PM role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Customer & External Relationships",
@@ -1387,7 +1387,7 @@
             "right": [
               "Establishes a product vision and roadmap that supports and aligns with the overall product strategy and vision"
             ],
-            "synthesis": "Both roles own roadmap at a component level, but the Senior PM JD ties that explicitly to company-wide product strategy, a broader planning lens than infrastructure-level ownership."
+            "synthesis": "Both roles own roadmap at a component level, but the Senior PM role ties that explicitly to company-wide product strategy, a broader planning lens than infrastructure-level ownership."
           },
           {
             "theme": "Other",
@@ -1417,7 +1417,7 @@
         "mainTakeaways": [
           "The jump from Technical Product Manager to Senior Product Manager shows up most in <strong>Customer & External Relationships</strong>, moving from technical stakeholder representation to active sales-facing work.",
           "Day-to-day, that plays out as more customer and sales-conversation time and comparatively less deep technical architecture involvement.",
-          "Since the Senior PM JD calls for a track record of multiple shipped products, worth mapping which of your technical infrastructure launches would count and which additional launches you'd want visibility into."
+          "Since the Senior PM role calls for a track record of multiple shipped products, worth mapping which of your technical infrastructure launches would count and which additional launches you'd want visibility into."
         ],
         "worthExploring": [
           {
@@ -1436,7 +1436,7 @@
       "generatedAt": "2026-07-10T05:41:13.921Z",
       "analysis": {
         "headline": "Moving from UX / Design Product Manager to Senior Product Manager is a 1-band jump from owning user experience for a product area to shaping company-wide product strategy.",
-        "growthAreasSub": "What the Senior PM JD calls for that the UX / Design PM JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Senior PM role calls for that the UX / Design PM role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -1447,7 +1447,7 @@
               "Establishes a product vision and roadmap that supports and aligns with the overall product strategy and vision",
               "Gathers and prioritizes product and customer requirements, becoming an expert in the customer's jobs to be done"
             ],
-            "synthesis": "The UX/Design PM JD contributes to strategy; the Senior PM JD owns setting it, a shift from providing design-informed input to being accountable for the roadmap and prioritization decisions themselves."
+            "synthesis": "The UX/Design PM role contributes to strategy; the Senior PM role owns setting it, a shift from providing design-informed input to being accountable for the roadmap and prioritization decisions themselves."
           },
           {
             "theme": "Customer & External Relationships",
@@ -1458,7 +1458,7 @@
               "Serves as the chief sales engineer for assigned products as needed, demonstrating and selling the value of the ElevenOS platform",
               "Establishes and maintains relationships with tech vendors and integration partners"
             ],
-            "synthesis": "Cross-functional collaboration carries over, but the Senior PM JD adds direct external customer and vendor relationship ownership, which the design-focused role doesn't call for."
+            "synthesis": "Cross-functional collaboration carries over, but the Senior PM role adds direct external customer and vendor relationship ownership, which the design-focused role doesn't call for."
           },
           {
             "theme": "Other",
@@ -1510,7 +1510,7 @@
       "generatedAt": "2026-07-10T05:41:13.921Z",
       "analysis": {
         "headline": "Moving from Director of Data Operations to VP of Product is a 1-band jump from owning revenue-systems data infrastructure to leading the entire Product organization and strategy.",
-        "growthAreasSub": "What the VP of Product JD calls for that the Director of Data Operations JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Product role calls for that the Director of Data Operations role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -1521,7 +1521,7 @@
               "Recruits, mentors, and scales a high-performing product team, fostering growth and development",
               "Builds and leads a high-performing team of product managers, technical subject matter experts, product designers, operations managers, and documentation specialists"
             ],
-            "synthesis": "This JD currently has no direct reports; the VP role adds full people-leadership responsibility across a large, multi-disciplinary team, a significant first step into formal management at real scale."
+            "synthesis": "This role currently has no direct reports; the VP role adds full people-leadership responsibility across a large, multi-disciplinary team, a significant first step into formal management at real scale."
           },
           {
             "theme": "Strategy & Planning",
@@ -1532,7 +1532,7 @@
               "Defines and executes a product strategy that aligns with business goals, market trends, and customer needs",
               "Develops and maintains a product roadmap that is transparent, prioritized, and outcome-driven"
             ],
-            "synthesis": "Cross-department dataflow strategy carries over conceptually, but the VP JD extends that systems-thinking to the entire product portfolio and market strategy, a much broader strategic mandate."
+            "synthesis": "Cross-department dataflow strategy carries over conceptually, but the VP role extends that systems-thinking to the entire product portfolio and market strategy, a much broader strategic mandate."
           },
           {
             "theme": "Other",
@@ -1584,7 +1584,7 @@
       "generatedAt": "2026-07-10T05:41:13.921Z",
       "analysis": {
         "headline": "Moving from VP of Finance to CFO is a 1-band jump from owning the finance function operationally to setting company-wide financial strategy at the executive leadership table.",
-        "growthAreasSub": "What the CFO JD calls for that the VP of Finance JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the CFO role calls for that the VP of Finance role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -1594,7 +1594,7 @@
             "right": [
               "Sets the company's overall financial strategy, including capital structure, budgeting, and long-term planning"
             ],
-            "synthesis": "Budgeting and forecasting execution carries over directly, but the CFO JD adds capital structure decisions, a different order of strategic ownership over how the company is financed, not just how it plans."
+            "synthesis": "Budgeting and forecasting execution carries over directly, but the CFO role adds capital structure decisions, a different order of strategic ownership over how the company is financed, not just how it plans."
           },
           {
             "theme": "Customer & External Relationships",
@@ -1604,7 +1604,7 @@
             "right": [
               "Leads fundraising, financing, and investor relations activities as needed"
             ],
-            "synthesis": "External financial relationships carry over, but the CFO JD adds active fundraising and investor relations ownership, a more board- and investor-facing responsibility than banking and audit relationships alone."
+            "synthesis": "External financial relationships carry over, but the CFO role adds active fundraising and investor relations ownership, a more board- and investor-facing responsibility than banking and audit relationships alone."
           },
           {
             "theme": "Other",
@@ -1657,7 +1657,7 @@
       "analysis": {
         "headline": "Moving from DevOps Engineer to DevOps Manager is a 2-band skip-level jump, combining the technical growth of the Sr. DevOps Engineer step with a full move into team leadership.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the DevOps Manager JD calls for that the DevOps Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the DevOps Manager role calls for that the DevOps Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -1680,7 +1680,7 @@
               "Leads and manages the DevOps team, ensuring effective collaboration and project delivery",
               "Trains and mentors team members, especially within development and support teams"
             ],
-            "synthesis": "There's no informal mentoring step here to build on first, this JD expects you to walk in already leading and coaching a team, not growing into it gradually."
+            "synthesis": "There's no informal mentoring step here to build on first, this role expects you to walk in already leading and coaching a team, not growing into it gradually."
           },
           {
             "theme": "Other",
@@ -1734,7 +1734,7 @@
       "analysis": {
         "headline": "Moving from Sr. SecOps Engineer to IT Security & Infrastructure Manager is a jump from deep security specialization to owning security and IT infrastructure company-wide, including the helpdesk function.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the IT Security & Infrastructure Manager JD calls for that the Sr. SecOps Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the IT Security & Infrastructure Manager role calls for that the Sr. SecOps Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -1745,7 +1745,7 @@
               "Manages a team responsible for keeping company systems secure, available, and performant",
               "Oversees onboarding and offboarding of staff and contractors, including computers and software applications"
             ],
-            "synthesis": "Training and advising engineering carries over, but the Manager JD adds formal team management plus IT helpdesk and onboarding/offboarding oversight, a much broader operational scope than pure security engineering."
+            "synthesis": "Training and advising engineering carries over, but the Manager role adds formal team management plus IT helpdesk and onboarding/offboarding oversight, a much broader operational scope than pure security engineering."
           },
           {
             "theme": "Process, Risk & Compliance",
@@ -1756,7 +1756,7 @@
               "Implements and manages security compliance frameworks (e.g., ISO 27001, SOC 2, GDPR, CCPA, PCI-DSS)",
               "Responds to security and privacy inquiries from customers and potential customers in support of the sales team"
             ],
-            "synthesis": "Both roles touch compliance, but the Manager JD adds customer-facing compliance conversations directly supporting Sales, a new external, business-facing dimension to security work."
+            "synthesis": "Both roles touch compliance, but the Manager role adds customer-facing compliance conversations directly supporting Sales, a new external, business-facing dimension to security work."
           },
           {
             "theme": "Other",
@@ -1811,7 +1811,7 @@
       "analysis": {
         "headline": "Moving from QA Engineer to QA Manager is a skip-level jump from hands-on lab and hardware testing to leading the company's overall test strategy and team.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the QA Manager JD calls for that the QA Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the QA Manager role calls for that the QA Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -1822,7 +1822,7 @@
               "Coordinates and collaborates with BA, Dev, DevOps, and Test teams effectively to deliver story points on time",
               "Is responsible for overall backend/API and frontend product quality"
             ],
-            "synthesis": "Sprint-team quality feedback carries over, but the Manager JD adds accountability for overall product quality across teams, a company-wide ownership rather than a single sprint team's contribution."
+            "synthesis": "Sprint-team quality feedback carries over, but the Manager role adds accountability for overall product quality across teams, a company-wide ownership rather than a single sprint team's contribution."
           },
           {
             "theme": "Technical Depth & Architecture",
@@ -1833,7 +1833,7 @@
               "Implements structured testing frameworks (e.g., Cucumber) and autotests",
               "Previous WebUI automation experience with Selenium/Cypress or other automation tools"
             ],
-            "synthesis": "This is a notable domain shift: the QA Engineer JD is focused on network hardware lab testing, while the Manager JD is centered on WebUI and API test automation frameworks, a different technical specialty entirely."
+            "synthesis": "This is a notable domain shift: the QA Engineer role is focused on network hardware lab testing, while the Manager role is centered on WebUI and API test automation frameworks, a different technical specialty entirely."
           },
           {
             "theme": "Other",
@@ -2037,7 +2037,7 @@
       "analysis": {
         "headline": "Moving from Sr. Implementation Manager to VP, Implementation is a jump from leading complex individual deployments to owning the entire global implementation function.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP, Implementation JD calls for that the Sr. Implementation Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP, Implementation role calls for that the Sr. Implementation Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2047,7 +2047,7 @@
             "right": [
               "Leads and develops a team of implementation managers and technical implementation staff"
             ],
-            "synthesis": "Mentoring junior team members carries over in spirit, but the VP JD adds formal leadership of the entire implementation team, including other managers, a full organizational leadership role rather than peer mentoring."
+            "synthesis": "Mentoring junior team members carries over in spirit, but the VP role adds formal leadership of the entire implementation team, including other managers, a full organizational leadership role rather than peer mentoring."
           },
           {
             "theme": "Strategy & Planning",
@@ -2058,7 +2058,7 @@
               "Sets strategy and operational standards for the implementation organization",
               "Builds scalable implementation processes, playbooks, and tooling to support company growth"
             ],
-            "synthesis": "Process improvement carries over, but the VP JD is about setting company-wide strategy and standards, not just improving your own account's processes, a much broader planning mandate."
+            "synthesis": "Process improvement carries over, but the VP role is about setting company-wide strategy and standards, not just improving your own account's processes, a much broader planning mandate."
           },
           {
             "theme": "Other",
@@ -2088,7 +2088,7 @@
         "mainTakeaways": [
           "The jump from Sr. Implementation Manager to VP, Implementation shows up most in <strong>Leadership & People Management</strong>, moving from mentoring peers to leading the whole implementation organization.",
           "Day-to-day, that plays out as far more organizational leadership and far less direct account ownership.",
-          "Since this JD calls for a track record of scaling organizations specifically, worth discussing with your manager which process or playbook improvement you've driven that would demonstrate that scaling mindset."
+          "Since this role calls for a track record of scaling organizations specifically, worth discussing with your manager which process or playbook improvement you've driven that would demonstrate that scaling mindset."
         ],
         "worthExploring": [
           {
@@ -2112,7 +2112,7 @@
       "analysis": {
         "headline": "Moving from Sr. Solutions Engineer to VP, Implementation is a jump from owning the technical layer of deployments to leading the entire implementation function, both technical and people-facing.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP, Implementation JD calls for that the Sr. Solutions Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP, Implementation role calls for that the Sr. Solutions Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2122,7 +2122,7 @@
             "right": [
               "Leads and develops a team of implementation managers and technical implementation staff"
             ],
-            "synthesis": "Mentoring Solutions Engineers carries over in spirit, but the VP JD adds formal leadership of the whole implementation organization, including project managers, not just technical staff, a broader people-leadership scope."
+            "synthesis": "Mentoring Solutions Engineers carries over in spirit, but the VP role adds formal leadership of the whole implementation organization, including project managers, not just technical staff, a broader people-leadership scope."
           },
           {
             "theme": "Strategy & Planning",
@@ -2133,7 +2133,7 @@
               "Sets strategy and operational standards for the implementation organization",
               "Owns implementation timelines, quality standards, and customer satisfaction targets"
             ],
-            "synthesis": "Risk identification carries over conceptually, but the VP JD extends that judgment to setting company-wide implementation strategy and CSAT targets, a business-outcomes lens rather than a project-technical one."
+            "synthesis": "Risk identification carries over conceptually, but the VP role extends that judgment to setting company-wide implementation strategy and CSAT targets, a business-outcomes lens rather than a project-technical one."
           },
           {
             "theme": "Other",
@@ -2187,7 +2187,7 @@
       "analysis": {
         "headline": "Moving from Customer Success Manager to Customer Success Operations Manager I is a 2-band jump from owning a customer portfolio to managing a team of CSMs.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Customer Success Operations Manager I JD calls for that the Customer Success Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Customer Success Operations Manager I role calls for that the Customer Success Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2260,7 +2260,7 @@
       "analysis": {
         "headline": "Moving from Customer Success Manager to Director of Customer Success is a 3-band skip-level jump from owning a customer portfolio directly to leading the entire CS function.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Director JD calls for that the Customer Success Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director role calls for that the Customer Success Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2270,7 +2270,7 @@
             "right": [
               "Leads, mentors and develops a high-performing team, fostering collaboration, open communication, accountability and continuous growth"
             ],
-            "synthesis": "This is a large jump: there's no team-leadership step in between, so this JD expects you to walk in already leading, mentoring, and developing a full team rather than growing into it gradually."
+            "synthesis": "This is a large jump: there's no team-leadership step in between, so this role expects you to walk in already leading, mentoring, and developing a full team rather than growing into it gradually."
           },
           {
             "theme": "Strategy & Planning",
@@ -2311,7 +2311,7 @@
         "mainTakeaways": [
           "This is a large 3-band skip-level jump, moving straight from an individual portfolio to leading the entire function with no team-leadership step in between.",
           "Day-to-day, that gap shows up as a jump directly into full team leadership and program ownership, without first managing a smaller team.",
-          "If you're targeting this move, worth discussing with your manager whether the Customer Success Operations Manager step first would build the missing team-leadership experience this JD assumes you already have."
+          "If you're targeting this move, worth discussing with your manager whether the Customer Success Operations Manager step first would build the missing team-leadership experience this role assumes you already have."
         ],
         "worthExploring": [
           {
@@ -2335,7 +2335,7 @@
       "analysis": {
         "headline": "Moving from Customer Success Manager to VP of Customer Success is a 4-band skip-level jump from owning a customer portfolio to leading the entire customer organization at an executive level.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP JD calls for that the Customer Success Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the Customer Success Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2345,7 +2345,7 @@
             "right": [
               "Manages a team of Customer Success professionals that work directly with customers to provide best-in-class support and ensure customer success with ElevenOS"
             ],
-            "synthesis": "This is a very large gap: the JD assumes you're already managing a whole team of CS professionals, several leadership steps beyond owning your own portfolio directly."
+            "synthesis": "This is a very large gap: the role assumes you're already managing a whole team of CS professionals, several leadership steps beyond owning your own portfolio directly."
           },
           {
             "theme": "Strategy & Planning",
@@ -2410,7 +2410,7 @@
       "analysis": {
         "headline": "Moving from Customer Success Operations Manager I to Director of Customer Success is a 1-band jump from managing a team of CSMs to leading the entire Customer Success function.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Director JD calls for that the Customer Success Operations Manager I JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director role calls for that the Customer Success Operations Manager I role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2420,7 +2420,7 @@
             "right": [
               "Leads, mentors and develops a high-performing team, fostering collaboration, open communication, accountability and continuous growth to achieve business objectives"
             ],
-            "synthesis": "Direct team management carries over, but the Director JD ties that leadership explicitly to company-wide business objectives rather than one team's day-to-day operations."
+            "synthesis": "Direct team management carries over, but the Director role ties that leadership explicitly to company-wide business objectives rather than one team's day-to-day operations."
           },
           {
             "theme": "Strategy & Planning",
@@ -2480,7 +2480,7 @@
       "analysis": {
         "headline": "Moving from Customer Success Operations Manager I to VP of Customer Success is a 2-band jump from managing a team to leading the entire customer organization at an executive level.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP JD calls for that the Customer Success Operations Manager I JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the Customer Success Operations Manager I role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2490,7 +2490,7 @@
             "right": [
               "Manages a team of Customer Success professionals that work directly with customers to provide best-in-class support and ensure customer success with ElevenOS"
             ],
-            "synthesis": "Direct-report development carries over, but the VP JD extends that to owning the entire customer organization's structure and outcomes, not partnering with a Director on one team's OKRs."
+            "synthesis": "Direct-report development carries over, but the VP role extends that to owning the entire customer organization's structure and outcomes, not partnering with a Director on one team's OKRs."
           },
           {
             "theme": "Strategy & Planning",
@@ -2551,7 +2551,7 @@
       "analysis": {
         "headline": "Moving from Sales Engineer to Business Development Manager is a 1-band jump from providing technical support in sales cycles to owning full sales cycles and pipeline yourself.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the BDM JD calls for that the Sales Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the BDM role calls for that the Sales Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -2623,7 +2623,7 @@
       "analysis": {
         "headline": "Moving from Sales Engineer to VP of Growth & Marketing is a 3-band skip-level jump from technical sales support to owning the company's entire sales and marketing strategy.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP JD calls for that the Sales Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the Sales Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2634,7 +2634,7 @@
               "Ability to effectively lead and manage high-performing engineering teams",
               "Excellent manager of managers with the ability to mentor and grow senior engineers and engineering managers"
             ],
-            "synthesis": "This is a very large gap: the current role has no people-management responsibility at all, while the VP JD assumes extensive experience managing managers across a large organization."
+            "synthesis": "This is a very large gap: the current role has no people-management responsibility at all, while the VP role assumes extensive experience managing managers across a large organization."
           },
           {
             "theme": "Strategy & Planning",
@@ -2695,7 +2695,7 @@
       "analysis": {
         "headline": "Moving from Sr. Sales Engineer to Business Development Manager is a 1-band jump from owning the most complex technical presales work to owning full sales cycles and pipeline.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the BDM JD calls for that the Sr. Sales Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the BDM role calls for that the Sr. Sales Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -2756,7 +2756,7 @@
       "analysis": {
         "headline": "Moving from Sr. Sales Engineer to VP of Growth & Marketing is a 3-band skip-level jump from the top of the technical sales track to owning the company's entire sales and marketing strategy.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP JD calls for that the Sr. Sales Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the Sr. Sales Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2766,7 +2766,7 @@
             "right": [
               "Proven experience in a senior sales or growth leadership role, with a track record of driving revenue growth"
             ],
-            "synthesis": "Mentoring junior SEs carries over in spirit, but the VP JD assumes a track record of leading a sales or growth function at scale, several leadership steps beyond peer mentoring."
+            "synthesis": "Mentoring junior SEs carries over in spirit, but the VP role assumes a track record of leading a sales or growth function at scale, several leadership steps beyond peer mentoring."
           },
           {
             "theme": "Strategy & Planning",
@@ -2827,7 +2827,7 @@
       "analysis": {
         "headline": "Moving from Business Development Manager to VP of Growth & Marketing is a 2-band jump from owning your own deals and pipeline to leading the company's entire sales and marketing organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP JD calls for that the BDM JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the BDM role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2838,7 +2838,7 @@
               "Fosters a culture of innovation, collaboration, and agility within the product organization",
               "Ability to effectively lead and manage high-performing engineering teams"
             ],
-            "synthesis": "Providing market intelligence carries over conceptually, but the VP JD adds direct leadership of a large sales and marketing organization, a full people-management step this role doesn't currently have."
+            "synthesis": "Providing market intelligence carries over conceptually, but the VP role adds direct leadership of a large sales and marketing organization, a full people-management step this role doesn't currently have."
           },
           {
             "theme": "Strategy & Planning",
@@ -2969,7 +2969,7 @@
       "analysis": {
         "headline": "Moving from Network Engineer (Tier 3) to Customer Support Manager is a 1-band jump from resolving escalated technical issues to managing a front-line support team.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Customer Support Manager JD calls for that the Network Engineer (Tier 3) JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Customer Support Manager role calls for that the Network Engineer (Tier 3) role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -2979,7 +2979,7 @@
             "right": [
               "Leads, manages, hires and trains offshore Tier 1 and Tier 2 support teams, providing guidance, performance monitoring, ongoing coaching and support"
             ],
-            "synthesis": "Mentoring on technique carries over, but the Manager JD adds formal hiring and performance-monitoring authority over the whole team, a real move into people management."
+            "synthesis": "Mentoring on technique carries over, but the Manager role adds formal hiring and performance-monitoring authority over the whole team, a real move into people management."
           },
           {
             "theme": "Strategy & Planning",
@@ -3000,7 +3000,7 @@
             "right": [
               "5+ years of experience in customer support or technical support roles; management experience is a plus"
             ],
-            "synthesis": "These don't cluster into one theme, but reflect that deep networking knowledge remains valuable background even though the JD's explicit ask shifts toward management experience."
+            "synthesis": "These don't cluster into one theme, but reflect that deep networking knowledge remains valuable background even though the role's explicit ask shifts toward management experience."
           }
         ],
         "dayToDaySub": "How the daily work shifts from resolving individual escalated tickets to managing a team's coverage and performance.",
@@ -3039,7 +3039,7 @@
       "analysis": {
         "headline": "Moving from Network Engineer (Tier 3) to Support Operations Manager II is a 1-band jump from resolving escalated tickets to owning complex support operations and processes as a senior IC.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Support Operations Manager II JD calls for that the Network Engineer (Tier 3) JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Support Operations Manager II role calls for that the Network Engineer (Tier 3) role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3110,7 +3110,7 @@
       "analysis": {
         "headline": "Moving from Network Engineer (Tier 3) to Director of Customer Support is a 2-band skip-level jump from resolving escalated tickets to owning the entire global support function.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Director JD calls for that the Network Engineer (Tier 3) JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director role calls for that the Network Engineer (Tier 3) role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3120,7 +3120,7 @@
             "right": [
               "Leads and develops multiple support managers and their teams, building a strong culture of accountability and customer focus"
             ],
-            "synthesis": "This is a large jump: there's no direct team-management step in between, so this JD expects you to lead managers, not just mentor individual contributors on technique."
+            "synthesis": "This is a large jump: there's no direct team-management step in between, so this role expects you to lead managers, not just mentor individual contributors on technique."
           },
           {
             "theme": "Strategy & Planning",
@@ -3180,7 +3180,7 @@
       "analysis": {
         "headline": "Moving from Sr. Network Engineer (Tier 3) to Support Operations Manager II is a 1-band jump from setting technical standards to leading a team as a senior IC.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Support Operations Manager II JD calls for that the Sr. Network Engineer (Tier 3) JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Support Operations Manager II role calls for that the Sr. Network Engineer (Tier 3) role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3190,7 +3190,7 @@
             "right": [
               "Leads, develops, and hires Escalated Support Engineers, setting clear expectations, coaching performance, and building a team culture grounded in curiosity and accountability"
             ],
-            "synthesis": "Shaping the knowledge base and mentoring carries over, but the Manager II JD adds formal hiring and performance-coaching authority over a team, a real people-leadership step."
+            "synthesis": "Shaping the knowledge base and mentoring carries over, but the Manager II role adds formal hiring and performance-coaching authority over a team, a real people-leadership step."
           },
           {
             "theme": "Process, Risk & Compliance",
@@ -3250,7 +3250,7 @@
       "analysis": {
         "headline": "Moving from Sr. Network Engineer (Tier 3) to Director of Customer Support is a 2-band skip-level jump from setting technical standards to leading the entire global support function.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Director JD calls for that the Sr. Network Engineer (Tier 3) JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director role calls for that the Sr. Network Engineer (Tier 3) role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3260,7 +3260,7 @@
             "right": [
               "Leads and develops multiple support managers and their teams, building a strong culture of accountability and customer focus"
             ],
-            "synthesis": "This is a large jump: mentoring individual engineers is quite different from leading and developing multiple support managers, a manager-of-managers structure this JD assumes you're ready for."
+            "synthesis": "This is a large jump: mentoring individual engineers is quite different from leading and developing multiple support managers, a manager-of-managers structure this role assumes you're ready for."
           },
           {
             "theme": "Strategy & Planning",
@@ -3305,7 +3305,7 @@
         "worthExploring": [
           {
             "theme": "Leadership & People Management",
-            "rec": "Ask to take on direct people-management responsibility for a small team first, since this JD assumes prior management-of-managers-adjacent experience."
+            "rec": "Ask to take on direct people-management responsibility for a small team first, since this role assumes prior management-of-managers-adjacent experience."
           }
         ]
       }
@@ -3451,7 +3451,7 @@
       "analysis": {
         "headline": "Moving from Product Manager to Director of Data Operations is a 2-band skip-level jump from owning a product area to leading data infrastructure strategy across the whole company.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Director of Data Operations JD calls for that the Product Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director of Data Operations role calls for that the Product Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3461,7 +3461,7 @@
             "right": [
               "Builds and develops a team responsible for data engineering and operations"
             ],
-            "synthesis": "This is a notable domain and leadership shift: the current role has no direct reports and isn't focused on data infrastructure specifically, while this JD assumes both team-building and deep data-systems ownership."
+            "synthesis": "This is a notable domain and leadership shift: the current role has no direct reports and isn't focused on data infrastructure specifically, while this role assumes both team-building and deep data-systems ownership."
           },
           {
             "theme": "Data & Analytics",
@@ -3472,7 +3472,7 @@
               "Leads the strategy and roadmap for data infrastructure, pipelines, and analytics platforms",
               "Establishes data governance standards, ensuring data quality, security, and compliance"
             ],
-            "synthesis": "Security-by-design awareness carries over conceptually, but the Director JD is centered entirely on data infrastructure and governance, a specific technical domain the general PM role doesn't focus on."
+            "synthesis": "Security-by-design awareness carries over conceptually, but the Director role is centered entirely on data infrastructure and governance, a specific technical domain the general PM role doesn't focus on."
           },
           {
             "theme": "Other",
@@ -3521,7 +3521,7 @@
       "analysis": {
         "headline": "Moving from Product Manager to VP of Product is a 3-band skip-level jump from owning a product area to leading the entire Product organization and strategy.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Product JD calls for that the Product Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Product role calls for that the Product Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3532,7 +3532,7 @@
               "Recruits, mentors, and scales a high-performing product team, fostering growth and development",
               "Builds and leads a high-performing team of product managers, technical subject matter experts, product designers, operations managers, and documentation specialists"
             ],
-            "synthesis": "This is a very large gap: the current role has no direct reports, while the VP JD assumes leading a large, multi-disciplinary team across the entire Product function."
+            "synthesis": "This is a very large gap: the current role has no direct reports, while the VP role assumes leading a large, multi-disciplinary team across the entire Product function."
           },
           {
             "theme": "Strategy & Planning",
@@ -3543,7 +3543,7 @@
               "Defines and executes a product strategy that aligns with business goals, market trends, and customer needs",
               "Develops and maintains a product roadmap that is transparent, prioritized, and outcome-driven"
             ],
-            "synthesis": "Both roles own vision at the component level versus company level, but the VP JD extends that to setting the entire company's product strategy, informed by market trends and business goals broadly."
+            "synthesis": "Both roles own vision at the component level versus company level, but the VP role extends that to setting the entire company's product strategy, informed by market trends and business goals broadly."
           },
           {
             "theme": "Other",
@@ -3654,7 +3654,7 @@
       "analysis": {
         "headline": "Moving from Technical Product Manager to Director of Data Operations is a 2-band skip-level jump from owning technical infrastructure product areas to leading data infrastructure strategy company-wide.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Director of Data Operations JD calls for that the Technical Product Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director of Data Operations role calls for that the Technical Product Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3664,7 +3664,7 @@
             "right": [
               "Builds and develops a team responsible for data engineering and operations"
             ],
-            "synthesis": "Deep engineering partnership carries over conceptually, but the Director JD adds direct team-building and management responsibility, which the current role doesn't have at all."
+            "synthesis": "Deep engineering partnership carries over conceptually, but the Director role adds direct team-building and management responsibility, which the current role doesn't have at all."
           },
           {
             "theme": "Data & Analytics",
@@ -3675,7 +3675,7 @@
               "Leads the strategy and roadmap for data infrastructure, pipelines, and analytics platforms",
               "Establishes data governance standards, ensuring data quality, security, and compliance"
             ],
-            "synthesis": "Infrastructure-level product ownership is a good foundation, but this JD narrows specifically to data infrastructure and governance, a more specific domain than general technical product management."
+            "synthesis": "Infrastructure-level product ownership is a good foundation, but this role narrows specifically to data infrastructure and governance, a more specific domain than general technical product management."
           },
           {
             "theme": "Other",
@@ -3724,7 +3724,7 @@
       "analysis": {
         "headline": "Moving from Technical Product Manager to VP of Product is a 3-band skip-level jump from owning technical infrastructure areas to leading the entire Product organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP JD calls for that the Technical Product Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the Technical Product Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3735,7 +3735,7 @@
               "Recruits, mentors, and scales a high-performing product team, fostering growth and development",
               "Builds and leads a high-performing team of product managers, technical subject matter experts, product designers, operations managers, and documentation specialists"
             ],
-            "synthesis": "Trusted technical influence with engineering carries over as credibility, but the VP JD adds direct leadership of a large, multi-disciplinary team, a significant people-management step this role doesn't have."
+            "synthesis": "Trusted technical influence with engineering carries over as credibility, but the VP role adds direct leadership of a large, multi-disciplinary team, a significant people-management step this role doesn't have."
           },
           {
             "theme": "Strategy & Planning",
@@ -3794,7 +3794,7 @@
       "analysis": {
         "headline": "Moving from UX / Design Product Manager to Director of Data Operations is a 2-band skip-level jump and a significant domain shift, from user experience design to data infrastructure leadership.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Director of Data Operations JD calls for that the UX / Design Product Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director of Data Operations role calls for that the UX / Design Product Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3804,7 +3804,7 @@
             "right": [
               "Builds and develops a team responsible for data engineering and operations"
             ],
-            "synthesis": "Cross-functional collaboration carries over conceptually, but the Director JD adds direct team-building and management responsibility, which the current role doesn't have at all."
+            "synthesis": "Cross-functional collaboration carries over conceptually, but the Director role adds direct team-building and management responsibility, which the current role doesn't have at all."
           },
           {
             "theme": "Data & Analytics",
@@ -3864,7 +3864,7 @@
       "analysis": {
         "headline": "Moving from UX / Design Product Manager to VP of Product is a 3-band skip-level jump from owning user experience for a product area to leading the entire Product organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP JD calls for that the UX / Design Product Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the UX / Design Product Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3875,7 +3875,7 @@
               "Recruits, mentors, and scales a high-performing product team, fostering growth and development",
               "Builds and leads a high-performing team of product managers, technical subject matter experts, product designers, operations managers, and documentation specialists"
             ],
-            "synthesis": "Advocating for design vision carries over as an instinct, but the VP JD adds direct leadership of a large, multi-disciplinary team, a significant people-management step beyond design advocacy."
+            "synthesis": "Advocating for design vision carries over as an instinct, but the VP role adds direct leadership of a large, multi-disciplinary team, a significant people-management step beyond design advocacy."
           },
           {
             "theme": "Strategy & Planning",
@@ -3935,7 +3935,7 @@
       "analysis": {
         "headline": "Senior Product Manager and Director of Data Operations sit one band apart, but represent different specializations, broad strategic product ownership versus data infrastructure leadership specifically.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Director of Data Operations JD calls for that the Senior Product Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Director of Data Operations role calls for that the Senior Product Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -3945,7 +3945,7 @@
             "right": [
               "Builds and develops a team responsible for data engineering and operations"
             ],
-            "synthesis": "Senior PM has significant external and cross-functional influence but no direct reports; the Director JD adds formal team-building responsibility specifically for a data engineering and operations team."
+            "synthesis": "Senior PM has significant external and cross-functional influence but no direct reports; the Director role adds formal team-building responsibility specifically for a data engineering and operations team."
           },
           {
             "theme": "Data & Analytics",
@@ -4005,7 +4005,7 @@
       "analysis": {
         "headline": "Moving from Senior Product Manager to VP of Product is a 2-band jump from owning a strategic product area to leading the entire Product organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP JD calls for that the Senior Product Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP role calls for that the Senior Product Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4016,7 +4016,7 @@
               "Recruits, mentors, and scales a high-performing product team, fostering growth and development",
               "Builds and leads a high-performing team of product managers, technical subject matter experts, product designers, operations managers, and documentation specialists"
             ],
-            "synthesis": "Vendor and partner relationship management is real influence, but the VP JD adds direct leadership of a large, multi-disciplinary product team, a formal people-management step beyond individual product ownership."
+            "synthesis": "Vendor and partner relationship management is real influence, but the VP role adds direct leadership of a large, multi-disciplinary product team, a formal people-management step beyond individual product ownership."
           },
           {
             "theme": "Strategy & Planning",
@@ -4026,7 +4026,7 @@
             "right": [
               "Defines and executes a product strategy that aligns with business goals, market trends, and customer needs"
             ],
-            "synthesis": "Both roles own vision, but the VP JD extends that to the entire product portfolio and ties it explicitly to market trends and company-wide business goals, a broader strategic altitude."
+            "synthesis": "Both roles own vision, but the VP role extends that to the entire product portfolio and ties it explicitly to market trends and company-wide business goals, a broader strategic altitude."
           },
           {
             "theme": "Other",
@@ -4137,7 +4137,7 @@
       "analysis": {
         "headline": "Moving from Accounting Clerk to Accounting Supervisor / Manager is a 2-band skip-level jump from processing transactions to overseeing an entire accounting function and team.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Accounting Supervisor / Manager JD calls for that the Accounting Clerk JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Accounting Supervisor / Manager role calls for that the Accounting Clerk role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4148,7 +4148,7 @@
               "Supervises accounting staff responsible for accounts payable, accounts receivable, and general ledger activities",
               "Mentors and develops accounting team members"
             ],
-            "synthesis": "This is a large gap: the current role has no supervisory responsibility, while this JD assumes formal oversight and mentoring of a full accounting team."
+            "synthesis": "This is a large gap: the current role has no supervisory responsibility, while this role assumes formal oversight and mentoring of a full accounting team."
           },
           {
             "theme": "Process, Risk & Compliance",
@@ -4159,7 +4159,7 @@
               "Ensures compliance with accounting policies, procedures, and internal controls",
               "Partners with the Controller and Finance leadership on process improvements and audit preparation"
             ],
-            "synthesis": "Record-keeping carries over as a foundation, but the Supervisor JD adds compliance ownership and direct participation in audit preparation, a different level of accountability."
+            "synthesis": "Record-keeping carries over as a foundation, but the Supervisor role adds compliance ownership and direct participation in audit preparation, a different level of accountability."
           },
           {
             "theme": "Other",
@@ -4208,7 +4208,7 @@
       "analysis": {
         "headline": "Moving from Accounting Clerk to Controller is a 3-band skip-level jump from processing transactions to owning the company's entire accounting operations and financial controls.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Controller JD calls for that the Accounting Clerk JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Controller role calls for that the Accounting Clerk role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4218,7 +4218,7 @@
             "right": [
               "Manages and develops the accounting team"
             ],
-            "synthesis": "This is a very large gap: the current role has no leadership responsibility at all, while the Controller JD assumes managing an entire accounting team."
+            "synthesis": "This is a very large gap: the current role has no leadership responsibility at all, while the Controller role assumes managing an entire accounting team."
           },
           {
             "theme": "Process, Risk & Compliance",
@@ -4278,7 +4278,7 @@
       "analysis": {
         "headline": "Moving from Accounting Clerk to VP of Finance is a 4-band skip-level jump from processing transactions to owning the entire finance function at an executive level.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Finance JD calls for that the Accounting Clerk JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Finance role calls for that the Accounting Clerk role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4288,7 +4288,7 @@
             "right": [
               "Builds and develops the finance and accounting team"
             ],
-            "synthesis": "This is an extremely large gap: the current role works under close supervision with no leadership responsibility, while this JD assumes building and leading an entire finance organization."
+            "synthesis": "This is an extremely large gap: the current role works under close supervision with no leadership responsibility, while this role assumes building and leading an entire finance organization."
           },
           {
             "theme": "Strategy & Planning",
@@ -4348,7 +4348,7 @@
       "analysis": {
         "headline": "Moving from Accounting Clerk to CFO is the largest possible jump in this family, a 5-band skip-level from processing transactions to setting company-wide financial strategy as a top executive.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the CFO JD calls for that the Accounting Clerk JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the CFO role calls for that the Accounting Clerk role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4358,7 +4358,7 @@
             "right": [
               "Builds and leads a high-performing finance organization"
             ],
-            "synthesis": "This is the largest possible gap in this family: the current role has no leadership scope at all, while this JD is a top executive position leading the entire finance organization."
+            "synthesis": "This is the largest possible gap in this family: the current role has no leadership scope at all, while this role is a top executive position leading the entire finance organization."
           },
           {
             "theme": "Strategy & Planning",
@@ -4418,7 +4418,7 @@
       "analysis": {
         "headline": "Moving from Financial Analyst to Accounting Supervisor / Manager is a 2-band skip-level jump from analyzing financial data to supervising an accounting team and its operations.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Accounting Supervisor / Manager JD calls for that the Financial Analyst JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Accounting Supervisor / Manager role calls for that the Financial Analyst role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4429,7 +4429,7 @@
               "Supervises accounting staff responsible for accounts payable, accounts receivable, and general ledger activities",
               "Mentors and develops accounting team members"
             ],
-            "synthesis": "Cross-functional collaboration carries over, but the Supervisor JD adds formal team-supervision responsibility, which the analytical, non-managerial current role doesn't have."
+            "synthesis": "Cross-functional collaboration carries over, but the Supervisor role adds formal team-supervision responsibility, which the analytical, non-managerial current role doesn't have."
           },
           {
             "theme": "Process, Risk & Compliance",
@@ -4440,7 +4440,7 @@
               "Ensures compliance with accounting policies, procedures, and internal controls",
               "Partners with the Controller and Finance leadership on process improvements and audit preparation"
             ],
-            "synthesis": "Systems and process efficiency work carries over well, but the Supervisor JD adds direct compliance ownership and audit preparation involvement, a more accountable role."
+            "synthesis": "Systems and process efficiency work carries over well, but the Supervisor role adds direct compliance ownership and audit preparation involvement, a more accountable role."
           },
           {
             "theme": "Other",
@@ -4489,7 +4489,7 @@
       "analysis": {
         "headline": "Moving from Financial Analyst to Controller is a 3-band skip-level jump from analyzing financial data to owning the company's entire accounting operations and controls.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Controller JD calls for that the Financial Analyst JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Controller role calls for that the Financial Analyst role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4499,7 +4499,7 @@
             "right": [
               "Manages and develops the accounting team"
             ],
-            "synthesis": "This is a large gap: the current role has no team-management responsibility, while the Controller JD assumes leading and developing an entire accounting team."
+            "synthesis": "This is a large gap: the current role has no team-management responsibility, while the Controller role assumes leading and developing an entire accounting team."
           },
           {
             "theme": "Process, Risk & Compliance",
@@ -4510,7 +4510,7 @@
               "Establishes and maintains strong internal controls and accounting policies",
               "Leads external audit processes and manages relationships with auditors"
             ],
-            "synthesis": "Systems and data-accuracy work carries over conceptually, but the Controller JD adds designing company-wide internal controls and owning the external audit relationship directly."
+            "synthesis": "Systems and data-accuracy work carries over conceptually, but the Controller role adds designing company-wide internal controls and owning the external audit relationship directly."
           },
           {
             "theme": "Other",
@@ -4559,7 +4559,7 @@
       "analysis": {
         "headline": "Moving from Financial Analyst to VP of Finance is a 4-band skip-level jump from analyzing financial data to owning the entire finance function at an executive level.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Finance JD calls for that the Financial Analyst JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Finance role calls for that the Financial Analyst role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4569,7 +4569,7 @@
             "right": [
               "Builds and develops the finance and accounting team"
             ],
-            "synthesis": "This is a very large gap: the current role provides analytical support to leadership, while this JD assumes building and leading the entire finance organization."
+            "synthesis": "This is a very large gap: the current role provides analytical support to leadership, while this role assumes building and leading the entire finance organization."
           },
           {
             "theme": "Strategy & Planning",
@@ -4629,7 +4629,7 @@
       "analysis": {
         "headline": "Moving from Financial Analyst to CFO is a 5-band skip-level jump, the largest gap available from this role, spanning the entire finance career ladder to a top executive position.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the CFO JD calls for that the Financial Analyst JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the CFO role calls for that the Financial Analyst role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4639,7 +4639,7 @@
             "right": [
               "Builds and leads a high-performing finance organization"
             ],
-            "synthesis": "This is an extremely large gap: the current role provides analytical support, while this JD is a top executive leading the entire finance organization."
+            "synthesis": "This is an extremely large gap: the current role provides analytical support, while this role is a top executive leading the entire finance organization."
           },
           {
             "theme": "Strategy & Planning",
@@ -4699,7 +4699,7 @@
       "analysis": {
         "headline": "Moving from Accounting Supervisor / Manager to VP of Finance is a 2-band jump from supervising accounting operations to owning the entire finance function at an executive level.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Finance JD calls for that the Accounting Supervisor / Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Finance role calls for that the Accounting Supervisor / Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4709,7 +4709,7 @@
             "right": [
               "Builds and develops the finance and accounting team"
             ],
-            "synthesis": "Team supervision carries over as a foundation, but the VP JD extends that to building and leading the entire finance and accounting organization, not just the accounting operations team."
+            "synthesis": "Team supervision carries over as a foundation, but the VP role extends that to building and leading the entire finance and accounting organization, not just the accounting operations team."
           },
           {
             "theme": "Strategy & Planning",
@@ -4769,7 +4769,7 @@
       "analysis": {
         "headline": "Moving from Accounting Supervisor / Manager to CFO is a 3-band skip-level jump from supervising accounting operations to setting company-wide financial strategy as a top executive.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the CFO JD calls for that the Accounting Supervisor / Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the CFO role calls for that the Accounting Supervisor / Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -4779,7 +4779,7 @@
             "right": [
               "Builds and leads a high-performing finance organization"
             ],
-            "synthesis": "Team supervision carries over as a strong foundation, but the CFO JD is a top executive role leading the entire finance organization at a company-wide scale."
+            "synthesis": "Team supervision carries over as a strong foundation, but the CFO position is a top executive role leading the entire finance organization at a company-wide scale."
           },
           {
             "theme": "Strategy & Planning",
@@ -4839,7 +4839,7 @@
       "analysis": {
         "headline": "Moving from Controller to VP of Finance is a 1-band jump from owning accounting operations and controls to owning the entire finance function's strategy.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Finance JD calls for that the Controller JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Finance role calls for that the Controller role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -4850,7 +4850,7 @@
               "Leads financial planning and analysis, budgeting, and forecasting processes for the company",
               "Partners with the CEO and executive leadership on financial strategy and key business decisions"
             ],
-            "synthesis": "The Controller JD already partners on strategy; the VP JD owns leading it directly and partners with the CEO specifically, a step up in both ownership and executive proximity."
+            "synthesis": "The Controller role already partners on strategy; the VP role owns leading it directly and partners with the CEO specifically, a step up in both ownership and executive proximity."
           },
           {
             "theme": "Leadership & People Management",
@@ -4860,7 +4860,7 @@
             "right": [
               "Builds and develops the finance and accounting team"
             ],
-            "synthesis": "Team management carries over well, but the VP JD extends scope to the entire finance and accounting organization, not just the accounting function specifically."
+            "synthesis": "Team management carries over well, but the VP role extends scope to the entire finance and accounting organization, not just the accounting function specifically."
           },
           {
             "theme": "Other",
@@ -4909,7 +4909,7 @@
       "analysis": {
         "headline": "Moving from Controller to CFO is a 2-band jump from owning accounting operations and controls to setting company-wide financial strategy as a top executive.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the CFO JD calls for that the Controller JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the CFO role calls for that the Controller role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -4920,7 +4920,7 @@
               "Sets the company's overall financial strategy, including capital structure, budgeting, and long-term planning",
               "Leads fundraising, financing, and investor relations activities as needed"
             ],
-            "synthesis": "External audit and compliance leadership carries over as valuable background, but the CFO JD adds capital structure and fundraising strategy, an executive-level mandate the Controller role doesn't include."
+            "synthesis": "External audit and compliance leadership carries over as valuable background, but the CFO role adds capital structure and fundraising strategy, an executive-level mandate the Controller role doesn't include."
           },
           {
             "theme": "Customer & External Relationships",
@@ -4931,7 +4931,7 @@
               "Serves as a key strategic partner to the CEO and board of directors on financial matters",
               "Leads fundraising, financing, and investor relations activities as needed"
             ],
-            "synthesis": "External vendor relationships carry over as a general skill, but the CFO JD adds direct board and investor relationships, a different and higher-stakes external dimension."
+            "synthesis": "External vendor relationships carry over as a general skill, but the CFO role adds direct board and investor relationships, a different and higher-stakes external dimension."
           },
           {
             "theme": "Other",
@@ -5481,7 +5481,7 @@
       "analysis": {
         "headline": "Moving from Software Engineer to Principal Engineer is a 2-band skip-level jump from executing defined tasks to defining solutions for the company's most ambiguous technical problems.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Principal Engineer JD calls for that the Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Principal Engineer role calls for that the Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -5491,7 +5491,7 @@
             "right": [
               "Defines solutions for the most complex and ambiguous technical problems; comfortable with incomplete information and long time horizons"
             ],
-            "synthesis": "This is a very large gap: the current role follows established patterns with guidance, while this JD assumes comfort operating with incomplete information over long time horizons, no intermediate step of independent ambiguous problem-solving."
+            "synthesis": "This is a very large gap: the current role follows established patterns with guidance, while this role assumes comfort operating with incomplete information over long time horizons, no intermediate step of independent ambiguous problem-solving."
           },
           {
             "theme": "Leadership & People Management",
@@ -5501,7 +5501,7 @@
             "right": [
               "Shapes engineering culture, hiring bar, and org-wide practices; trusted by the CTO and product leadership"
             ],
-            "synthesis": "Building peer relationships carries over as a foundation, but this JD assumes org-wide cultural and hiring influence trusted at the executive level, several steps beyond team-level collaboration."
+            "synthesis": "Building peer relationships carries over as a foundation, but this role assumes org-wide cultural and hiring influence trusted at the executive level, several steps beyond team-level collaboration."
           },
           {
             "theme": "Other",
@@ -5550,7 +5550,7 @@
       "analysis": {
         "headline": "Moving from Software Engineer to Principal Architect is a 2-band skip-level jump from executing defined tasks to owning the company's entire platform architecture.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Principal Architect JD calls for that the Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Principal Architect role calls for that the Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -5561,7 +5561,7 @@
               "Defines platform architecture end-to-end; owns coherence and long-range technical viability",
               "Addresses bleeding-edge technical risk and long-horizon design challenges"
             ],
-            "synthesis": "This is a very large gap: the current role follows established patterns, while this JD assumes end-to-end platform ownership and long-horizon risk judgment, several steps beyond independent technical work."
+            "synthesis": "This is a very large gap: the current role follows established patterns, while this role assumes end-to-end platform ownership and long-horizon risk judgment, several steps beyond independent technical work."
           },
           {
             "theme": "Leadership & People Management",
@@ -5620,7 +5620,7 @@
       "analysis": {
         "headline": "Moving from Software Engineer to Engineering Manager is a 2-band skip-level jump from executing defined tasks to managing a full engineering team.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Engineering Manager JD calls for that the Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Engineering Manager role calls for that the Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -5631,7 +5631,7 @@
               "Manages a team of 4-8 engineers; accountable for delivery, velocity, and growth",
               "Runs hiring, 1:1s, and performance cycles independently"
             ],
-            "synthesis": "This is a very large gap: the current role works under guidance with no leadership responsibility, while this JD assumes managing a full team's hiring, performance, and delivery."
+            "synthesis": "This is a very large gap: the current role works under guidance with no leadership responsibility, while this role assumes managing a full team's hiring, performance, and delivery."
           },
           {
             "theme": "Technical Depth & Architecture",
@@ -5676,7 +5676,7 @@
         "worthExploring": [
           {
             "theme": "Leadership & People Management",
-            "rec": "Ask your manager what a realistic path through Sr. Software Engineer first would look like, since that step normally builds the mentoring and technical-ownership foundation this JD assumes."
+            "rec": "Ask your manager what a realistic path through Sr. Software Engineer first would look like, since that step normally builds the mentoring and technical-ownership foundation this role assumes."
           }
         ]
       }
@@ -5691,7 +5691,7 @@
       "analysis": {
         "headline": "Moving from Software Engineer to Sr. Engineering Manager is a 2-band skip-level jump from executing defined tasks to managing multiple engineering teams and their managers.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Sr. Engineering Manager JD calls for that the Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Sr. Engineering Manager role calls for that the Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -5702,7 +5702,7 @@
               "Manages multiple teams; owns cross-team programs, dependencies, and resource allocation",
               "8+ years of progressive experience in software engineering, including 5+ years leading teams and 2+ years managing managers"
             ],
-            "synthesis": "This is an extremely large gap: the current role has no leadership responsibility, while this JD assumes years of experience managing managers across multiple teams."
+            "synthesis": "This is an extremely large gap: the current role has no leadership responsibility, while this role assumes years of experience managing managers across multiple teams."
           },
           {
             "theme": "Strategy & Planning",
@@ -5761,7 +5761,7 @@
       "analysis": {
         "headline": "Moving from Software Engineer to Senior AI Engineer is a 2-band skip-level jump from executing defined tasks to leading company-wide AI adoption as a dual-focus technical leader.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Senior AI Engineer JD calls for that the Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Senior AI Engineer role calls for that the Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -5772,7 +5772,7 @@
               "Operates at the intersection of applied AI and cloud native architecture",
               "Deep understanding of the current AI/ML landscape, foundation models, agentic AI patterns, LLM orchestration"
             ],
-            "synthesis": "This is a very large gap: the current role follows established patterns, while this JD assumes deep, independent expertise across both AI/ML and cloud-native architecture."
+            "synthesis": "This is a very large gap: the current role follows established patterns, while this role assumes deep, independent expertise across both AI/ML and cloud-native architecture."
           },
           {
             "theme": "Leadership & People Management",
@@ -5833,7 +5833,7 @@
       "analysis": {
         "headline": "Moving from Sr. Software Engineer to Principal Engineer is a 2-band skip-level jump from owning features within a team to defining solutions for the company's most ambiguous technical problems.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Principal Engineer JD calls for that the Sr. Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Principal Engineer role calls for that the Sr. Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -5853,7 +5853,7 @@
             "right": [
               "Shapes engineering culture, hiring bar, and org-wide practices; trusted by the CTO and product leadership"
             ],
-            "synthesis": "Team-level mentoring and influence carries over as a foundation, but this JD assumes org-wide cultural and hiring authority trusted at the executive level, several steps beyond team influence."
+            "synthesis": "Team-level mentoring and influence carries over as a foundation, but this role assumes org-wide cultural and hiring authority trusted at the executive level, several steps beyond team influence."
           },
           {
             "theme": "Other",
@@ -5902,7 +5902,7 @@
       "analysis": {
         "headline": "Moving from Sr. Software Engineer to Principal Architect is a 2-band skip-level jump from owning features within a team to owning the company's entire platform architecture.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Principal Architect JD calls for that the Sr. Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Principal Architect role calls for that the Sr. Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -5923,7 +5923,7 @@
             "right": [
               "Industry-facing thought leader; serves as internal architect-of-record; shapes hiring and the technical reputation of the company"
             ],
-            "synthesis": "Team-level influence carries over as a foundation, but this JD assumes company-wide, industry-facing authority, a vast difference in scope and external visibility."
+            "synthesis": "Team-level influence carries over as a foundation, but this role assumes company-wide, industry-facing authority, a vast difference in scope and external visibility."
           },
           {
             "theme": "Other",
@@ -5972,7 +5972,7 @@
       "analysis": {
         "headline": "Moving from Sr. Software Engineer to Sr. Engineering Manager is a 2-band skip-level jump onto the management track, from owning features within a team to managing multiple teams and their managers.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Sr. Engineering Manager JD calls for that the Sr. Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Sr. Engineering Manager role calls for that the Sr. Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -5983,7 +5983,7 @@
               "Manages multiple teams; owns cross-team programs, dependencies, and resource allocation",
               "8+ years of progressive experience in software engineering, including 5+ years leading teams and 2+ years managing managers"
             ],
-            "synthesis": "Informal mentoring carries over as a foundation, but this JD assumes years of formal experience managing managers across multiple teams, several leadership steps beyond team-level mentoring."
+            "synthesis": "Informal mentoring carries over as a foundation, but this role assumes years of formal experience managing managers across multiple teams, several leadership steps beyond team-level mentoring."
           },
           {
             "theme": "Cross-Functional & Stakeholder Collaboration",
@@ -6042,7 +6042,7 @@
       "analysis": {
         "headline": "Moving from Sr. Software Engineer to Senior AI Engineer is a 2-band skip-level jump from owning features within a team to leading company-wide AI adoption as a dual-focus technical leader.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the Senior AI Engineer JD calls for that the Sr. Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the Senior AI Engineer role calls for that the Sr. Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Technical Depth & Architecture",
@@ -6064,7 +6064,7 @@
               "Serves as the organization's subject matter expert on AI tooling",
               "Mentors engineers at all levels"
             ],
-            "synthesis": "Team-level mentoring carries over well, but this JD extends that influence company-wide as the recognized AI subject matter expert, a significant jump in scope."
+            "synthesis": "Team-level mentoring carries over well, but this role extends that influence company-wide as the recognized AI subject matter expert, a significant jump in scope."
           },
           {
             "theme": "Other",
@@ -6114,7 +6114,7 @@
       "analysis": {
         "headline": "Moving from Software Engineer to VP of Engineering is the largest possible jump in this family, a 4-band skip-level from executing defined tasks to owning the entire engineering organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Engineering JD calls for that the Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Engineering role calls for that the Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -6125,7 +6125,7 @@
               "5+ years managing engineering teams, preferably teams of 20+ engineers",
               "Excellent manager of managers with the ability to mentor and grow senior engineers and engineering managers"
             ],
-            "synthesis": "This is the largest possible gap in this family: the current role has no leadership responsibility, while this JD is a top executive position managing dozens of engineers through multiple layers of management."
+            "synthesis": "This is the largest possible gap in this family: the current role has no leadership responsibility, while this role is a top executive position managing dozens of engineers through multiple layers of management."
           },
           {
             "theme": "Strategy & Planning",
@@ -6186,7 +6186,7 @@
       "analysis": {
         "headline": "Moving from Sr. Software Engineer to VP of Engineering is a very large 4-band skip-level jump from owning features within a team to owning the entire engineering organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Engineering JD calls for that the Sr. Software Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Engineering role calls for that the Sr. Software Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -6197,7 +6197,7 @@
               "5+ years managing engineering teams, preferably teams of 20+ engineers",
               "Excellent manager of managers with the ability to mentor and grow senior engineers and engineering managers"
             ],
-            "synthesis": "Team-level mentoring carries over as a foundation, but this JD assumes years of experience managing dozens of engineers through multiple layers of management, a vast difference in scope."
+            "synthesis": "Team-level mentoring carries over as a foundation, but this role assumes years of experience managing dozens of engineers through multiple layers of management, a vast difference in scope."
           },
           {
             "theme": "Strategy & Planning",
@@ -6258,7 +6258,7 @@
       "analysis": {
         "headline": "Moving from Principal Engineer to VP of Engineering is a 2-band jump from the top of the individual-contributor technical track to leading the entire engineering organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Engineering JD calls for that the Principal Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Engineering role calls for that the Principal Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -6269,7 +6269,7 @@
               "5+ years managing engineering teams, preferably teams of 20+ engineers",
               "Excellent manager of managers with the ability to mentor and grow senior engineers and engineering managers"
             ],
-            "synthesis": "Principal Engineer already shapes hiring bar and culture at an org level; the VP JD adds formal, direct management authority over dozens of engineers through multiple layers, a genuine track change into management."
+            "synthesis": "Principal Engineer already shapes hiring bar and culture at an org level; the VP role adds formal, direct management authority over dozens of engineers through multiple layers, a genuine track change into management."
           },
           {
             "theme": "Strategy & Planning",
@@ -6330,7 +6330,7 @@
       "analysis": {
         "headline": "Moving from Principal Architect to VP of Engineering is a 2-band jump from owning platform architecture to leading the entire engineering organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Engineering JD calls for that the Principal Architect JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Engineering role calls for that the Principal Architect role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -6341,7 +6341,7 @@
               "5+ years managing engineering teams, preferably teams of 20+ engineers",
               "Excellent manager of managers with the ability to mentor and grow senior engineers and engineering managers"
             ],
-            "synthesis": "Principal Architect already shapes hiring and reputation through technical authority; the VP JD adds direct, formal management of dozens of engineers, a genuine track change into people management."
+            "synthesis": "Principal Architect already shapes hiring and reputation through technical authority; the VP role adds direct, formal management of dozens of engineers, a genuine track change into people management."
           },
           {
             "theme": "Strategy & Planning",
@@ -6352,7 +6352,7 @@
               "Establishes and administers the Engineering budget",
               "Negotiates cost-effective contracts for the organization"
             ],
-            "synthesis": "Partnering on platform vision and investment carries over as a strong foundation, but the VP JD adds direct budget administration and contract negotiation, hands-on business management responsibilities."
+            "synthesis": "Partnering on platform vision and investment carries over as a strong foundation, but the VP role adds direct budget administration and contract negotiation, hands-on business management responsibilities."
           },
           {
             "theme": "Other",
@@ -6402,7 +6402,7 @@
       "analysis": {
         "headline": "Moving from Engineering Manager to VP of Engineering is a 2-band jump from managing one team to owning the entire engineering organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Engineering JD calls for that the Engineering Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Engineering role calls for that the Engineering Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -6413,7 +6413,7 @@
               "5+ years managing engineering teams, preferably teams of 20+ engineers",
               "Excellent manager of managers with the ability to mentor and grow senior engineers and engineering managers"
             ],
-            "synthesis": "Direct team management carries over as a strong foundation, but the VP JD scales that to managing dozens of engineers through multiple layers of managers, a significant jump in organizational scale."
+            "synthesis": "Direct team management carries over as a strong foundation, but the VP role scales that to managing dozens of engineers through multiple layers of managers, a significant jump in organizational scale."
           },
           {
             "theme": "Strategy & Planning",
@@ -6474,7 +6474,7 @@
       "analysis": {
         "headline": "Moving from Sr. Engineering Manager to VP of Engineering is a 1-band jump from managing multiple teams to owning the entire engineering organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Engineering JD calls for that the Sr. Engineering Manager JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Engineering role calls for that the Sr. Engineering Manager role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Strategy & Planning",
@@ -6485,7 +6485,7 @@
               "Establishes and administers the Engineering budget",
               "Negotiates cost-effective contracts for the organization"
             ],
-            "synthesis": "Resourcing and delivery strategy carries over as a strong foundation, but the VP JD adds direct budget administration and contract negotiation, hands-on business ownership beyond engineering delivery alone."
+            "synthesis": "Resourcing and delivery strategy carries over as a strong foundation, but the VP role adds direct budget administration and contract negotiation, hands-on business ownership beyond engineering delivery alone."
           },
           {
             "theme": "Leadership & People Management",
@@ -6495,7 +6495,7 @@
             "right": [
               "Excellent manager of managers with the ability to mentor and grow senior engineers and engineering managers"
             ],
-            "synthesis": "Managing multiple teams carries over directly, but the VP JD scales that to the entire organization and adds explicit accountability to the CEO and board."
+            "synthesis": "Managing multiple teams carries over directly, but the VP role scales that to the entire organization and adds explicit accountability to the CEO and board."
           },
           {
             "theme": "Other",
@@ -6545,7 +6545,7 @@
       "analysis": {
         "headline": "Moving from Senior AI Engineer to VP of Engineering is a 2-band jump from a specialized AI-focused technical leadership role to owning the entire engineering organization.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP of Engineering JD calls for that the Senior AI Engineer JD doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Engineering role calls for that the Senior AI Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
           {
             "theme": "Leadership & People Management",
@@ -6557,7 +6557,7 @@
               "5+ years managing engineering teams, preferably teams of 20+ engineers",
               "Excellent manager of managers with the ability to mentor and grow senior engineers and engineering managers"
             ],
-            "synthesis": "This is a large gap: the current role has no direct reports and reports into a Sr. Engineering Manager, while the VP JD assumes years of direct experience managing large teams through multiple layers."
+            "synthesis": "This is a large gap: the current role has no direct reports and reports into a Sr. Engineering Manager, while the VP role assumes years of direct experience managing large teams through multiple layers."
           },
           {
             "theme": "Strategy & Planning",
@@ -6568,7 +6568,7 @@
               "Establishes and administers the Engineering budget",
               "Negotiates cost-effective contracts for the organization"
             ],
-            "synthesis": "AI-specific vendor evaluation carries over as a relevant skill, but the VP JD extends that to the entire engineering budget and all vendor contracts, not just AI-related ones."
+            "synthesis": "AI-specific vendor evaluation carries over as a relevant skill, but the VP role extends that to the entire engineering budget and all vendor contracts, not just AI-related ones."
           },
           {
             "theme": "Other",
@@ -6599,12 +6599,12 @@
         "mainTakeaways": [
           "This is both a skip in organizational scale and a track change, from specialized individual-contributor AI leadership to broad people management.",
           "Day-to-day, that gap shows up as a jump into direct team management, without first building experience managing even a single team.",
-          "If pursuing this path, worth building direct people-management experience first (such as through an Engineering Manager role) since this JD assumes years of it."
+          "If pursuing this path, worth building direct people-management experience first (such as through an Engineering Manager role) since this role assumes years of it."
         ],
         "worthExploring": [
           {
             "theme": "Leadership & People Management",
-            "rec": "Ask your manager whether a direct people-management role first (even leading a small team) would build the foundation this JD assumes, since the current role has no direct reports today."
+            "rec": "Ask your manager whether a direct people-management role first (even leading a small team) would build the foundation this role assumes, since the current role has no direct reports today."
           }
         ]
       }

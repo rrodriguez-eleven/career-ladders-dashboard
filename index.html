@@ -40,6 +40,17 @@
     grid-template-columns: 300px 1fr;
     min-height:100vh;
   }
+  .fullscreen-btn{
+    position:fixed; top:14px; right:18px; z-index:200;
+    display:flex; align-items:center; gap:6px;
+    background:var(--navy); color:#fff; border:1px solid rgba(255,255,255,0.15);
+    border-radius:8px; padding:8px 12px; font-size:12px; font-weight:600;
+    font-family:'Montserrat', sans-serif; cursor:pointer;
+    box-shadow:0 4px 14px rgba(0,0,0,0.18);
+    transition:background .15s;
+  }
+  .fullscreen-btn:hover{background:var(--orange);}
+  .fullscreen-btn svg{width:14px; height:14px; flex:0 0 auto;}
   @media (max-width: 860px){
     .app{grid-template-columns: 1fr;}
     .sidebar{position:static; height:auto;}
@@ -783,6 +794,11 @@
 </head>
 <body>
 
+<button class="fullscreen-btn" id="fullscreenBtn" title="Toggle fullscreen">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M21 8V5a2 2 0 0 0-2-2h-3"/><path d="M3 16v3a2 2 0 0 0 2 2h3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></svg>
+  <span id="fullscreenBtnLabel">Fullscreen</span>
+</button>
+
 <div class="app">
   <aside class="sidebar">
     <div class="brand" id="brandHome" style="cursor:pointer;">
@@ -1468,7 +1484,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
       const t = jd.text.overview;
       return t.length > 140 ? t.slice(0,140).trim() + '…' : t;
     }
-    return 'JD text pending, this job description hasn\'t been added to the library yet.';
+    return 'Job description pending, this hasn\'t been added to the library yet.';
   }
 
   function openJDDrawer(deptName, familyName, role, jd, skipHistory){
@@ -2740,6 +2756,31 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
       });
     }
   });
+
+  // Fullscreen toggle: needed because Confluence's iframe "allow fullscreen" setting only
+  // permits the page to request fullscreen, it doesn't add a button of its own.
+  (function(){
+    const btn = document.getElementById('fullscreenBtn');
+    const label = document.getElementById('fullscreenBtnLabel');
+    if(!btn) return;
+    function isFullscreen(){
+      return !!(document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement);
+    }
+    function updateLabel(){
+      label.textContent = isFullscreen() ? 'Exit fullscreen' : 'Fullscreen';
+    }
+    btn.addEventListener('click', () => {
+      const el = document.documentElement;
+      if(!isFullscreen()){
+        (el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen || function(){}).call(el);
+      } else {
+        (document.exitFullscreen || document.webkitExitFullscreen || document.msExitFullscreen || function(){}).call(document);
+      }
+    });
+    document.addEventListener('fullscreenchange', updateLabel);
+    document.addEventListener('webkitfullscreenchange', updateLabel);
+    document.addEventListener('msfullscreenchange', updateLabel);
+  })();
 
   loadComparisonsCache();
   render();
