@@ -1731,8 +1731,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
               <div class="path">${pathText}</div>
             </div>
             <span style="display:flex; align-items:center; gap:8px;">
-              ${x.role.open ? `<span class="jd-status-pill open">Hiring</span>` : ''}
-              <span class="comp-pill">${headcountLabel(x.role) || '\u2014'}</span>
+              ${x.role.open ? `<span class="jd-status-pill open">Hiring · ${x.role.open} open</span>` : ''}
               <button class="add-btn ${inCompare?'added':''} ${!hasJD(x.role)?'disabled-nojd':''}" data-addkey="${key}" ${!hasJD(x.role)?'disabled':''} title="${hasJD(x.role)?'Add to compare':'No job description on file yet, comparison not available'}">${inCompare?'✓':'+'}</button>
             </span>
           </div>
