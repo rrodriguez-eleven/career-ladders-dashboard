@@ -224,6 +224,16 @@
     font-size:12.5px; font-weight:600; color:var(--ink-soft);
   }
   .dir-tabs button.active{background:var(--navy); color:#fff;}
+  .analysis-pair-tabs{
+    display:flex; gap:6px; padding:12px 26px 0; flex-wrap:wrap;
+    border-bottom:1px solid var(--line);
+  }
+  .analysis-pair-tabs button{
+    all:unset; cursor:pointer; padding:9px 14px 11px; font-size:12.5px; font-weight:700;
+    color:var(--ink-soft); border-bottom:2px solid transparent; margin-bottom:-1px;
+  }
+  .analysis-pair-tabs button.active{color:var(--orange); border-bottom-color:var(--orange);}
+  .analysis-pair-tabs button:hover:not(.active){color:var(--navy);}
   .emp-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(230px,1fr)); gap:14px;}
   .emp-card{
     background:#fff; border:1px solid var(--line); border-radius:12px;
@@ -640,7 +650,7 @@
   .analysis-modal-body{overflow-y:auto; padding:22px 26px 34px; flex:1 1 auto;}
   .analysis-card{background:#fff; border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin-bottom:18px;}
   .analysis-headline{font-size:14px; font-weight:700; color:var(--navy); margin-bottom:16px; line-height:1.55;}
-  .analysis-section{margin-bottom:20px;}
+  .analysis-section{margin-bottom:16px;}
   .analysis-section:last-child{margin-bottom:0;}
   .analysis-section-title{font-size:12.5px; font-weight:800; color:var(--orange); text-transform:uppercase; letter-spacing:0.05em; margin-bottom:4px;}
   .analysis-section-sub{font-size:11.5px; color:var(--ink-soft); margin-bottom:10px; line-height:1.5;}
@@ -652,12 +662,12 @@
   .analysis-takeaways ul{margin:0; padding-left:18px;}
   .analysis-takeaways li{margin-bottom:6px;}
   .analysis-takeaways li:last-child{margin-bottom:0;}
-  .theme-row{padding:14px 0; border-top:1px solid var(--line);}
+  .theme-row{padding:10px 0; border-top:1px solid var(--line);}
   .theme-row:first-of-type{border-top:none; padding-top:0;}
-  .theme-row-label{font-size:11.5px; font-weight:700; color:var(--navy-3); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:8px;}
-  .theme-row-cols{display:grid; grid-template-columns:1fr 1fr; gap:14px; align-items:start;}
-  .theme-col-heading{font-size:10.5px; font-weight:700; color:var(--ink-soft); margin-bottom:6px; text-transform:uppercase; letter-spacing:0.04em;}
-  .theme-synthesis{background:#F9F5F1; border-radius:8px; padding:10px 12px; font-size:12.5px; color:var(--ink); line-height:1.55; margin-top:10px;}
+  .theme-row-label{font-size:11.5px; font-weight:700; color:var(--navy-3); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;}
+  .theme-row-cols{display:grid; grid-template-columns:1fr 1fr; gap:12px; align-items:start;}
+  .theme-col-heading{font-size:10.5px; font-weight:700; color:var(--ink-soft); margin-bottom:5px; text-transform:uppercase; letter-spacing:0.04em;}
+  .theme-synthesis{background:#F9F5F1; border-radius:8px; padding:10px 12px; font-size:12.5px; color:var(--ink); line-height:1.55; margin-top:8px;}
   .theme-synthesis .lbl{font-size:10.5px; font-weight:700; color:var(--orange); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:4px;}
   @media (max-width: 720px){
     .theme-row-cols{grid-template-columns:1fr;}
@@ -851,12 +861,12 @@
 
     <div class="compare-tray">
       <div class="compare-tray-header">
-        <h4>Compare (<span id="compareCount">0</span>/3)</h4>
+        <h4>Compare (<span id="compareCount">0</span>/2)</h4>
         <button class="compare-clear-btn" id="compareClearBtn">Clear all</button>
       </div>
       <div id="compareSlots"></div>
       <p class="hint" id="compareHint">Click "+" on any role to add it here, then compare.</p>
-      <button class="compare-cta" id="compareBtn" disabled>Compare roles</button>
+      <button class="compare-cta" id="compareBtn" disabled>Add 2 roles to compare</button>
     </div>
   </aside>
 
@@ -876,6 +886,7 @@
   <div class="analysis-mobility-banner">
     <span>Thinking about a move? Read Eleven's <a href="https://eleven.atlassian.net/wiki/x/RAADBgE" target="_blank" rel="noopener">Internal Mobility Policy</a> for how this works in practice.</span>
   </div>
+  <div class="analysis-pair-tabs" id="analysisPairTabs" style="display:none;"></div>
   <div class="analysis-modal-body" id="analysisModalBody"></div>
 </div>
 
@@ -1149,7 +1160,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     clearBtn.onclick = ()=>{ state.compare = []; render(); };
     const cbtn = document.getElementById('compareBtn');
     cbtn.disabled = state.compare.length < 2;
-    cbtn.textContent = state.compare.length < 2 ? 'Add 2+ to compare' : `Compare ${state.compare.length} roles`;
+    cbtn.textContent = state.compare.length < 2 ? 'Add 2 roles to compare' : `Compare ${state.compare.length} roles`;
     cbtn.onclick = ()=>{ if(state.compare.length>=2){ state.mode='compare'; render(); } };
   }
 
@@ -1162,7 +1173,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     const idx = state.compare.findIndex(c=>roleKey(c.dept,c.family,c.role)===key);
     if(idx>-1){ state.compare.splice(idx,1); }
     else{
-      if(state.compare.length>=3) return;
+      if(state.compare.length>=2) return;
       state.compare.push({dept,family,role});
     }
     renderCompareTray();
@@ -1924,7 +1935,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
         </div>
         <div class="howto-step">
           <div class="top-row"><div class="n">3</div><h5>Compare or search</h5></div>
-          <p>Add up to three roles to compare side by side, or use the search bar to jump straight to a title across every department.</p>
+          <p>Add two roles to compare side by side, or use the search bar to jump straight to a title across every department.</p>
         </div>
       </div>
 
@@ -2109,6 +2120,22 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     });
   }
 
+  // Short characterizations of what each department is typically evaluated on. Used to give
+  // cross-department comparisons (which aren't bespoke-authored) a tailored feel by naming the
+  // actual functional contrast, rather than one-size-fits-all generic language.
+  const DEPT_FLAVOR = {
+    'Development': 'deep technical execution, system design, and engineering judgment',
+    'Customer Success': 'long-term account health, retention, and relationship management',
+    'Customer Support': 'fast, hands-on problem resolution for individual customers',
+    'Sales & Marketing': 'revenue generation, pipeline building, and market positioning',
+    'Product': 'roadmap prioritization and translating customer needs into features',
+    'G&A': 'internal operations, people, and company-wide enablement',
+    'Implementation': 'hands-on onboarding and technical delivery for new customers',
+    'Finance & Accounting': 'financial accuracy, compliance, and company-wide fiscal health',
+    'Executive Leadership': 'company-wide strategy and executive decision-making',
+  };
+  function deptFlavor(dept){ return DEPT_FLAVOR[dept] || 'that department\'s core responsibilities'; }
+
   function pairAnalysis(a, b){
     // a, b: {dept, family, role}
     const sameDept = a.dept===b.dept;
@@ -2116,7 +2143,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     const sameBand = parseFloat(a.role.band) === parseFloat(b.role.band);
     let [junior, senior] = parseFloat(a.role.band) <= parseFloat(b.role.band) ? [a,b] : [b,a];
 
-    let kind, headline;
+    let kind, headline, deptFlavorNote = '';
     if(sameFamily && !sameBand){
       kind = 'ladder';
       const bandGap = Math.abs(parseFloat(senior.role.band) - parseFloat(junior.role.band));
@@ -2127,12 +2154,15 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
       kind = 'sibling';
       const bandNote = sameBand ? '' : ` They also sit at different bands (${a.role.title}: Band ${a.role.band}, ${b.role.title}: Band ${b.role.band}), so some of the difference reflects seniority, not just function.`;
       headline = `${a.role.title} and ${b.role.title} are both part of ${a.dept}, but sit in different job families (${a.family} vs ${b.family}).${bandNote}`;
+      deptFlavorNote = `Since both roles sit inside ${a.dept}, most of what separates them comes down to their job family (${a.family} vs ${b.family}) rather than a difference in department-level focus.`;
     } else if(sameBand && !sameDept){
       kind = 'peer';
       headline = `${a.role.title} (${a.dept}) and ${b.role.title} (${b.dept}) sit at the same band, in different departments.`;
+      deptFlavorNote = `Because these sit in different departments, expect the biggest differences to trace back to what each department is built around: ${a.dept} centers on ${deptFlavor(a.dept)}, while ${b.dept} centers on ${deptFlavor(b.dept)}. Both roles carry similar seniority and scope, just applied to different domains.`;
     } else {
       kind = 'mixed';
       headline = `Comparing ${a.role.title} (${a.dept}, Band ${a.role.band}) and ${b.role.title} (${b.dept}, Band ${b.role.band}).`;
+      deptFlavorNote = `These two sit in different departments and at different bands, so the comparison reflects both a difference in seniority and a difference in domain: ${a.dept} centers on ${deptFlavor(a.dept)}, while ${b.dept} centers on ${deptFlavor(b.dept)}.`;
     }
     const isGrowthPath = kind === 'ladder';
     // For growth paths, always display junior on the left, senior on the right, regardless of original a/b order
@@ -2186,7 +2216,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     }
 
     return {
-      kind, headline, isGrowthPath, junior, senior, a, b, left, right, section1Source,
+      kind, headline, isGrowthPath, junior, senior, a, b, left, right, section1Source, deptFlavorNote,
       section1: {uniqueLeft: section1UniqueLeft, uniqueRight: section1UniqueRight},
       section2: {uniqueLeft: section2UniqueLeft, uniqueRight: section2UniqueRight},
       section2Empty, carriesOver,
@@ -2352,7 +2382,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
 
   function themeBulletList(items){
     return items.length
-      ? items.map(c=>`<div style="font-size:12.5px; color:var(--ink); padding:6px 0 6px 12px; border-left:2px solid var(--rail); margin-bottom:5px; line-height:1.5;">${c}</div>`).join('')
+      ? items.map(c=>`<div style="font-size:12.5px; color:var(--ink); padding:5px 0 5px 12px; border-left:2px solid var(--rail); margin-bottom:4px; line-height:1.5;">${c}</div>`).join('')
       : '<div style="font-size:12px; color:var(--ink-soft);">Nothing here</div>';
   }
 
@@ -2468,6 +2498,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     return `
       <div class="analysis-card">
         <div class="analysis-headline">${r.headline}</div>
+        ${r.deptFlavorNote ? `<div style="font-size:12.5px; color:var(--ink-soft); margin:-10px 0 16px; line-height:1.5;">${r.deptFlavorNote}</div>` : ''}
         <div class="analysis-section">
           <div class="analysis-section-title">${section1Title}</div>
           <div class="analysis-section-sub">${section1Sub}</div>
@@ -2580,6 +2611,37 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     return html;
   }
 
+  function openAnalysisModal(idx){
+    const pairs = comparePairsList();
+    const pair = pairs[idx];
+    if(!pair) return;
+    const titleEl = document.querySelector('.analysis-modal-header h2');
+    if(titleEl){
+      titleEl.textContent = `${pair[0].role.title} vs ${pair[1].role.title}`;
+    }
+    const tabsEl = document.getElementById('analysisPairTabs');
+    if(pairs.length > 1){
+      tabsEl.style.display = 'flex';
+      tabsEl.innerHTML = pairs.map(([a,b],i)=>`
+        <button class="${i===idx?'active':''}" data-tabidx="${i}">${a.role.title} vs ${b.role.title}</button>
+      `).join('');
+      tabsEl.querySelectorAll('button').forEach(tabBtn=>{
+        tabBtn.onclick = ()=>{
+          openAnalysisModal(parseInt(tabBtn.getAttribute('data-tabidx'), 10));
+        };
+      });
+    } else {
+      tabsEl.style.display = 'none';
+      tabsEl.innerHTML = '';
+    }
+    const bodyEl = document.getElementById('analysisModalBody');
+    bodyEl.innerHTML = renderCompareAnalysis(idx);
+    document.getElementById('analysisOverlay').classList.add('show');
+    document.getElementById('analysisModal').classList.add('show');
+    bodyEl.scrollTop = 0;
+    requestAnimationFrame(()=>{ bodyEl.scrollTop = 0; });
+  }
+
   function renderMain(){
     const main = document.getElementById('mainContent');
     const navKey = JSON.stringify([state.mode, state.activeDept, state.activeLevel, state.directoryTab, state.search.trim().length>0]);
@@ -2610,18 +2672,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     main.querySelectorAll('.analysis-open-btn').forEach(btn=>{
       btn.onclick = ()=>{
         const idx = parseInt(btn.getAttribute('data-pairidx'), 10);
-        const pairs = comparePairsList();
-        const pair = pairs[idx];
-        const titleEl = document.querySelector('.analysis-modal-header h2');
-        if(titleEl && pair){
-          titleEl.textContent = `${pair[0].role.title} vs ${pair[1].role.title}`;
-        }
-        const bodyEl = document.getElementById('analysisModalBody');
-        bodyEl.innerHTML = renderCompareAnalysis(idx);
-        document.getElementById('analysisOverlay').classList.add('show');
-        document.getElementById('analysisModal').classList.add('show');
-        bodyEl.scrollTop = 0;
-        requestAnimationFrame(()=>{ bodyEl.scrollTop = 0; });
+        openAnalysisModal(idx);
       };
     });
 
