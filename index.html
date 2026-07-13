@@ -729,19 +729,36 @@
   .modal-action-btn:hover{border-color:var(--orange); color:var(--navy);}
   @media print{
     body *{visibility:hidden;}
-    .analysis-modal.show, .analysis-modal.show *{visibility:visible;}
+
+    /* ---- Comparison PDF export ---- */
+    .analysis-modal.show, .analysis-modal.show *{
+      visibility:visible;
+      -webkit-print-color-adjust:exact; print-color-adjust:exact; color-adjust:exact;
+    }
     .analysis-modal.show{
-      position:absolute; top:0; left:0; width:100%; height:auto;
-      box-shadow:none; border-radius:0; max-height:none;
+      position:absolute !important; top:0 !important; left:0 !important; right:auto !important;
+      transform:none !important; width:100% !important; max-width:100% !important;
+      height:auto !important; max-height:none !important;
+      box-shadow:none !important; border-radius:0 !important; background:#fff !important;
     }
     .analysis-modal-header .modal-action-btn, .analysis-modal-header .drawer-close,
-    .analysis-mobility-banner, .analysis-pair-tabs{display:none !important;}
-    .analysis-modal-body{overflow:visible !important; height:auto !important;}
+    .analysis-mobility-banner, .analysis-pair-tabs, .flag-link{display:none !important;}
+    .analysis-modal-body{overflow:visible !important; height:auto !important; padding:16px 28px 30px !important;}
+    .analysis-card{page-break-inside:avoid; break-inside:avoid; box-shadow:none !important; border-color:#DFE3E8 !important;}
+    .theme-row, .analysis-takeaways, .analysis-worth-exploring, .theme-synthesis{page-break-inside:avoid; break-inside:avoid;}
+    .analysis-headline{font-size:15px !important;}
+
+    /* ---- Org chart PDF export ---- */
+    body.print-orgchart *{
+      -webkit-print-color-adjust:exact; print-color-adjust:exact; color-adjust:exact;
+    }
     body.print-orgchart #mainContent, body.print-orgchart #mainContent *{visibility:visible;}
-    body.print-orgchart #mainContent{position:absolute; top:0; left:0; width:100%;}
+    body.print-orgchart #mainContent{position:absolute !important; top:0 !important; left:0 !important; width:100% !important;}
     body.print-orgchart .topline .modal-action-btn{display:none !important;}
     body.print-orgchart .org-toggle{display:none !important;}
     body.print-orgchart .org-toggle-spacer{display:none !important;}
+    body.print-orgchart .org-node-row, body.print-orgchart .org-card{page-break-inside:avoid; break-inside:avoid;}
+    body.print-orgchart .org-chart-wrap{padding-bottom:0;}
   }
   .analysis-mobility-banner{
     display:flex; align-items:flex-start; gap:10px;
@@ -1259,7 +1276,7 @@
     <textarea id="flagDetails" class="flag-textarea" rows="4" placeholder="Anything else that would help the People Team fix this"></textarea>
     <p id="flagError" class="flag-error" style="display:none;">Please fill in "What looks off?" before submitting.</p>
     <button type="button" id="flagSubmitBtn" class="drawer-add">Submit to People Team</button>
-    <p class="flag-note">This opens your email client with the details above pre-filled, addressed to hr@elevensoftware.com.</p>
+    <p class="flag-note">This opens Outlook on the web in a new tab with the details above pre-filled, addressed to hr@elevensoftware.com.</p>
   </div>
 </div>
 
@@ -1342,18 +1359,22 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
   function hasJD(role){ return !!(role.jdUrls && role.jdUrls.length && role.jdUrls[0].text); }
 
   const FLAG_EMAIL = 'hr@elevensoftware.com';
-  function buildFlagMailto(context, whatsOff, details){
+  function buildFlagComposeUrl(context, whatsOff, details){
     const subject = encodeURIComponent(`Career Ladders Dashboard — flag: ${context}`);
     const bodyLines = [
       `Item: ${context}`,
-      `URL: ${window.location.href}`,
       '',
       `What looks off: ${whatsOff}`,
       '',
       `Additional details: ${details || '(none provided)'}`,
     ];
     const body = encodeURIComponent(bodyLines.join('\n'));
-    return `mailto:${FLAG_EMAIL}?subject=${subject}&body=${body}`;
+    // Uses the Outlook Web compose deep link rather than a mailto: link. mailto: hands off to
+    // whatever the OS has registered as the default mail app, which on a Mac is often Apple
+    // Mail rather than Outlook, and would risk sending from the wrong account. This opens
+    // Outlook on the web directly in a new tab instead, the same on Windows and Mac, sent from
+    // whichever Microsoft 365 account the person is already signed into.
+    return `https://outlook.office.com/mail/deeplink/compose?to=${encodeURIComponent(FLAG_EMAIL)}&subject=${subject}&body=${body}`;
   }
 
   // ---- Bespoke comparison cache (comparisons.json) ----
@@ -3243,13 +3264,26 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
         render();
       };
     }
+    function withLandscapePrint(fn){
+      const styleEl = document.createElement('style');
+      styleEl.id = 'org-print-orientation';
+      styleEl.textContent = '@page{ size: landscape; margin: 12mm; }';
+      document.head.appendChild(styleEl);
+      const cleanup = ()=>{
+        const el = document.getElementById('org-print-orientation');
+        if(el) el.remove();
+      };
+      fn(cleanup);
+    }
     const exportOrgViewBtn = document.getElementById('exportOrgViewBtn');
     if(exportOrgViewBtn){
       exportOrgViewBtn.onclick = ()=>{
-        document.body.classList.add('print-orgchart');
-        window.print();
-        const restore = ()=>{ document.body.classList.remove('print-orgchart'); window.removeEventListener('afterprint', restore); };
-        window.addEventListener('afterprint', restore);
+        withLandscapePrint((cleanup)=>{
+          document.body.classList.add('print-orgchart');
+          window.print();
+          const restore = ()=>{ document.body.classList.remove('print-orgchart'); cleanup(); window.removeEventListener('afterprint', restore); };
+          window.addEventListener('afterprint', restore);
+        });
       };
     }
     const exportOrgFullBtn = document.getElementById('exportOrgFullBtn');
@@ -3261,19 +3295,22 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
         });
         document.querySelectorAll('.org-children').forEach(el=>el.classList.remove('org-collapsed'));
         document.querySelectorAll('.org-toggle').forEach(el=>el.classList.remove('collapsed'));
-        document.body.classList.add('print-orgchart');
-        window.print();
-        const restore = ()=>{
-          collapsedNames.forEach(name=>{
-            const childrenEl = document.querySelector(`[data-orgchildren="${name}"]`);
-            const toggleEl = document.querySelector(`[data-orgtoggle="${name}"]`);
-            if(childrenEl) childrenEl.classList.add('org-collapsed');
-            if(toggleEl) toggleEl.classList.add('collapsed');
-          });
-          document.body.classList.remove('print-orgchart');
-          window.removeEventListener('afterprint', restore);
-        };
-        window.addEventListener('afterprint', restore);
+        withLandscapePrint((cleanup)=>{
+          document.body.classList.add('print-orgchart', 'print-orgchart-full');
+          window.print();
+          const restore = ()=>{
+            collapsedNames.forEach(name=>{
+              const childrenEl = document.querySelector(`[data-orgchildren="${name}"]`);
+              const toggleEl = document.querySelector(`[data-orgtoggle="${name}"]`);
+              if(childrenEl) childrenEl.classList.add('org-collapsed');
+              if(toggleEl) toggleEl.classList.add('collapsed');
+            });
+            document.body.classList.remove('print-orgchart', 'print-orgchart-full');
+            cleanup();
+            window.removeEventListener('afterprint', restore);
+          };
+          window.addEventListener('afterprint', restore);
+        });
       };
     }
     main.querySelectorAll('[data-emp]').forEach(card=>{
@@ -3452,7 +3489,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
       return;
     }
     const details = document.getElementById('flagDetails').value.trim();
-    window.location.href = buildFlagMailto(flagCurrentContext, whatsOff, details);
+    window.open(buildFlagComposeUrl(flagCurrentContext, whatsOff, details), '_blank', 'noopener');
     closeFlagModal();
   });
 
