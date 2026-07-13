@@ -121,6 +121,14 @@
     position:absolute; left:10px; top:50%; transform:translateY(-50%);
     width:14px; height:14px; opacity:0.5;
   }
+  .guide-link{
+    all:unset; box-sizing:border-box; cursor:pointer; display:flex; align-items:center; gap:7px;
+    width:100%; padding:9px 4px; margin:10px 0 4px;
+    font-size:12px; font-weight:600; color:rgba(255,255,255,0.72);
+    border-bottom:1px solid rgba(255,255,255,0.12); border-radius:0;
+  }
+  .guide-link svg{width:14px; height:14px; flex:0 0 auto;}
+  .guide-link:hover{color:#fff;}
   nav.deptnav{display:flex; flex-direction:column; gap:3px;}
   .nav-label{
     font-size:10.5px;
@@ -198,6 +206,30 @@
   .hero p{
     font-size:14.5px; color:var(--ink-soft); max-width:640px; line-height:1.65; margin:0 0 24px;
   }
+  .find-yourself{
+    position:relative; max-width:440px; margin-bottom:28px;
+    display:flex; align-items:center; gap:10px;
+    background:#fff; border:1.5px solid var(--orange); border-radius:11px;
+    padding:12px 16px;
+  }
+  .find-yourself svg{width:18px; height:18px; color:var(--orange); flex:0 0 auto;}
+  .find-yourself input{
+    all:unset; flex:1 1 auto; font-size:13.5px; color:var(--ink); font-family:inherit;
+  }
+  .find-yourself-results{
+    display:none; position:absolute; top:calc(100% + 6px); left:0; right:0; z-index:20;
+    background:#fff; border:1px solid var(--line); border-radius:10px;
+    box-shadow:0 8px 24px rgba(28,43,58,0.12); max-height:260px; overflow-y:auto;
+  }
+  .find-yourself-results.show{display:block;}
+  .find-yourself-results button{
+    all:unset; box-sizing:border-box; display:flex; align-items:center; gap:10px; width:100%;
+    padding:10px 14px; cursor:pointer; font-size:13px; color:var(--navy); font-weight:600;
+    border-bottom:1px solid var(--line);
+  }
+  .find-yourself-results button:last-child{border-bottom:none;}
+  .find-yourself-results button:hover{background:var(--paper);}
+  .find-yourself-results .empty{padding:12px 14px; font-size:12.5px; color:var(--ink-soft); font-weight:400;}
   .stat-row{
     display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
     gap:14px; margin-bottom:8px;
@@ -235,6 +267,20 @@
   .analysis-pair-tabs button.active{color:var(--orange); border-bottom-color:var(--orange);}
   .analysis-pair-tabs button:hover:not(.active){color:var(--navy);}
   .emp-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(230px,1fr)); gap:14px;}
+  .group-toggle-btn{
+    all:unset; box-sizing:border-box; cursor:pointer; display:flex; align-items:center; gap:7px;
+    padding:8px 14px; border-radius:8px; border:1px solid var(--line); background:#fff;
+    font-size:12.5px; font-weight:600; color:var(--ink-soft);
+  }
+  .group-toggle-btn svg{width:14px; height:14px;}
+  .group-toggle-btn.active{background:var(--navy); color:#fff; border-color:var(--navy);}
+  .group-toggle-btn:hover:not(.active){border-color:var(--orange); color:var(--navy);}
+  .mgr-group{margin-bottom:28px;}
+  .mgr-group-head{
+    display:flex; align-items:center; gap:10px; font-weight:800; color:var(--navy);
+    font-size:14px; margin-bottom:12px; padding-bottom:8px; border-bottom:1px solid var(--line);
+  }
+  .mgr-group-head .n{font-weight:500; font-size:11.5px; color:var(--ink-soft); text-transform:none;}
   .emp-card{
     background:#fff; border:1px solid var(--line); border-radius:12px;
     padding:16px; cursor:pointer; display:flex; align-items:center; gap:12px;
@@ -250,6 +296,34 @@
   .emp-info .n{font-size:13.5px; font-weight:700; color:var(--navy); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
   .emp-info .t{font-size:11.5px; color:var(--ink-soft); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
   .role-list{display:flex; flex-direction:column; gap:6px;}
+  .org-chart-wrap{padding-bottom:20px;}
+  .org-roots-row{display:flex; gap:24px; align-items:flex-start; justify-content:center;}
+  .org-roots-row > .org-node{flex:0 0 auto;}
+  .org-node{margin-bottom:8px;}
+  .org-node-row{display:flex; align-items:center; gap:6px;}
+  .org-toggle{
+    all:unset; box-sizing:border-box; cursor:pointer; width:20px; height:20px; flex:0 0 auto;
+    display:flex; align-items:center; justify-content:center; color:var(--ink-soft);
+    font-size:11px; transition:transform .15s;
+  }
+  .org-toggle.collapsed{transform:rotate(-90deg);}
+  .org-toggle-spacer{display:inline-block; width:20px; flex:0 0 auto;}
+  .org-card{
+    background:#fff; border:1px solid var(--line); border-radius:10px;
+    padding:9px 14px; cursor:pointer; display:flex; align-items:center; gap:10px;
+    max-width:360px; flex:1 1 auto; transition:border-color .15s, box-shadow .15s;
+  }
+  .org-card:hover{border-color:var(--orange); box-shadow:0 2px 10px rgba(28,43,58,0.06);}
+  .org-card .emp-avatar{width:32px; height:32px; font-size:11.5px;}
+  .org-count{
+    margin-left:auto; flex:0 0 auto; font-size:11px; font-weight:700; color:var(--ink-soft);
+    background:var(--paper); border-radius:20px; padding:2px 9px;
+  }
+  .org-children{
+    margin-left:29px; padding-left:20px; margin-top:8px;
+    border-left:2px solid var(--line);
+  }
+  .org-children.org-collapsed{display:none;}
   .level-chip-row{display:grid; grid-template-columns:repeat(6, 1fr); gap:14px;}
   @media (max-width: 860px){
     .level-chip-row{grid-template-columns:repeat(3, 1fr);}
@@ -620,14 +694,55 @@
     flex-direction:column; overflow:hidden;
   }
   .analysis-modal.show{display:flex;}
+  .flag-modal{width:min(480px, 92vw) !important;}
   @media (max-width: 860px){
     .analysis-modal{ left:50%; width:min(860px, 95vw); }
   }
+  .flag-context-box{
+    background:var(--paper); border:1px solid var(--line); border-radius:8px;
+    padding:10px 14px; margin-bottom:18px;
+  }
+  .flag-context-box .lbl{font-size:10.5px; font-weight:700; color:var(--ink-soft); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:3px;}
+  .flag-context-box .val{font-size:13px; font-weight:700; color:var(--navy);}
+  .flag-field-label{display:block; font-size:12.5px; font-weight:700; color:var(--navy); margin:14px 0 6px;}
+  .flag-field-label .req{color:var(--orange);}
+  .flag-input, .flag-textarea{
+    all:unset; box-sizing:border-box; display:block; width:100%;
+    border:1px solid var(--line); border-radius:8px; padding:10px 12px;
+    font-size:13px; color:var(--ink); font-family:inherit; background:#fff;
+  }
+  .flag-input:focus, .flag-textarea:focus{border-color:var(--orange);}
+  .flag-textarea{resize:vertical;}
+  .flag-error{color:#B23B3B; font-size:12px; margin:10px 0 0;}
+  .flag-note{font-size:11px; color:var(--ink-soft); text-align:center; margin:10px 0 0; line-height:1.5;}
   .analysis-modal-header{
     display:flex; justify-content:space-between; align-items:center;
     padding:20px 26px; background:#fff; border-bottom:1px solid var(--line); flex:0 0 auto;
   }
   .analysis-modal-header h2{font-size:19px; color:var(--navy); margin:0; font-weight:800;}
+  .modal-action-btn{
+    all:unset; box-sizing:border-box; cursor:pointer; display:flex; align-items:center; gap:6px;
+    padding:8px 12px; border-radius:7px; border:1px solid var(--line);
+    font-size:12px; font-weight:600; color:var(--ink-soft);
+  }
+  .modal-action-btn svg{width:13px; height:13px;}
+  .modal-action-btn:hover{border-color:var(--orange); color:var(--navy);}
+  @media print{
+    body *{visibility:hidden;}
+    .analysis-modal.show, .analysis-modal.show *{visibility:visible;}
+    .analysis-modal.show{
+      position:absolute; top:0; left:0; width:100%; height:auto;
+      box-shadow:none; border-radius:0; max-height:none;
+    }
+    .analysis-modal-header .modal-action-btn, .analysis-modal-header .drawer-close,
+    .analysis-mobility-banner, .analysis-pair-tabs{display:none !important;}
+    .analysis-modal-body{overflow:visible !important; height:auto !important;}
+    body.print-orgchart #mainContent, body.print-orgchart #mainContent *{visibility:visible;}
+    body.print-orgchart #mainContent{position:absolute; top:0; left:0; width:100%;}
+    body.print-orgchart .topline .modal-action-btn{display:none !important;}
+    body.print-orgchart .org-toggle{display:none !important;}
+    body.print-orgchart .org-toggle-spacer{display:none !important;}
+  }
   .analysis-mobility-banner{
     display:flex; align-items:flex-start; gap:10px;
     background:var(--navy); color:#EDEFF2;
@@ -648,6 +763,24 @@
   }
   .analysis-mobility-banner a:hover{color:var(--orange-soft);}
   .analysis-modal-body{overflow-y:auto; padding:22px 26px 34px; flex:1 1 auto;}
+  .guide-modal{width:min(560px, 92vw) !important;}
+  .guide-slideshow-body{padding:26px 30px 10px; text-align:center;}
+  .guide-mockup{width:100%; max-width:400px; height:auto; margin:0 auto 20px; display:block;}
+  .guide-slide h4{margin:0 0 8px; font-size:16px; color:var(--navy); font-weight:800;}
+  .guide-slide p{margin:0; font-size:13.5px; color:var(--ink-soft); line-height:1.65; max-width:420px; margin-left:auto; margin-right:auto;}
+  .guide-nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px 26px 22px; border-top:1px solid var(--line);
+  }
+  .guide-nav-btn{
+    all:unset; box-sizing:border-box; cursor:pointer; padding:8px 14px; border-radius:8px;
+    font-size:12.5px; font-weight:700; color:var(--navy); border:1px solid var(--line);
+  }
+  .guide-nav-btn:hover{border-color:var(--orange); color:var(--orange);}
+  .guide-nav-btn:disabled{opacity:0.35; cursor:not-allowed;}
+  .guide-dots{display:flex; gap:6px;}
+  .guide-dot{width:7px; height:7px; border-radius:50%; background:var(--line);}
+  .guide-dot.active{background:var(--orange); width:9px; height:9px;}
   .analysis-card{background:#fff; border:1px solid var(--line); border-radius:12px; padding:20px 22px; margin-bottom:18px;}
   .analysis-headline{font-size:14px; font-weight:700; color:var(--navy); margin-bottom:16px; line-height:1.55;}
   .analysis-section{margin-bottom:16px;}
@@ -762,6 +895,11 @@
     color:var(--navy); font-weight:700; font-size:13px;
   }
   .drawer-add.added{background:var(--navy); color:#fff;}
+  .flag-link{
+    all:unset; display:block; text-align:center; margin-top:14px; width:100%; cursor:pointer;
+    font-size:11.5px; color:var(--ink-soft); text-decoration:underline;
+  }
+  .flag-link:hover{color:var(--orange);}
 
   /* Compare view */
   .compare-grid{
@@ -835,6 +973,10 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
       <input id="searchInput" type="text" placeholder="Search for a role or employee…">
     </div>
+    <button class="guide-link" id="guideLinkBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.5 9a2.5 2.5 0 0 1 5 0c0 1.5-2.5 2-2.5 3.5"/><line x1="12" y1="17" x2="12" y2="17.1"/></svg>
+      <span>How to use this dashboard</span>
+    </button>
 
     <div>
       <div class="nav-label collapsible" data-navsection="dir"><span>Directory</span><span class="chev">▾</span></div>
@@ -856,6 +998,13 @@
       <nav class="deptnav" id="jdNav">
         <button id="jdLibraryBtn"><span>Library</span></button>
         <button id="jdFolderBtn"><span>SharePoint Folder</span><span class="arrow">↗</span></button>
+      </nav>
+    </div>
+
+    <div>
+      <div class="nav-label collapsible" data-navsection="org"><span>Org Chart</span><span class="chev">▾</span></div>
+      <nav class="deptnav" id="orgNav">
+        <button id="orgChartBtn"><span>Company Org Chart</span></button>
       </nav>
     </div>
 
@@ -881,13 +1030,237 @@
 <div class="analysis-modal" id="analysisModal">
   <div class="analysis-modal-header">
     <h2>Your Comparison Analysis</h2>
-    <button class="drawer-close" id="analysisCloseBtn">×</button>
+    <div style="display:flex; align-items:center; gap:6px;">
+      <button class="modal-action-btn" id="printAnalysisBtn" title="Export this comparison as a PDF">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+        <span>Export PDF</span>
+      </button>
+      <button class="drawer-close" id="analysisCloseBtn">×</button>
+    </div>
   </div>
   <div class="analysis-mobility-banner">
     <span>Thinking about a move? Read Eleven's <a href="https://eleven.atlassian.net/wiki/x/RAADBgE" target="_blank" rel="noopener">Internal Mobility Policy</a> for how this works in practice.</span>
   </div>
   <div class="analysis-pair-tabs" id="analysisPairTabs" style="display:none;"></div>
   <div class="analysis-modal-body" id="analysisModalBody"></div>
+</div>
+
+<div class="modal-overlay" id="guideOverlay"></div>
+<div class="analysis-modal guide-modal" id="guideModal">
+  <div class="analysis-modal-header">
+    <h2>How to use this dashboard</h2>
+    <button class="drawer-close" id="guideCloseBtn">×</button>
+  </div>
+  <div class="analysis-modal-body guide-slideshow-body">
+
+    <div class="guide-slide" data-guideslide="0">
+      <svg class="guide-mockup" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="110" height="180" rx="8" fill="#1C2B3A"/>
+        <rect x="16" y="20" width="78" height="9" rx="3" fill="#E05A2B"/>
+        <rect x="16" y="42" width="60" height="6" rx="2" fill="#ffffff" opacity="0.7"/>
+        <rect x="16" y="58" width="70" height="6" rx="2" fill="#ffffff" opacity="0.4"/>
+        <rect x="16" y="74" width="55" height="6" rx="2" fill="#ffffff" opacity="0.4"/>
+        <rect x="128" y="14" width="256" height="46" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+        <circle cx="150" cy="37" r="10" fill="#E05A2B"/>
+        <rect x="170" y="28" width="120" height="7" rx="2" fill="#1C2B3A"/>
+        <rect x="170" y="42" width="80" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="128" y="68" width="256" height="46" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+        <circle cx="150" cy="91" r="10" fill="#24384B"/>
+        <rect x="170" y="82" width="130" height="7" rx="2" fill="#1C2B3A"/>
+        <rect x="170" y="96" width="90" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="128" y="122" width="256" height="46" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+        <circle cx="150" cy="145" r="10" fill="#2E4759"/>
+        <rect x="170" y="136" width="110" height="7" rx="2" fill="#1C2B3A"/>
+        <rect x="170" y="150" width="75" height="6" rx="2" fill="#5C6B7A"/>
+      </svg>
+      <h4>Browse by Department</h4>
+      <p>Pick a department from the sidebar to see its job families and every band, junior to senior. Click any role card to see its full profile: scope, complexity, autonomy, influence, who's currently in it, and the formal job description if one's on file.</p>
+    </div>
+
+    <div class="guide-slide" data-guideslide="1" style="display:none;">
+      <svg class="guide-mockup" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="400" height="180" rx="8" fill="#F6F7F9"/>
+        <g>
+          <rect x="16" y="16" width="118" height="50" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+          <circle cx="36" cy="41" r="11" fill="#E05A2B"/>
+          <rect x="54" y="32" width="66" height="6" rx="2" fill="#1C2B3A"/>
+          <rect x="54" y="45" width="50" height="5" rx="2" fill="#5C6B7A"/>
+        </g>
+        <g>
+          <rect x="141" y="16" width="118" height="50" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+          <circle cx="161" cy="41" r="11" fill="#24384B"/>
+          <rect x="179" y="32" width="66" height="6" rx="2" fill="#1C2B3A"/>
+          <rect x="179" y="45" width="45" height="5" rx="2" fill="#5C6B7A"/>
+        </g>
+        <g>
+          <rect x="266" y="16" width="118" height="50" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+          <circle cx="286" cy="41" r="11" fill="#2E4759"/>
+          <rect x="304" y="32" width="66" height="6" rx="2" fill="#1C2B3A"/>
+          <rect x="304" y="45" width="55" height="5" rx="2" fill="#5C6B7A"/>
+        </g>
+        <g>
+          <rect x="16" y="76" width="118" height="50" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+          <circle cx="36" cy="101" r="11" fill="#C97A1A"/>
+          <rect x="54" y="92" width="66" height="6" rx="2" fill="#1C2B3A"/>
+          <rect x="54" y="105" width="48" height="5" rx="2" fill="#5C6B7A"/>
+        </g>
+        <g>
+          <rect x="141" y="76" width="118" height="50" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+          <circle cx="161" cy="101" r="11" fill="#E05A2B"/>
+          <rect x="179" y="92" width="66" height="6" rx="2" fill="#1C2B3A"/>
+          <rect x="179" y="105" width="52" height="5" rx="2" fill="#5C6B7A"/>
+        </g>
+        <g>
+          <rect x="266" y="76" width="118" height="50" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+          <circle cx="286" cy="101" r="11" fill="#24384B"/>
+          <rect x="304" y="92" width="66" height="6" rx="2" fill="#1C2B3A"/>
+          <rect x="304" y="105" width="40" height="5" rx="2" fill="#5C6B7A"/>
+        </g>
+        <rect x="16" y="140" width="150" height="26" rx="6" fill="#1C2B3A"/>
+        <rect x="180" y="140" width="150" height="26" rx="6" fill="#ffffff" stroke="#DFE3E8"/>
+      </svg>
+      <h4>Directory</h4>
+      <p>Search everyone at Eleven by name, or browse every defined role grouped by status: current openings, filled roles, vacant roles, and future growth levels.</p>
+    </div>
+
+    <div class="guide-slide" data-guideslide="2" style="display:none;">
+      <svg class="guide-mockup" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="16" y="14" width="80" height="7" rx="2" fill="#5C6B7A"/>
+        <rect x="140" y="14" width="80" height="7" rx="2" fill="#5C6B7A"/>
+        <rect x="264" y="14" width="80" height="7" rx="2" fill="#5C6B7A"/>
+        <rect x="16" y="34" width="80" height="36" rx="18" fill="#F3D9CC"/>
+        <rect x="140" y="34" width="80" height="36" rx="18" fill="#E05A2B"/>
+        <rect x="264" y="34" width="80" height="36" rx="18" fill="#F3D9CC"/>
+        <rect x="40" y="48" width="32" height="8" rx="2" fill="#1C2B3A" opacity="0.5"/>
+        <rect x="164" y="48" width="32" height="8" rx="2" fill="#ffffff"/>
+        <rect x="288" y="48" width="32" height="8" rx="2" fill="#1C2B3A" opacity="0.5"/>
+        <line x1="0" y1="90" x2="400" y2="90" stroke="#DFE3E8" stroke-width="2"/>
+        <rect x="16" y="106" width="90" height="7" rx="2" fill="#5C6B7A"/>
+        <rect x="140" y="106" width="90" height="7" rx="2" fill="#5C6B7A"/>
+        <rect x="264" y="106" width="90" height="7" rx="2" fill="#5C6B7A"/>
+        <rect x="16" y="126" width="80" height="36" rx="18" fill="#F3D9CC"/>
+        <rect x="140" y="126" width="80" height="36" rx="18" fill="#F3D9CC"/>
+        <rect x="264" y="126" width="80" height="36" rx="18" fill="#F3D9CC"/>
+      </svg>
+      <h4>Levels</h4>
+      <p>See the same band sliced across every department at once, useful for understanding what "Band 3" or "Director" tends to mean company-wide, not just in your own team.</p>
+    </div>
+
+    <div class="guide-slide" data-guideslide="3" style="display:none;">
+      <svg class="guide-mockup" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="16" y="16" width="368" height="44" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+        <rect x="32" y="30" width="18" height="16" rx="2" fill="#24384B"/>
+        <rect x="60" y="32" width="150" height="7" rx="2" fill="#1C2B3A"/>
+        <rect x="60" y="44" width="90" height="5" rx="2" fill="#5C6B7A"/>
+        <path d="M362 32l10 6-10 6z" fill="#E05A2B"/>
+        <rect x="16" y="68" width="368" height="44" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+        <rect x="32" y="82" width="18" height="16" rx="2" fill="#2E4759"/>
+        <rect x="60" y="84" width="170" height="7" rx="2" fill="#1C2B3A"/>
+        <rect x="60" y="96" width="100" height="5" rx="2" fill="#5C6B7A"/>
+        <path d="M362 84l10 6-10 6z" fill="#E05A2B"/>
+        <rect x="16" y="120" width="368" height="44" rx="8" fill="#ffffff" stroke="#DFE3E8"/>
+        <rect x="32" y="134" width="18" height="16" rx="2" fill="#E05A2B"/>
+        <rect x="60" y="136" width="130" height="7" rx="2" fill="#1C2B3A"/>
+        <rect x="60" y="148" width="80" height="5" rx="2" fill="#5C6B7A"/>
+        <path d="M362 136l10 6-10 6z" fill="#E05A2B"/>
+      </svg>
+      <h4>Job Descriptions</h4>
+      <p>The full library of formal job descriptions on file, searchable in one place.</p>
+    </div>
+
+    <div class="guide-slide" data-guideslide="4" style="display:none;">
+      <svg class="guide-mockup" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="16" y="16" width="160" height="148" rx="10" fill="#ffffff" stroke="#DFE3E8"/>
+        <rect x="32" y="32" width="90" height="8" rx="2" fill="#1C2B3A"/>
+        <rect x="32" y="50" width="128" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="32" y="62" width="110" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="32" y="86" width="60" height="7" rx="2" fill="#E05A2B"/>
+        <rect x="32" y="102" width="128" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="32" y="114" width="90" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="32" y="136" width="128" height="16" rx="6" fill="#FBF3EF"/>
+        <circle cx="200" cy="90" r="20" fill="#1C2B3A"/>
+        <text x="200" y="95" font-family="Arial" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">VS</text>
+        <rect x="224" y="16" width="160" height="148" rx="10" fill="#ffffff" stroke="#DFE3E8"/>
+        <rect x="240" y="32" width="90" height="8" rx="2" fill="#1C2B3A"/>
+        <rect x="240" y="50" width="128" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="240" y="62" width="110" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="240" y="86" width="60" height="7" rx="2" fill="#E05A2B"/>
+        <rect x="240" y="102" width="128" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="240" y="114" width="90" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="240" y="136" width="128" height="16" rx="6" fill="#FBF3EF"/>
+      </svg>
+      <h4>Compare</h4>
+      <p>Add two roles (from any card's "+" button) to see them side by side, then open the full analysis for Growth Areas or Key Differences, Day-to-Day Differences, Main Takeaways, and a few concrete things Worth Exploring. Treat this as a conversation-starter with your manager, not an official growth plan.</p>
+    </div>
+
+    <div class="guide-slide" data-guideslide="5" style="display:none;">
+      <svg class="guide-mockup" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="60" y="16" width="280" height="40" rx="20" fill="#ffffff" stroke="#E05A2B" stroke-width="2"/>
+        <circle cx="86" cy="36" r="7" fill="none" stroke="#E05A2B" stroke-width="2"/>
+        <line x1="91" y1="41" x2="97" y2="47" stroke="#E05A2B" stroke-width="2"/>
+        <rect x="108" y="31" width="150" height="8" rx="2" fill="#5C6B7A"/>
+        <rect x="60" y="64" width="280" height="98" rx="10" fill="#ffffff" stroke="#DFE3E8"/>
+        <circle cx="86" cy="90" r="12" fill="#E05A2B"/>
+        <rect x="108" y="82" width="120" height="7" rx="2" fill="#1C2B3A"/>
+        <rect x="108" y="94" width="90" height="6" rx="2" fill="#5C6B7A"/>
+        <line x1="60" y1="114" x2="340" y2="114" stroke="#DFE3E8"/>
+        <circle cx="86" cy="138" r="12" fill="#24384B"/>
+        <rect x="108" y="130" width="140" height="7" rx="2" fill="#1C2B3A"/>
+        <rect x="108" y="142" width="95" height="6" rx="2" fill="#5C6B7A"/>
+      </svg>
+      <h4>Search</h4>
+      <p>The search bar at the top of the sidebar jumps straight to any role or person by name, from anywhere in the app.</p>
+    </div>
+
+    <div class="guide-slide" data-guideslide="6" style="display:none;">
+      <svg class="guide-mockup" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="16" y="20" width="220" height="140" rx="10" fill="#ffffff" stroke="#DFE3E8"/>
+        <rect x="32" y="36" width="120" height="8" rx="2" fill="#1C2B3A"/>
+        <rect x="32" y="54" width="188" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="32" y="66" width="160" height="6" rx="2" fill="#5C6B7A"/>
+        <rect x="32" y="120" width="150" height="9" rx="4" fill="#5C6B7A" text-decoration="underline"/>
+        <circle cx="300" cy="90" r="26" fill="#F3D9CC"/>
+        <text x="300" y="98" font-family="Arial" font-size="26" font-weight="700" fill="#E05A2B" text-anchor="middle">!</text>
+        <path d="M256 90h20" stroke="#5C6B7A" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+        <defs>
+          <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+            <path d="M0 0L8 4L0 8Z" fill="#5C6B7A"/>
+          </marker>
+        </defs>
+        <rect x="342" y="72" width="42" height="30" rx="4" fill="#ffffff" stroke="#24384B" stroke-width="2"/>
+        <path d="M342 76l21 14 21-14" fill="none" stroke="#24384B" stroke-width="2"/>
+      </svg>
+      <h4>See something that looks off?</h4>
+      <p>Every role and comparison has a small "Something look off?" link at the bottom. Click it, describe what's wrong, and it goes straight to the People Team.</p>
+    </div>
+
+  </div>
+  <div class="guide-nav">
+    <button id="guidePrevBtn" class="guide-nav-btn">← Back</button>
+    <div class="guide-dots" id="guideDots"></div>
+    <button id="guideNextBtn" class="guide-nav-btn">Next →</button>
+  </div>
+</div>
+
+<div class="modal-overlay" id="flagOverlay"></div>
+<div class="analysis-modal flag-modal" id="flagModal">
+  <div class="analysis-modal-header">
+    <h2>Something look off?</h2>
+    <button class="drawer-close" id="flagCloseBtn">×</button>
+  </div>
+  <div class="analysis-modal-body">
+    <div class="flag-context-box">
+      <div class="lbl">You're flagging</div>
+      <div id="flagContextDisplay" class="val"></div>
+    </div>
+    <label class="flag-field-label" for="flagWhatsOff">What looks off? <span class="req">*</span></label>
+    <input type="text" id="flagWhatsOff" class="flag-input" placeholder="e.g. this scope description seems out of date">
+    <label class="flag-field-label" for="flagDetails">Any additional details? (optional)</label>
+    <textarea id="flagDetails" class="flag-textarea" rows="4" placeholder="Anything else that would help the People Team fix this"></textarea>
+    <p id="flagError" class="flag-error" style="display:none;">Please fill in "What looks off?" before submitting.</p>
+    <button type="button" id="flagSubmitBtn" class="drawer-add">Submit to People Team</button>
+    <p class="flag-note">This opens your email client with the details above pre-filled, addressed to hr@elevensoftware.com.</p>
+  </div>
 </div>
 
 <script>
@@ -900,6 +1273,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     mode: 'home', // home | browse | compare | directory | levels | jdlibrary
     activeLevel: '1',
     directoryTab: 'employees', // employees | roles
+    groupByManager: false,
     compare: [], // array of {dept, family, role}
     selectedKey: null,
     search: '',
@@ -966,6 +1340,21 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
 
   function roleKey(dept, family, role){ return dept+'|'+family+'|'+role.title; }
   function hasJD(role){ return !!(role.jdUrls && role.jdUrls.length && role.jdUrls[0].text); }
+
+  const FLAG_EMAIL = 'hr@elevensoftware.com';
+  function buildFlagMailto(context, whatsOff, details){
+    const subject = encodeURIComponent(`Career Ladders Dashboard — flag: ${context}`);
+    const bodyLines = [
+      `Item: ${context}`,
+      `URL: ${window.location.href}`,
+      '',
+      `What looks off: ${whatsOff}`,
+      '',
+      `Additional details: ${details || '(none provided)'}`,
+    ];
+    const body = encodeURIComponent(bodyLines.join('\n'));
+    return `mailto:${FLAG_EMAIL}?subject=${subject}&body=${body}`;
+  }
 
   // ---- Bespoke comparison cache (comparisons.json) ----
   // These hashing/key functions MUST stay identical to the copies in
@@ -1070,6 +1459,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
           <div class="analysis-section-title">Worth Exploring</div>
           <div class="analysis-worth-exploring">${worthExploringHtml}</div>
           <div class="analysis-disclaimer">This analysis was generated for this specific pair of roles and cached, it's still a directional starting point, not an official recommendation or growth plan. Please treat it as a conversation-starter with your manager or the People Team, not a guarantee.</div>
+          <button type="button" class="flag-link" data-flagcontext="${(`${leftName} vs ${rightName}`).replace(/"/g,'&quot;')}">Something look off with this comparison? Let us know</button>
         </div>
       </div>
     `;
@@ -1100,6 +1490,8 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
   function renderNav(){
     const jdLibBtn = document.getElementById('jdLibraryBtn');
     if(jdLibBtn) jdLibBtn.className = state.mode==='jdlibrary' ? 'active' : '';
+    const orgChartBtn = document.getElementById('orgChartBtn');
+    if(orgChartBtn) orgChartBtn.className = state.mode==='orgchart' ? 'active' : '';
 
     const dirNav = document.getElementById('dirNav');
     dirNav.innerHTML = '';
@@ -1293,6 +1685,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
       <button class="drawer-add" id="viewInDeptBtn" style="background:#fff; color:var(--navy); border:1px solid var(--navy); margin-bottom:10px;">View in ${dept} department</button>
       ` : ''}
       <button class="drawer-add ${inCompare?'added':''}" id="drawerAddBtn">${inCompare ? '✓ Added to compare' : '+ Add to compare'}</button>
+      <button type="button" class="flag-link" data-flagcontext="${(`${role.title} (${dept}${family && family !== dept ? ' · ' + family : ''})`).replace(/"/g,'&quot;')}">Something look off with this role? Let us know</button>
     `;
     wireDrawerNav();
     document.getElementById('drawerAddBtn').onclick = ()=>{ toggleCompare(dept,family,role); openDrawer(dept,family,role,true); };
@@ -1599,6 +1992,69 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     overlay.onclick = closeDrawer;
   }
 
+  function orgChartNode(emp, depth){
+    if(!emp) return '';
+    const reportNames = emp.directReports || [];
+    const reports = reportNames.map(n => JOB_DATA.employees.find(e=>e.name===n)).filter(Boolean);
+    const hasReports = reports.length > 0;
+    const title = emp.mapped ? emp.mapped.roleTitle : (emp.csvTitle || '');
+    return `
+      <div class="org-node" data-depth="${depth}">
+        <div class="org-node-row">
+          ${hasReports ? `<button class="org-toggle collapsed" data-orgtoggle="${emp.name}">▾</button>` : `<span class="org-toggle-spacer"></span>`}
+          <div class="org-card" data-emp="${emp.name}">
+            <div class="emp-avatar" style="background:${avatarColor(emp.name)};">${initials(emp.name)}</div>
+            <div class="emp-info">
+              <div class="n">${emp.name}</div>
+              <div class="t">${title}</div>
+            </div>
+            ${hasReports ? `<span class="org-count">${reports.length}</span>` : ''}
+          </div>
+        </div>
+        ${hasReports ? `
+        <div class="org-children org-collapsed" data-orgchildren="${emp.name}">
+          ${reports.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(r=>orgChartNode(r, depth+1)).join('')}
+        </div>` : ''}
+      </div>
+    `;
+  }
+
+  function renderOrgChart(){
+    const roots = JOB_DATA.employees.filter(e => !e.manager);
+    const priority = ['Hannah Greenberg', 'Alex Lopez'];
+    const ordered = roots.slice().sort((a,b)=>{
+      const ai = priority.indexOf(a.name), bi = priority.indexOf(b.name);
+      if(ai !== -1 && bi !== -1) return ai - bi;
+      if(ai !== -1) return -1;
+      if(bi !== -1) return 1;
+      return a.name.localeCompare(b.name);
+    });
+    let html = `
+      <div class="topline">
+        <div>
+          <h2>Company Org Chart</h2>
+          <div class="sub">Reporting lines across all of Eleven, built from each person's manager on file. Click the arrow to expand a branch, click a card to see that person's full profile.</div>
+        </div>
+        <div style="display:flex; gap:8px;">
+          <button class="modal-action-btn" id="exportOrgViewBtn" title="Export exactly what's currently expanded on screen">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+            <span>Export current view</span>
+          </button>
+          <button class="modal-action-btn" id="exportOrgFullBtn" title="Export the whole company, fully expanded">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+            <span>Export full org chart</span>
+          </button>
+        </div>
+      </div>
+      <div class="org-chart-wrap">
+        <div class="org-roots-row">
+          ${ordered.map(r=>orgChartNode(r, 0)).join('')}
+        </div>
+      </div>
+    `;
+    return html;
+  }
+
   function renderJDLibrary(){
     const roleGroups = [];
     JOB_DATA.departments.forEach(dept=>{
@@ -1701,19 +2157,61 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
       </div>
     `;
     if(state.directoryTab === 'employees'){
-      html += `<div class="emp-grid">`;
-      JOB_DATA.employees.slice().sort((a,b)=>a.name.localeCompare(b.name)).forEach(e=>{
-        html += `
-          <div class="emp-card" data-emp="${e.name}">
-            <div class="emp-avatar" style="background:${avatarColor(e.name)};">${initials(e.name)}</div>
-            <div class="emp-info">
-              <div class="n">${e.name}</div>
-              <div class="t">${e.csvTitle || e.csvDepartment}</div>
+      html += `
+        <div style="display:flex; justify-content:flex-start; margin:-4px 0 16px;">
+          <button id="groupByManagerBtn" class="group-toggle-btn ${state.groupByManager?'active':''}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="3"/><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/><circle cx="19" cy="6" r="2"/><circle cx="5" cy="6" r="2"/></svg>
+            ${state.groupByManager ? 'Showing by manager' : 'Group by manager'}
+          </button>
+        </div>
+      `;
+      if(state.groupByManager){
+        const NO_MANAGER = '\u0000no-manager';
+        const byManager = {};
+        JOB_DATA.employees.forEach(e=>{
+          const mgr = e.manager || NO_MANAGER;
+          (byManager[mgr] = byManager[mgr] || []).push(e);
+        });
+        const mgrNames = Object.keys(byManager).sort((a,b)=>{
+          if(a===NO_MANAGER) return -1;
+          if(b===NO_MANAGER) return 1;
+          return a.localeCompare(b);
+        });
+        mgrNames.forEach(mgr=>{
+          const reports = byManager[mgr].slice().sort((a,b)=>a.name.localeCompare(b.name));
+          const isNoManager = mgr === NO_MANAGER;
+          html += `
+            <div class="mgr-group">
+              ${isNoManager ? '' : `<div class="mgr-group-head">${mgr}<span class="n">${reports.length} direct report${reports.length===1?'':'s'}</span></div>`}
+              <div class="emp-grid">
+                ${reports.map(e=>`
+                  <div class="emp-card" data-emp="${e.name}">
+                    <div class="emp-avatar" style="background:${avatarColor(e.name)};">${initials(e.name)}</div>
+                    <div class="emp-info">
+                      <div class="n">${e.name}</div>
+                      <div class="t">${e.csvTitle || e.csvDepartment}</div>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
             </div>
-          </div>
-        `;
-      });
-      html += `</div>`;
+          `;
+        });
+      } else {
+        html += `<div class="emp-grid">`;
+        JOB_DATA.employees.slice().sort((a,b)=>a.name.localeCompare(b.name)).forEach(e=>{
+          html += `
+            <div class="emp-card" data-emp="${e.name}">
+              <div class="emp-avatar" style="background:${avatarColor(e.name)};">${initials(e.name)}</div>
+              <div class="emp-info">
+                <div class="n">${e.name}</div>
+                <div class="t">${e.csvTitle || e.csvDepartment}</div>
+              </div>
+            </div>
+          `;
+        });
+        html += `</div>`;
+      }
     } else {
       const allRoles = [];
       JOB_DATA.departments.forEach(dept=>{
@@ -1882,6 +2380,11 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
           <h1 style="margin:0;">Career Ladders</h1>
         </div>
         <p>A living map of every job family, level, and career path at Eleven. See what's expected at each level, compare roles side by side, and find out what's next on your path, without digging through spreadsheets.</p>
+        <div class="find-yourself">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+          <input id="findYourselfInput" type="text" placeholder="Looking for your own role? Search your name" autocomplete="off">
+          <div id="findYourselfResults" class="find-yourself-results"></div>
+        </div>
         <div class="stat-row">
           <div class="stat-card clickable" data-directory="employees"><div class="num">${JOB_DATA.companyHeadcount || ''}</div><div class="lbl">Total employees</div></div>
           <div class="stat-card"><div class="num">${totalDepts}</div><div class="lbl">Departments mapped</div></div>
@@ -2517,6 +3020,7 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
           <div class="analysis-section-title">Worth Exploring</div>
           <div class="analysis-worth-exploring">${worthExploring}</div>
           <div class="analysis-disclaimer">This is a directional starting point generated from the framework and job descriptions on file, not an official recommendation or growth plan. Please treat it as a conversation-starter with your manager or the People Team, not a guarantee.</div>
+          <button type="button" class="flag-link" data-flagcontext="${(`${leftName} vs ${rightName}`).replace(/"/g,'&quot;')}">Something look off with this comparison? Let us know</button>
         </div>
       </div>
     `;
@@ -2662,6 +3166,8 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
       html = renderLevels();
     } else if(state.mode==='jdlibrary'){
       html = renderJDLibrary();
+    } else if(state.mode==='orgchart'){
+      html = renderOrgChart();
     } else {
       html = renderBrowse();
     }
@@ -2684,6 +3190,31 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
       };
     });
 
+    const findInput = document.getElementById('findYourselfInput');
+    if(findInput){
+      const resultsEl = document.getElementById('findYourselfResults');
+      findInput.oninput = ()=>{
+        const q = findInput.value.trim().toLowerCase();
+        if(!q){ resultsEl.classList.remove('show'); resultsEl.innerHTML=''; return; }
+        const matches = JOB_DATA.employees
+          .filter(e=>e.name.toLowerCase().includes(q))
+          .sort((a,b)=>a.name.localeCompare(b.name))
+          .slice(0, 8);
+        resultsEl.innerHTML = matches.length
+          ? matches.map(e=>`<button data-findemp="${e.name}"><span class="emp-avatar" style="width:26px; height:26px; font-size:10.5px; background:${avatarColor(e.name)};">${initials(e.name)}</span><span>${e.name}<span style="display:block; font-size:11px; color:var(--ink-soft); font-weight:400;">${e.csvTitle||''}</span></span></button>`).join('')
+          : `<div class="empty">No one matches "${findInput.value.trim()}" — try a different spelling.</div>`;
+        resultsEl.classList.add('show');
+        resultsEl.querySelectorAll('[data-findemp]').forEach(btn=>{
+          btn.onclick = ()=>{
+            findInput.value = '';
+            resultsEl.classList.remove('show');
+            openEmployeeDrawer(btn.getAttribute('data-findemp'));
+          };
+        });
+      };
+      findInput.onblur = ()=>{ setTimeout(()=>resultsEl.classList.remove('show'), 150); };
+    }
+
     main.querySelectorAll('[data-level]').forEach(chip=>{
       chip.onclick = ()=>{
         state.mode='levels';
@@ -2705,8 +3236,59 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
         render();
       };
     });
+    const groupByManagerBtn = document.getElementById('groupByManagerBtn');
+    if(groupByManagerBtn){
+      groupByManagerBtn.onclick = ()=>{
+        state.groupByManager = !state.groupByManager;
+        render();
+      };
+    }
+    const exportOrgViewBtn = document.getElementById('exportOrgViewBtn');
+    if(exportOrgViewBtn){
+      exportOrgViewBtn.onclick = ()=>{
+        document.body.classList.add('print-orgchart');
+        window.print();
+        const restore = ()=>{ document.body.classList.remove('print-orgchart'); window.removeEventListener('afterprint', restore); };
+        window.addEventListener('afterprint', restore);
+      };
+    }
+    const exportOrgFullBtn = document.getElementById('exportOrgFullBtn');
+    if(exportOrgFullBtn){
+      exportOrgFullBtn.onclick = ()=>{
+        const collapsedNames = [];
+        document.querySelectorAll('.org-children.org-collapsed').forEach(el=>{
+          collapsedNames.push(el.getAttribute('data-orgchildren'));
+        });
+        document.querySelectorAll('.org-children').forEach(el=>el.classList.remove('org-collapsed'));
+        document.querySelectorAll('.org-toggle').forEach(el=>el.classList.remove('collapsed'));
+        document.body.classList.add('print-orgchart');
+        window.print();
+        const restore = ()=>{
+          collapsedNames.forEach(name=>{
+            const childrenEl = document.querySelector(`[data-orgchildren="${name}"]`);
+            const toggleEl = document.querySelector(`[data-orgtoggle="${name}"]`);
+            if(childrenEl) childrenEl.classList.add('org-collapsed');
+            if(toggleEl) toggleEl.classList.add('collapsed');
+          });
+          document.body.classList.remove('print-orgchart');
+          window.removeEventListener('afterprint', restore);
+        };
+        window.addEventListener('afterprint', restore);
+      };
+    }
     main.querySelectorAll('[data-emp]').forEach(card=>{
       card.onclick = ()=> openEmployeeDrawer(card.getAttribute('data-emp'));
+    });
+    main.querySelectorAll('[data-orgtoggle]').forEach(btn=>{
+      btn.onclick = (e)=>{
+        e.stopPropagation();
+        const name = btn.getAttribute('data-orgtoggle');
+        const children = main.querySelector(`[data-orgchildren="${name}"]`);
+        if(children){
+          children.classList.toggle('org-collapsed');
+          btn.classList.toggle('collapsed');
+        }
+      };
     });
     main.querySelectorAll('.role-row[data-key]').forEach(row=>{
       row.onclick = ()=>{
@@ -2790,6 +3372,12 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     render();
   });
 
+  document.getElementById('orgChartBtn').addEventListener('click', ()=>{
+    state.mode='orgchart'; state.search='';
+    document.getElementById('searchInput').value='';
+    render();
+  });
+
   function closeAnalysisModal(){
     document.getElementById('analysisOverlay').classList.remove('show');
     document.getElementById('analysisModal').classList.remove('show');
@@ -2798,6 +3386,75 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
   }
   document.getElementById('analysisCloseBtn').addEventListener('click', closeAnalysisModal);
   document.getElementById('analysisOverlay').addEventListener('click', closeAnalysisModal);
+
+  function closeGuideModal(){
+    document.getElementById('guideOverlay').classList.remove('show');
+    document.getElementById('guideModal').classList.remove('show');
+  }
+
+  const GUIDE_SLIDE_COUNT = document.querySelectorAll('.guide-slide').length;
+  let guideSlideIndex = 0;
+  const guideDotsEl = document.getElementById('guideDots');
+  guideDotsEl.innerHTML = Array.from({length: GUIDE_SLIDE_COUNT}, (_,i)=>`<div class="guide-dot" data-guidedot="${i}"></div>`).join('');
+  function showGuideSlide(idx){
+    guideSlideIndex = Math.max(0, Math.min(GUIDE_SLIDE_COUNT - 1, idx));
+    document.querySelectorAll('.guide-slide').forEach(el=>{
+      el.style.display = (parseInt(el.getAttribute('data-guideslide'),10) === guideSlideIndex) ? 'block' : 'none';
+    });
+    guideDotsEl.querySelectorAll('.guide-dot').forEach(dot=>{
+      dot.classList.toggle('active', parseInt(dot.getAttribute('data-guidedot'),10) === guideSlideIndex);
+    });
+    document.getElementById('guidePrevBtn').disabled = (guideSlideIndex === 0);
+    const nextBtn = document.getElementById('guideNextBtn');
+    nextBtn.textContent = (guideSlideIndex === GUIDE_SLIDE_COUNT - 1) ? 'Done' : 'Next →';
+  }
+  guideDotsEl.querySelectorAll('.guide-dot').forEach(dot=>{
+    dot.onclick = ()=> showGuideSlide(parseInt(dot.getAttribute('data-guidedot'),10));
+  });
+  document.getElementById('guidePrevBtn').addEventListener('click', ()=> showGuideSlide(guideSlideIndex - 1));
+  document.getElementById('guideNextBtn').addEventListener('click', ()=>{
+    if(guideSlideIndex === GUIDE_SLIDE_COUNT - 1){ closeGuideModal(); return; }
+    showGuideSlide(guideSlideIndex + 1);
+  });
+
+  document.getElementById('guideLinkBtn').addEventListener('click', ()=>{
+    showGuideSlide(0);
+    document.getElementById('guideOverlay').classList.add('show');
+    document.getElementById('guideModal').classList.add('show');
+  });
+  document.getElementById('guideCloseBtn').addEventListener('click', closeGuideModal);
+  document.getElementById('guideOverlay').addEventListener('click', closeGuideModal);
+
+  let flagCurrentContext = '';
+  function openFlagModal(context){
+    flagCurrentContext = context;
+    document.getElementById('flagContextDisplay').textContent = context;
+    document.getElementById('flagWhatsOff').value = '';
+    document.getElementById('flagDetails').value = '';
+    document.getElementById('flagError').style.display = 'none';
+    document.getElementById('flagOverlay').classList.add('show');
+    document.getElementById('flagModal').classList.add('show');
+  }
+  function closeFlagModal(){
+    document.getElementById('flagOverlay').classList.remove('show');
+    document.getElementById('flagModal').classList.remove('show');
+  }
+  document.body.addEventListener('click', (e)=>{
+    const btn = e.target.closest('[data-flagcontext]');
+    if(btn){ openFlagModal(btn.getAttribute('data-flagcontext')); }
+  });
+  document.getElementById('flagCloseBtn').addEventListener('click', closeFlagModal);
+  document.getElementById('flagOverlay').addEventListener('click', closeFlagModal);
+  document.getElementById('flagSubmitBtn').addEventListener('click', ()=>{
+    const whatsOff = document.getElementById('flagWhatsOff').value.trim();
+    if(!whatsOff){
+      document.getElementById('flagError').style.display = 'block';
+      return;
+    }
+    const details = document.getElementById('flagDetails').value.trim();
+    window.location.href = buildFlagMailto(flagCurrentContext, whatsOff, details);
+    closeFlagModal();
+  });
 
   const NAV_STORAGE_KEY = 'elevenCareerLaddersNavState';
   function loadNavState(){
@@ -2816,9 +3473,10 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     ['dept', 'deptNav'],
     ['level', 'levelNav'],
     ['jd', 'jdNav'],
+    ['org', 'orgNav'],
   ];
   const savedNavState = loadNavState();
-  const navState = savedNavState || {dir:true, dept:true, level:true, jd:true}; // true = collapsed; default collapsed on first visit
+  const navState = savedNavState || {dir:true, dept:true, level:true, jd:true, org:true}; // true = collapsed; default collapsed on first visit
   if(!savedNavState) saveNavState(navState);
 
   function expandNavSection(section){
@@ -2877,6 +3535,10 @@ const JOB_DATA = {"departments":[{"name":"Development","families":[{"name":"Soft
     document.addEventListener('webkitfullscreenchange', updateIcon);
     document.addEventListener('msfullscreenchange', updateIcon);
   })();
+
+  document.getElementById('printAnalysisBtn').addEventListener('click', ()=>{
+    window.print();
+  });
 
   loadComparisonsCache();
   render();
