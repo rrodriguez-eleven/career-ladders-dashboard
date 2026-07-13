@@ -736,14 +736,19 @@
       -webkit-print-color-adjust:exact; print-color-adjust:exact; color-adjust:exact;
     }
     .analysis-modal.show{
+      display:block !important;
       position:absolute !important; top:0 !important; left:0 !important; right:auto !important;
       transform:none !important; width:100% !important; max-width:100% !important;
       height:auto !important; max-height:none !important;
       box-shadow:none !important; border-radius:0 !important; background:#fff !important;
     }
+    .analysis-modal-header{display:block !important; border-bottom:none !important; padding:0 28px !important;}
     .analysis-modal-header .modal-action-btn, .analysis-modal-header .drawer-close,
     .analysis-mobility-banner, .analysis-pair-tabs, .flag-link{display:none !important;}
-    .analysis-modal-body{overflow:visible !important; height:auto !important; padding:16px 28px 30px !important;}
+    .analysis-modal-body{
+      display:block !important; overflow:visible !important; height:auto !important;
+      padding:16px 28px 30px !important;
+    }
     .analysis-card{page-break-inside:avoid; break-inside:avoid; box-shadow:none !important; border-color:#DFE3E8 !important;}
     .theme-row, .analysis-takeaways, .analysis-worth-exploring, .theme-synthesis{page-break-inside:avoid; break-inside:avoid;}
     .analysis-headline{font-size:15px !important;}
