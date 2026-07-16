@@ -5,14 +5,14 @@
       "family": "Product",
       "title": "Associate Product Manager",
       "band": "1",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on feature, senior, delivery."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Implementation Specialist",
       "band": "1",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on works, cross."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Sr. Software Engineer": [
@@ -21,14 +21,14 @@
       "family": "Product",
       "title": "Technical Product Manager",
       "band": "2",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on tradeoffs, delivery, standards."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "UX / Design Product Manager",
       "band": "2",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on features, design, quality."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Staff Software Engineer": [
@@ -37,14 +37,14 @@
       "family": "Product",
       "title": "Technical Product Manager",
       "band": "2",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on trusted, standards, decisions."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Senior Product Manager",
       "band": "3",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on workstreams, trusted, teams."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Sr. Staff Software Engineer": [
@@ -53,14 +53,14 @@
       "family": "Implementation",
       "title": "Principal Solutions Engineer",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on consulted, without, operates."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "UX / Design Product Manager",
       "band": "2",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on critical, domain, roadmap."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Principal Engineer": [
@@ -69,14 +69,14 @@
       "family": "Product",
       "title": "Staff Product Manager",
       "band": "3",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on year, fully, problems."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Senior Product Manager",
       "band": "3",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on ambiguous, problems, trusted."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Principal Architect": [
@@ -85,14 +85,14 @@
       "family": "Product",
       "title": "Chief Product Officer",
       "band": "6",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on investment, executive, vision."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Executive Leadership",
       "family": "Executive Leadership",
       "title": "Chief Executive Officer",
       "band": "6",
-      "why": "Both roles involve company-wide technical strategy and ownership, with shared focus on industry, challenges, executive."
+      "why": "Both roles center on company-wide technical strategy and ownership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Engineering Manager": [
@@ -101,14 +101,14 @@
       "family": "Implementation",
       "title": "Director, Implementation",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on engineers, growth, hiring."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Director of Product Management",
       "band": "4",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on outcomes, tradeoffs, hiring."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Sr. Engineering Manager": [
@@ -117,14 +117,14 @@
       "family": "Product",
       "title": "Director of Product Management",
       "band": "4",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on dependencies, resource, allocation."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Staff Product Manager",
       "band": "3",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on directors, influence, management."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Senior AI Engineer": [
@@ -133,14 +133,14 @@
       "family": "Product",
       "title": "Director of Data Operations",
       "band": "4",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on evaluates, departments, training."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Senior Product Manager",
       "band": "3",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on training, teams, senior."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Distinguished Engineer": [
@@ -149,14 +149,14 @@
       "family": "Implementation",
       "title": "Principal Solutions Engineer",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on fully, without, initiatives."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Director, Implementation",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on solutions, autonomous, hiring."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Sr. Distinguished Engineer": [
@@ -165,14 +165,14 @@
       "family": "Product",
       "title": "VP of Product",
       "band": "5",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on investment, board, vision."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Chief Product Officer",
       "band": "6",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on investment, board, vision."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Director of Engineering": [
@@ -181,14 +181,14 @@
       "family": "Product",
       "title": "Director of Product Management",
       "band": "4",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on plan, okrs, hiring."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "VP of Product",
       "band": "5",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on primary, direction, multi."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Sr. Director of Engineering": [
@@ -197,14 +197,14 @@
       "family": "Product",
       "title": "Director of Product Management",
       "band": "4",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on tradeoffs, hiring, investment."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Director, Implementation",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on oversees, alignment, planning."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|VP of Engineering": [
@@ -213,14 +213,14 @@
       "family": "Product",
       "title": "VP of Product",
       "band": "5",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on authority, investment, board."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Executive Leadership",
       "family": "Executive Leadership",
       "title": "President and Chief Operating Officer",
       "band": "6",
-      "why": "Both roles involve company-wide technical strategy and ownership, with shared focus on organizational, organization, authority."
+      "why": "Both roles center on company-wide technical strategy and ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Chief Technology Officer": [
@@ -229,14 +229,14 @@
       "family": "Executive Leadership",
       "title": "President and Chief Operating Officer",
       "band": "6",
-      "why": "Both roles involve company-wide technical strategy and ownership, with shared focus on over, organizational, investors."
+      "why": "Both roles center on company-wide technical strategy and ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Chief Product Officer",
       "band": "6",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on investors, board, direction."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|DevOps Engineer": [
@@ -245,14 +245,14 @@
       "family": "SecOps",
       "title": "SecOps Engineer",
       "band": "1",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on appropriately, incidents, routine."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Implementation Specialist",
       "band": "1",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on collaborates, works, supports."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Sr. DevOps Engineer": [
@@ -261,14 +261,14 @@
       "family": "SecOps",
       "title": "Sr. SecOps Engineer",
       "band": "1",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on improves, designs, best."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "SecOps",
       "title": "Staff SecOps Engineer",
       "band": "2",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on designs, partners, leads."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Staff DevOps Engineer": [
@@ -277,14 +277,14 @@
       "family": "SecOps",
       "title": "Staff SecOps Engineer",
       "band": "2",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on incident, adoption, systems."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Principal Solutions Engineer",
       "band": "4",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on challenges, architecture, authority."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Sr. Staff DevOps Engineer": [
@@ -293,14 +293,14 @@
       "family": "SecOps",
       "title": "Sr. Staff SecOps Engineer",
       "band": "2",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on investment, vision, sets."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "SecOps",
       "title": "IT Security & Infrastructure Manager",
       "band": "3",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on devops, reliability, infrastructure."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|DevOps Manager": [
@@ -309,14 +309,14 @@
       "family": "Implementation",
       "title": "Partner Implementations Manager",
       "band": "3",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on issues, functional, partner."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Director, Implementation",
       "band": "4",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on managers, balances, delivery."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Sr. DevOps Manager": [
@@ -325,14 +325,14 @@
       "family": "Implementation",
       "title": "Director, Implementation",
       "band": "4",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on planning, hiring, decisions."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Implementation Lead",
       "band": "4",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on tooling, culture, drives."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Director of DevOps": [
@@ -341,14 +341,14 @@
       "family": "Implementation",
       "title": "Principal Solutions Engineer",
       "band": "4",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on entire, challenges, architecture."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "VP, Implementation",
       "band": "5",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on function, accountable, autonomy."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Sr. Director of DevOps": [
@@ -357,14 +357,14 @@
       "family": "Implementation",
       "title": "VP, Implementation",
       "band": "5",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on accountable, autonomy, drives."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Implementation Lead",
       "band": "4",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on culture, drives, shapes."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|SecOps|SecOps Engineer": [
@@ -373,14 +373,14 @@
       "family": "DevOps",
       "title": "DevOps Engineer",
       "band": "1",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on appropriately, incidents, routine."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "DevOps",
       "title": "DevOps Manager",
       "band": "3",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on posture, security, escalates."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|SecOps|Sr. SecOps Engineer": [
@@ -389,14 +389,14 @@
       "family": "DevOps",
       "title": "Sr. DevOps Engineer",
       "band": "1",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on improves, designs, best."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "DevOps",
       "title": "Staff DevOps Engineer",
       "band": "2",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on tooling, standards, defines."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|SecOps|Staff SecOps Engineer": [
@@ -405,14 +405,14 @@
       "family": "DevOps",
       "title": "Staff DevOps Engineer",
       "band": "2",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on incident, adoption, systems."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "DevOps",
       "title": "Director of DevOps",
       "band": "4",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on regulatory, security, architecture."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|SecOps|Sr. Staff SecOps Engineer": [
@@ -421,14 +421,14 @@
       "family": "DevOps",
       "title": "Sr. Director of DevOps",
       "band": "4",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on posture, regulatory, external."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "DevOps",
       "title": "Sr. Staff DevOps Engineer",
       "band": "2",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on investment, vision, sets."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|SecOps|IT Security & Infrastructure Manager": [
@@ -437,14 +437,14 @@
       "family": "DevOps",
       "title": "DevOps Manager",
       "band": "3",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on posture, devops, security."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "DevOps",
       "title": "Director of DevOps",
       "band": "4",
-      "why": "Both roles involve infrastructure and systems reliability, with shared focus on vendor, devops, security."
+      "why": "Both roles center on infrastructure and systems reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Customer Success Associate": [
@@ -453,14 +453,14 @@
       "family": "Sales",
       "title": "Sales Associate",
       "band": "1",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on internal, under, guidance."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Implementation Specialist",
       "band": "1",
-      "why": "Both roles involve guiding customers from onboarding into long-term success, with shared focus on playbooks, works, supports."
+      "why": "Both roles center on guiding customers from onboarding into long-term success. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Customer Success Manager": [
@@ -469,14 +469,14 @@
       "family": "Implementation",
       "title": "Implementation Manager",
       "band": "2",
-      "why": "Both roles involve guiding customers from onboarding into long-term success, with shared focus on manager, competing, risk."
+      "why": "Both roles center on guiding customers from onboarding into long-term success. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Sales",
       "title": "Sales Associate II",
       "band": "1",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on portfolio, identifies, opportunities."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Sr. Customer Success Manager": [
@@ -485,14 +485,14 @@
       "family": "Implementation",
       "title": "Sr. Implementation Manager",
       "band": "2",
-      "why": "Both roles involve guiding customers from onboarding into long-term success, with shared focus on playbook, improvements, development."
+      "why": "Both roles center on guiding customers from onboarding into long-term success. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Sales",
       "title": "Sr. Sales Engineer",
       "band": "2",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on accounts, mentors, multi."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Lead Customer Success Manager": [
@@ -501,14 +501,14 @@
       "family": "Implementation",
       "title": "Implementation Lead",
       "band": "4",
-      "why": "Both roles involve guiding customers from onboarding into long-term success, with shared focus on mentor, leader, best."
+      "why": "Both roles center on guiding customers from onboarding into long-term success. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Sales",
       "title": "Sr. Business Development Manager (Sr. BDM)",
       "band": "3",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on segment, value, operates."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Customer Success Operations Manager I": [
@@ -517,14 +517,14 @@
       "family": "Customer Support",
       "title": "Customer Support Manager",
       "band": "3",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on using, feedback, development."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Support",
       "family": "Customer Support",
       "title": "Director of Customer Support",
       "band": "4",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on operations, reports, customer."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Customer Success Operations Manager II": [
@@ -533,14 +533,14 @@
       "family": "Customer Support",
       "title": "Customer Support Manager",
       "band": "3",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on pips, dynamics, development."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Support",
       "family": "Customer Support",
       "title": "Support Operations Manager II",
       "band": "3",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on right, hand, director."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Director of Customer Success": [
@@ -549,14 +549,14 @@
       "family": "Customer Support",
       "title": "Director of Customer Support",
       "band": "4",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on builds, customer, high."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Director of Product Management",
       "band": "4",
-      "why": "Both roles involve translating customer needs into what gets built, with shared focus on okrs, resolves, high."
+      "why": "Both roles center on translating customer needs into what gets built. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Sr. Director of Customer Success": [
@@ -565,14 +565,14 @@
       "family": "Customer Support",
       "title": "Sr. Director of Customer Support",
       "band": "4",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on functions, offs, trade."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "VP of Product",
       "band": "5",
-      "why": "Both roles involve translating customer needs into what gets built, with shared focus on exec, roadmap, facing."
+      "why": "Both roles center on translating customer needs into what gets built. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|VP of Customer Success": [
@@ -581,14 +581,14 @@
       "family": "Product",
       "title": "VP of Product",
       "band": "5",
-      "why": "Both roles involve translating customer needs into what gets built, with shared focus on board, vision, direction."
+      "why": "Both roles center on translating customer needs into what gets built. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Sales",
       "title": "VP of Growth & Marketing",
       "band": "5",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on competitive, dynamics, organization."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Support Specialist / Tier 1": [
@@ -597,14 +597,14 @@
       "family": "Customer Success",
       "title": "Customer Success Associate",
       "band": "1",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on under, close, works."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Implementation Specialist",
       "band": "1",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on works, handles, customer."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Support Specialist / Tier 2": [
@@ -613,14 +613,14 @@
       "family": "Implementation",
       "title": "Sr. Implementation Manager",
       "band": "2",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on tier, mentors, complex."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Sr. Customer Success Manager",
       "band": "2",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on mentors, resolves, complex."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Network Engineer (Tier 3)": [
@@ -629,14 +629,14 @@
       "family": "Customer Success",
       "title": "Sr. Customer Success Manager",
       "band": "2",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on leads, complex, directed."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Solutions Engineer",
       "band": "3",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on deep, technical, product."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Sr. Network Engineer (Tier 3)": [
@@ -645,14 +645,14 @@
       "family": "Implementation",
       "title": "Sr. Solutions Engineer",
       "band": "3",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on most, autonomous, mentors."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Director of Customer Success",
       "band": "4",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on resolves, issues, high."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Support Operations Manager I": [
@@ -661,14 +661,14 @@
       "family": "Customer Success",
       "title": "Customer Success Operations Manager I",
       "band": "3",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on using, established, situations."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Implementation Lead",
       "band": "4",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on best, practices, process."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Customer Support Manager": [
@@ -677,14 +677,14 @@
       "family": "Customer Success",
       "title": "Customer Success Operations Manager I",
       "band": "3",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on using, feedback, development."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Customer Success Operations Manager II",
       "band": "3",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on pips, dynamics, development."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Support Operations Manager II": [
@@ -693,14 +693,14 @@
       "family": "Implementation",
       "title": "Implementation Lead",
       "band": "4",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on process, senior, tooling."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Customer Success Operations Manager II",
       "band": "3",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on right, hand, director."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Director of Customer Support": [
@@ -709,14 +709,14 @@
       "family": "Customer Success",
       "title": "Director of Customer Success",
       "band": "4",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on builds, customer, high."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Implementation",
       "family": "Implementation",
       "title": "VP, Implementation",
       "band": "5",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on csat, global, scalable."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Sr. Director of Customer Support": [
@@ -725,14 +725,14 @@
       "family": "Customer Success",
       "title": "Sr. Director of Customer Success",
       "band": "4",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on functions, offs, trade."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "VP of Customer Success",
       "band": "5",
-      "why": "Both roles involve ongoing customer relationship and account health, with shared focus on success, including, support."
+      "why": "Both roles center on ongoing customer relationship and account health. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Sales Associate": [
@@ -741,14 +741,14 @@
       "family": "Customer Success",
       "title": "Customer Success Associate",
       "band": "1",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on internal, under, guidance."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Marketing",
       "title": "Marketing Specialist I",
       "band": "1",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on channel, internal, under."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Sales Associate II": [
@@ -757,14 +757,14 @@
       "family": "Marketing",
       "title": "Marketing Specialist II",
       "band": "1",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on channel, identifies, opportunities."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Customer Success Manager",
       "band": "1",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on portfolio, identifies, opportunities."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Sales Engineer": [
@@ -773,14 +773,14 @@
       "family": "Marketing",
       "title": "Product Marketing Manager",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on elevenos, capabilities, insights."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Marketing",
       "title": "Field / Event Marketing Specialist",
       "band": "2",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on post, sales, partners."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Sr. Sales Engineer": [
@@ -789,14 +789,14 @@
       "family": "Customer Success",
       "title": "Sr. Customer Success Manager",
       "band": "2",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on accounts, mentors, multi."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Marketing",
       "title": "Product Marketing Manager",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on insights, roadmap, defines."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Business Development Manager (BDM)": [
@@ -805,14 +805,14 @@
       "family": "Marketing",
       "title": "Marketing Innovation Manager",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on external, brand, marketing."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Marketing",
       "title": "Product Marketing Manager",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on intelligence, verticals, marketing."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Sr. Business Development Manager (Sr. BDM)": [
@@ -821,14 +821,14 @@
       "family": "Customer Success",
       "title": "Director of Customer Success",
       "band": "4",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on market, develops, sales."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Marketing",
       "title": "Product Marketing Manager",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on market, develops, sales."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Director, Global Business Development": [
@@ -837,14 +837,14 @@
       "family": "Marketing",
       "title": "Sr. Director of Marketing",
       "band": "4",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on geographies, verticals, market."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Marketing",
       "title": "Director of Marketing",
       "band": "4",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on revenue, events, market."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|VP of Growth & Marketing": [
@@ -853,7 +853,7 @@
       "family": "Customer Success",
       "title": "VP of Customer Success",
       "band": "5",
-      "why": "Both roles involve account growth, retention, and expansion revenue, with shared focus on competitive, dynamics, organization."
+      "why": "Both roles center on account growth, retention, and expansion revenue. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Marketing Specialist I": [
@@ -862,14 +862,14 @@
       "family": "Sales",
       "title": "Sales Associate",
       "band": "1",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on channel, internal, under."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Associate Product Manager",
       "band": "1",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on building, execution, supports."
+      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Marketing Specialist II": [
@@ -878,14 +878,14 @@
       "family": "Sales",
       "title": "Sales Associate II",
       "band": "1",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on channel, identifies, opportunities."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Sales",
       "title": "Business Development Manager (BDM)",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on marketing, brand, sales."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Content / Digital Marketing Specialist": [
@@ -894,14 +894,14 @@
       "family": "Sales",
       "title": "Business Development Manager (BDM)",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on verticals, pipeline, marketing."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Senior Product Manager",
       "band": "3",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on priorities, leadership, defines."
+      "why": "Both roles center on market positioning and translating customer value. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Field / Event Marketing Specialist": [
@@ -910,14 +910,14 @@
       "family": "Sales",
       "title": "Director, Global Business Development",
       "band": "4",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on events, industry, relationships."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Sales",
       "title": "VP of Growth & Marketing",
       "band": "5",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on externally, events, industry."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Marketing Innovation Manager": [
@@ -926,14 +926,14 @@
       "family": "Sales",
       "title": "Business Development Manager (BDM)",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on external, brand, marketing."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Senior Product Manager",
       "band": "3",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on functional, partner, leadership."
+      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Product Marketing Manager": [
@@ -942,14 +942,14 @@
       "family": "Sales",
       "title": "Business Development Manager (BDM)",
       "band": "3",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on intelligence, verticals, marketing."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Senior Product Manager",
       "band": "3",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on priorities, roadmap, customer."
+      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Director of Marketing": [
@@ -958,14 +958,14 @@
       "family": "Sales",
       "title": "Director, Global Business Development",
       "band": "4",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on events, revenue, eleven."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Product",
       "family": "Product",
       "title": "Director of Product Management",
       "band": "4",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on okrs, influence, reports."
+      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Sr. Director of Marketing": [
@@ -974,14 +974,14 @@
       "family": "Product",
       "title": "VP of Product",
       "band": "5",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on year, exec, authority."
+      "why": "Both roles center on market positioning and translating customer value. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Sales",
       "title": "Director, Global Business Development",
       "band": "4",
-      "why": "Both roles involve revenue growth and market-facing strategy, with shared focus on geographies, verticals, market."
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Associate Product Manager": [
@@ -990,14 +990,14 @@
       "family": "Software Engineering",
       "title": "Software Engineer",
       "band": "1",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on feature, senior, delivery."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Sr. Software Engineer",
       "band": "1",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on delivery, design, independently."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Product Manager": [
@@ -1006,14 +1006,14 @@
       "family": "Customer Success",
       "title": "Sr. Director of Customer Success",
       "band": "4",
-      "why": "Both roles involve translating customer needs into what gets built, with shared focus on influences, alignment, roadmap."
+      "why": "Both roles center on translating customer needs into what gets built. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "VP of Engineering",
       "band": "5",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on alignment, priorities, facing."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Technical Product Manager": [
@@ -1022,14 +1022,14 @@
       "family": "Software Engineering",
       "title": "Staff Software Engineer",
       "band": "2",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on trusted, standards, decisions."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Distinguished Engineer",
       "band": "4",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on architects, trusted, standards."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|UX / Design Product Manager": [
@@ -1038,14 +1038,14 @@
       "family": "Marketing",
       "title": "Product Marketing Manager",
       "band": "3",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on insights, bridges, priorities."
+      "why": "Both roles center on market positioning and translating customer value. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Staff Software Engineer",
       "band": "2",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on areas, aligns, design."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Senior Product Manager": [
@@ -1054,14 +1054,14 @@
       "family": "Customer Success",
       "title": "Sr. Director of Customer Success",
       "band": "4",
-      "why": "Both roles involve translating customer needs into what gets built, with shared focus on alignment, roadmap, facing."
+      "why": "Both roles center on translating customer needs into what gets built. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Sales & Marketing",
       "family": "Marketing",
       "title": "Marketing Innovation Manager",
       "band": "3",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on functional, partner, leadership."
+      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Staff Product Manager": [
@@ -1070,14 +1070,14 @@
       "family": "Software Engineering",
       "title": "Principal Engineer",
       "band": "3",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on year, fully, problems."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Sr. Director of Engineering",
       "band": "4",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on alignment, operates, influence."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Director of Product Management": [
@@ -1086,14 +1086,14 @@
       "family": "Marketing",
       "title": "Director of Marketing",
       "band": "4",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on okrs, influence, reports."
+      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Director of Engineering",
       "band": "4",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on plan, okrs, hiring."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Director of Data Operations": [
@@ -1102,14 +1102,14 @@
       "family": "Marketing",
       "title": "Director of Marketing",
       "band": "4",
-      "why": "Both roles involve market positioning and translating customer value, with shared focus on revenue, marketing, eleven."
+      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Director of Customer Success",
       "band": "4",
-      "why": "Both roles involve translating customer needs into what gets built, with shared focus on market, resolves, sales."
+      "why": "Both roles center on translating customer needs into what gets built. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|VP of Product": [
@@ -1118,14 +1118,14 @@
       "family": "Software Engineering",
       "title": "Chief Technology Officer",
       "band": "6",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on year, authority, board."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "VP of Customer Success",
       "band": "5",
-      "why": "Both roles involve translating customer needs into what gets built, with shared focus on board, direction, vision."
+      "why": "Both roles center on translating customer needs into what gets built. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Chief Product Officer": [
@@ -1134,7 +1134,7 @@
       "family": "Software Engineering",
       "title": "Chief Technology Officer",
       "band": "6",
-      "why": "Both roles involve deep technical work meeting roadmap and prioritization ownership, with shared focus on investors, board, direction."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "G&A|People & Culture|People & Culture (HR) Generalist": [
@@ -1143,14 +1143,14 @@
       "family": "Finance & Accounting",
       "title": "VP of Finance",
       "band": "5",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on relations, compliance, directed."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Finance & Accounting",
       "family": "Finance & Accounting",
       "title": "Sr. Financial Analyst",
       "band": "2",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on largely, initiatives, escalates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "G&A|People & Culture|People Business Partner": [
@@ -1159,14 +1159,14 @@
       "family": "Executive Leadership",
       "title": "Chief Executive Officer",
       "band": "6",
-      "why": "Both roles involve company-wide people strategy and executive leadership, with shared focus on goals, navigates, partners."
+      "why": "Both roles center on company-wide people strategy and executive leadership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Executive Leadership",
       "family": "Executive Leadership",
       "title": "President and Chief Operating Officer",
       "band": "6",
-      "why": "Both roles involve company-wide people strategy and executive leadership, with shared focus on performance, balances, navigates."
+      "why": "Both roles center on company-wide people strategy and executive leadership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "G&A|People & Culture|Sr People Business Partner": [
@@ -1175,14 +1175,14 @@
       "family": "Finance & Accounting",
       "title": "Accounting Supervisor / Manager",
       "band": "3",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on more, business, budget."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Finance & Accounting",
       "family": "Finance & Accounting",
       "title": "Controller",
       "band": "4",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on partner, escalates, leadership."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "G&A|People & Culture|Director, People & Culture": [
@@ -1191,14 +1191,14 @@
       "family": "Finance & Accounting",
       "title": "CFO",
       "band": "6",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on executive, management, sets."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Finance & Accounting",
       "family": "Finance & Accounting",
       "title": "Controller",
       "band": "4",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on matters, autonomous, standards."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "G&A|People & Culture|VP, People & Culture": [
@@ -1207,14 +1207,14 @@
       "family": "Finance & Accounting",
       "title": "VP of Finance",
       "band": "5",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on compliance, planning, executive."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Executive Leadership",
       "family": "Executive Leadership",
       "title": "Chief Executive Officer",
       "band": "6",
-      "why": "Both roles involve company-wide people strategy and executive leadership, with shared focus on executive, reports, full."
+      "why": "Both roles center on company-wide people strategy and executive leadership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Implementation Specialist": [
@@ -1223,14 +1223,14 @@
       "family": "Customer Success",
       "title": "Customer Success Associate",
       "band": "1",
-      "why": "Both roles involve guiding customers from onboarding into long-term success, with shared focus on playbooks, works, supports."
+      "why": "Both roles center on guiding customers from onboarding into long-term success. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "DevOps",
       "title": "DevOps Engineer",
       "band": "1",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on collaborates, works, supports."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Implementation Manager": [
@@ -1239,14 +1239,14 @@
       "family": "DevOps",
       "title": "DevOps Manager",
       "band": "3",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on competing, people, delivery."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Support",
       "family": "Customer Support",
       "title": "Customer Support Manager",
       "band": "3",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on situations, people, delivery."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Sr. Implementation Manager": [
@@ -1255,14 +1255,14 @@
       "family": "Customer Success",
       "title": "Sr. Customer Success Manager",
       "band": "2",
-      "why": "Both roles involve guiding customers from onboarding into long-term success, with shared focus on playbook, development, improvements."
+      "why": "Both roles center on guiding customers from onboarding into long-term success. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Staff Software Engineer",
       "band": "2",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on approach, defines, leads."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Solutions Engineer": [
@@ -1271,14 +1271,14 @@
       "family": "Customer Success",
       "title": "Customer Success Operations Manager I",
       "band": "3",
-      "why": "Both roles involve guiding customers from onboarding into long-term success, with shared focus on handles, customer, partners."
+      "why": "Both roles center on guiding customers from onboarding into long-term success. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "DevOps",
       "title": "DevOps Manager",
       "band": "3",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on managers, technical, product."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Sr. Solutions Engineer": [
@@ -1287,14 +1287,14 @@
       "family": "Software Engineering",
       "title": "Principal Engineer",
       "band": "3",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on solutions, practices, most."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Distinguished Engineer",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on solutions, most, autonomous."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Partner Implementations Manager": [
@@ -1303,14 +1303,14 @@
       "family": "DevOps",
       "title": "DevOps Manager",
       "band": "3",
-      "why": "Both roles involve technical delivery and infrastructure reliability, with shared focus on issues, functional, partner."
+      "why": "Both roles center on technical delivery and infrastructure reliability. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Support",
       "family": "Customer Support",
       "title": "Customer Support Manager",
       "band": "3",
-      "why": "Both roles involve hands-on technical troubleshooting for customers, with shared focus on performance, escalates, manages."
+      "why": "Both roles center on hands-on technical troubleshooting for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Principal Solutions Engineer": [
@@ -1319,14 +1319,14 @@
       "family": "Software Engineering",
       "title": "Distinguished Engineer",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on fully, without, autonomous."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Sr. Director of Engineering",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on operates, influence, functional."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Implementation Lead": [
@@ -1335,14 +1335,14 @@
       "family": "Software Engineering",
       "title": "Director of Engineering",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on improvement, process, delivery."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Sr. Director of Customer Success",
       "band": "4",
-      "why": "Both roles involve guiding customers from onboarding into long-term success, with shared focus on implementation, customer, culture."
+      "why": "Both roles center on guiding customers from onboarding into long-term success. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Director, Implementation": [
@@ -1351,14 +1351,14 @@
       "family": "Software Engineering",
       "title": "Sr. Director of Engineering",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on oversees, alignment, planning."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Director of Engineering",
       "band": "4",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on managers, alignment, hiring."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|VP, Implementation": [
@@ -1367,14 +1367,14 @@
       "family": "Software Engineering",
       "title": "VP of Engineering",
       "band": "5",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on delivery, full, accountable."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Chief Technology Officer",
       "band": "6",
-      "why": "Both roles involve hands-on technical delivery for customers, with shared focus on directly, function, executive."
+      "why": "Both roles center on hands-on technical delivery for customers. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|Accounting Clerk": [
@@ -1383,14 +1383,14 @@
       "family": "People & Culture",
       "title": "Sr People Business Partner",
       "band": "3",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on support, handles, escalates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "G&A",
       "family": "People & Culture",
       "title": "People & Culture (HR) Generalist",
       "band": "1",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on questions, handles, escalates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|Staff Accountant": [
@@ -1399,14 +1399,14 @@
       "family": "People & Culture",
       "title": "Sr People Business Partner",
       "band": "3",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on senior, support, escalates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "G&A",
       "family": "People & Culture",
       "title": "People Business Partner",
       "band": "2",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on multiple, supports, escalates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|Financial Analyst": [
@@ -1415,14 +1415,14 @@
       "family": "People & Culture",
       "title": "Sr People Business Partner",
       "band": "3",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on situations, budget, escalates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "G&A",
       "family": "People & Culture",
       "title": "People & Culture (HR) Generalist",
       "band": "1",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on questions, judgment, escalates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|Sr. Financial Analyst": [
@@ -1431,14 +1431,14 @@
       "family": "People & Culture",
       "title": "Sr People Business Partner",
       "band": "3",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on influences, initiatives, escalates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "G&A",
       "family": "People & Culture",
       "title": "Director, People & Culture",
       "band": "4",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on processes, standards, navigates."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|Accounting Supervisor / Manager": [
@@ -1447,14 +1447,14 @@
       "family": "People & Culture",
       "title": "Sr People Business Partner",
       "band": "3",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on more, business, budget."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "G&A",
       "family": "People & Culture",
       "title": "VP, People & Culture",
       "band": "5",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on budget, planning, reports."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|Controller": [
@@ -1463,14 +1463,14 @@
       "family": "Executive Leadership",
       "title": "President and Chief Operating Officer",
       "band": "6",
-      "why": "Both roles involve company-wide financial and strategic ownership, with shared focus on oversees, financial, operations."
+      "why": "Both roles center on company-wide financial and strategic ownership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "G&A",
       "family": "People & Culture",
       "title": "Director, People & Culture",
       "band": "4",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on matters, autonomous, standards."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|Sr. Controller": [
@@ -1479,14 +1479,14 @@
       "family": "Executive Leadership",
       "title": "President and Chief Operating Officer",
       "band": "6",
-      "why": "Both roles involve company-wide financial and strategic ownership, with shared focus on closely, financial, decisions."
+      "why": "Both roles center on company-wide financial and strategic ownership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Executive Leadership",
       "family": "Executive Leadership",
       "title": "Chief Executive Officer",
       "band": "6",
-      "why": "Both roles involve company-wide financial and strategic ownership, with shared focus on closely, financial, partners."
+      "why": "Both roles center on company-wide financial and strategic ownership. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|VP of Finance": [
@@ -1495,14 +1495,14 @@
       "family": "People & Culture",
       "title": "VP, People & Culture",
       "band": "5",
-      "why": "Both roles involve company-wide operations and internal enablement, with shared focus on compliance, planning, executive."
+      "why": "Both roles center on company-wide operations and internal enablement. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Executive Leadership",
       "family": "Executive Leadership",
       "title": "President and Chief Operating Officer",
       "band": "6",
-      "why": "Both roles involve company-wide financial and strategic ownership, with shared focus on over, investors, execution."
+      "why": "Both roles center on company-wide financial and strategic ownership. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Finance & Accounting|Finance & Accounting|CFO": [
@@ -1511,14 +1511,14 @@
       "family": "Executive Leadership",
       "title": "President and Chief Operating Officer",
       "band": "6",
-      "why": "Both roles involve company-wide financial and strategic ownership, with shared focus on allocation, investors, organization."
+      "why": "Both roles center on company-wide financial and strategic ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Executive Leadership",
       "family": "Executive Leadership",
       "title": "Chief Executive Officer",
       "band": "6",
-      "why": "Both roles involve company-wide financial and strategic ownership, with shared focus on investors, financial, board."
+      "why": "Both roles center on company-wide financial and strategic ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Executive Leadership|Executive Leadership|President and Chief Operating Officer": [
@@ -1527,14 +1527,14 @@
       "family": "Software Engineering",
       "title": "Chief Technology Officer",
       "band": "6",
-      "why": "Both roles involve company-wide technical strategy and ownership, with shared focus on over, organizational, investors."
+      "why": "Both roles center on company-wide technical strategy and ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Finance & Accounting",
       "family": "Finance & Accounting",
       "title": "CFO",
       "band": "6",
-      "why": "Both roles involve company-wide financial and strategic ownership, with shared focus on allocation, investors, organization."
+      "why": "Both roles center on company-wide financial and strategic ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Executive Leadership|Executive Leadership|Chief Executive Officer": [
@@ -1543,14 +1543,14 @@
       "family": "Finance & Accounting",
       "title": "CFO",
       "band": "6",
-      "why": "Both roles involve company-wide financial and strategic ownership, with shared focus on investors, financial, board."
+      "why": "Both roles center on company-wide financial and strategic ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
       "dept": "Development",
       "family": "Software Engineering",
       "title": "Chief Technology Officer",
       "band": "6",
-      "why": "Both roles involve company-wide technical strategy and ownership, with shared focus on investors, industry, eleven."
+      "why": "Both roles center on company-wide technical strategy and ownership. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ]
 }
