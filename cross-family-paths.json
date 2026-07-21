@@ -881,11 +881,11 @@
       "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "UX / Design Product Manager",
-      "band": "2",
-      "why": "Both roles center on market positioning and translating customer value. This would be a step up in scope, worth exploring if that shared focus appeals to you."
+      "dept": "Sales & Marketing",
+      "family": "Sales",
+      "title": "Business Development Manager (BDM)",
+      "band": "3",
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a bigger step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Content / Digital Marketing Specialist": [
@@ -897,11 +897,11 @@
       "why": "Both roles center on market positioning and translating customer value. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Technical Product Manager",
-      "band": "2",
-      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
+      "dept": "Sales & Marketing",
+      "family": "Sales",
+      "title": "Business Development Manager (BDM)",
+      "band": "3",
+      "why": "Both roles center on revenue growth and market-facing strategy. This would be a step up in scope, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Field / Event Marketing Specialist": [
@@ -922,18 +922,18 @@
   ],
   "Sales & Marketing|Marketing|Marketing Innovation Manager": [
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Senior Product Manager",
-      "band": "3",
-      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
-    },
-    {
       "dept": "Sales & Marketing",
       "family": "Sales",
       "title": "Business Development Manager (BDM)",
       "band": "3",
       "why": "Both roles center on revenue growth and market-facing strategy. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
+    },
+    {
+      "dept": "Product",
+      "family": "Product",
+      "title": "Senior Product Manager",
+      "band": "3",
+      "why": "Both roles center on market positioning and translating customer value. This would be a lateral move at the same level, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Product Marketing Manager": [
