@@ -40,11 +40,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "UX / Design Product Manager",
+      "dept": "Implementation",
+      "family": "Implementation",
+      "title": "Sr. Implementation Manager",
       "band": "2",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Sr. Staff Software Engineer": [
@@ -56,11 +56,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Technical Product Manager",
+      "dept": "Implementation",
+      "family": "Implementation",
+      "title": "Implementation Manager",
       "band": "2",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Principal Engineer": [
@@ -72,11 +72,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Senior Product Manager",
+      "dept": "Implementation",
+      "family": "Implementation",
+      "title": "Sr. Solutions Engineer",
       "band": "3",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Principal Architect": [
@@ -88,11 +88,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Senior Product Manager",
+      "dept": "Implementation",
+      "family": "Implementation",
+      "title": "Solutions Engineer",
       "band": "3",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Engineering Manager": [
@@ -120,11 +120,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Senior Product Manager",
+      "dept": "Implementation",
+      "family": "Implementation",
+      "title": "Partner Implementations Manager",
       "band": "3",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Senior AI Engineer": [
@@ -136,11 +136,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Staff Product Manager",
+      "dept": "Implementation",
+      "family": "Implementation",
+      "title": "Partner Implementations Manager",
       "band": "3",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Distinguished Engineer": [
@@ -152,11 +152,11 @@
       "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Implementation",
-      "family": "Implementation",
-      "title": "Director, Implementation",
+      "dept": "Product",
+      "family": "Product",
+      "title": "Director of Product Management",
       "band": "4",
-      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|Software Engineering|Sr. Distinguished Engineer": [
@@ -255,13 +255,6 @@
       "title": "Sr. Implementation Manager",
       "band": "2",
       "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Implementation",
-      "family": "Implementation",
-      "title": "Implementation Manager",
-      "band": "2",
-      "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Sr. Staff DevOps Engineer": [
@@ -280,13 +273,6 @@
       "title": "Partner Implementations Manager",
       "band": "3",
       "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Implementation",
-      "family": "Implementation",
-      "title": "Solutions Engineer",
-      "band": "3",
-      "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Sr. DevOps Manager": [
@@ -294,13 +280,6 @@
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Partner Implementations Manager",
-      "band": "3",
-      "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Implementation",
-      "family": "Implementation",
-      "title": "Solutions Engineer",
       "band": "3",
       "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
@@ -312,13 +291,6 @@
       "title": "Principal Solutions Engineer",
       "band": "4",
       "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Implementation",
-      "family": "Implementation",
-      "title": "Director, Implementation",
-      "band": "4",
-      "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Development|DevOps|Sr. Director of DevOps": [
@@ -326,13 +298,6 @@
       "dept": "Implementation",
       "family": "Implementation",
       "title": "Implementation Lead",
-      "band": "4",
-      "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Implementation",
-      "family": "Implementation",
-      "title": "Director, Implementation",
       "band": "4",
       "why": "Both roles center on technical delivery and infrastructure reliability, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
@@ -426,11 +391,11 @@
       "why": "Both roles center on ongoing customer relationship and account health, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Customer Support",
-      "family": "Customer Support",
-      "title": "Support Operations Manager II",
+      "dept": "Sales & Marketing",
+      "family": "Sales",
+      "title": "Sr. Business Development Manager (Sr. BDM)",
       "band": "3",
-      "why": "Both roles center on ongoing customer relationship and account health, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Success|Customer Success|Director of Customer Success": [
@@ -570,11 +535,11 @@
       "why": "Both roles center on ongoing customer relationship and account health, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Customer Success",
-      "family": "Customer Success",
-      "title": "Customer Success Operations Manager II",
+      "dept": "Implementation",
+      "family": "Implementation",
+      "title": "Partner Implementations Manager",
       "band": "3",
-      "why": "Both roles center on ongoing customer relationship and account health, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on hands-on technical troubleshooting for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Customer Support|Customer Support|Support Operations Manager II": [
@@ -632,13 +597,6 @@
       "title": "Customer Success Associate",
       "band": "1",
       "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Customer Success",
-      "family": "Customer Success",
-      "title": "Customer Success Manager",
-      "band": "1",
-      "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Sales Associate II": [
@@ -657,13 +615,6 @@
       "title": "Sr. Customer Success Manager",
       "band": "2",
       "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Customer Success",
-      "family": "Customer Success",
-      "title": "Lead Customer Success Manager",
-      "band": "2",
-      "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Sr. Sales Engineer": [
@@ -671,13 +622,6 @@
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Sr. Customer Success Manager",
-      "band": "2",
-      "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Customer Success",
-      "family": "Customer Success",
-      "title": "Lead Customer Success Manager",
       "band": "2",
       "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
@@ -689,13 +633,6 @@
       "title": "Customer Success Operations Manager I",
       "band": "3",
       "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Customer Success",
-      "family": "Customer Success",
-      "title": "Customer Success Operations Manager II",
-      "band": "3",
-      "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Sr. Business Development Manager (Sr. BDM)": [
@@ -705,13 +642,6 @@
       "title": "Customer Success Operations Manager II",
       "band": "3",
       "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Customer Success",
-      "family": "Customer Success",
-      "title": "Customer Success Operations Manager I",
-      "band": "3",
-      "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Sales|Director, Global Business Development": [
@@ -719,13 +649,6 @@
       "dept": "Customer Success",
       "family": "Customer Success",
       "title": "Director of Customer Success",
-      "band": "4",
-      "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Customer Success",
-      "family": "Customer Success",
-      "title": "Sr. Director of Customer Success",
       "band": "4",
       "why": "Both roles center on account growth, retention, and expansion revenue, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
@@ -764,13 +687,6 @@
       "title": "Technical Product Manager",
       "band": "2",
       "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Product",
-      "family": "Product",
-      "title": "UX / Design Product Manager",
-      "band": "2",
-      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Field / Event Marketing Specialist": [
@@ -778,13 +694,6 @@
       "dept": "Product",
       "family": "Product",
       "title": "Technical Product Manager",
-      "band": "2",
-      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Product Manager",
       "band": "2",
       "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
@@ -796,13 +705,6 @@
       "title": "Senior Product Manager",
       "band": "3",
       "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Staff Product Manager",
-      "band": "3",
-      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Product Marketing Manager": [
@@ -810,13 +712,6 @@
       "dept": "Product",
       "family": "Product",
       "title": "Senior Product Manager",
-      "band": "3",
-      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Staff Product Manager",
       "band": "3",
       "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
@@ -828,13 +723,6 @@
       "title": "Director of Product Management",
       "band": "4",
       "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Director of Data Operations",
-      "band": "4",
-      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Sales & Marketing|Marketing|Sr. Director of Marketing": [
@@ -842,13 +730,6 @@
       "dept": "Product",
       "family": "Product",
       "title": "Director of Product Management",
-      "band": "4",
-      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Product",
-      "family": "Product",
-      "title": "Director of Data Operations",
       "band": "4",
       "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
@@ -862,11 +743,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Development",
-      "family": "Software Engineering",
-      "title": "Sr. Software Engineer",
+      "dept": "Sales & Marketing",
+      "family": "Marketing",
+      "title": "Marketing Specialist I",
       "band": "1",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Product Manager": [
@@ -910,11 +791,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Development",
-      "family": "Software Engineering",
-      "title": "Sr. Staff Software Engineer",
+      "dept": "Sales & Marketing",
+      "family": "Marketing",
+      "title": "Content / Digital Marketing Specialist",
       "band": "2",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Senior Product Manager": [
@@ -942,11 +823,11 @@
       "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Development",
-      "family": "Software Engineering",
-      "title": "Sr. Engineering Manager",
+      "dept": "Sales & Marketing",
+      "family": "Marketing",
+      "title": "Marketing Innovation Manager",
       "band": "3",
-      "why": "Both roles center on deep technical work meeting roadmap and prioritization ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on market positioning and translating customer value, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Product|Product|Director of Product Management": [
@@ -1013,13 +894,6 @@
       "title": "Staff Accountant",
       "band": "1",
       "why": "Both roles center on company-wide operations and internal enablement, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Finance & Accounting",
-      "family": "Finance & Accounting",
-      "title": "Accounting Clerk",
-      "band": "1",
-      "why": "Both roles center on company-wide operations and internal enablement, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "G&A|People & Culture|People Business Partner": [
@@ -1045,13 +919,6 @@
       "dept": "Finance & Accounting",
       "family": "Finance & Accounting",
       "title": "Controller",
-      "band": "4",
-      "why": "Both roles center on company-wide operations and internal enablement, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Finance & Accounting",
-      "family": "Finance & Accounting",
-      "title": "Sr. Controller",
       "band": "4",
       "why": "Both roles center on company-wide operations and internal enablement, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
@@ -1170,11 +1037,11 @@
       "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Development",
-      "family": "Software Engineering",
-      "title": "Sr. Director of Engineering",
+      "dept": "Customer Success",
+      "family": "Customer Success",
+      "title": "Sr. Director of Customer Success",
       "band": "4",
-      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on guiding customers from onboarding into long-term success, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|Implementation Lead": [
@@ -1202,11 +1069,11 @@
       "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     },
     {
-      "dept": "Development",
-      "family": "Software Engineering",
-      "title": "Director of Engineering",
+      "dept": "Customer Support",
+      "family": "Customer Support",
+      "title": "Sr. Director of Customer Support",
       "band": "4",
-      "why": "Both roles center on hands-on technical delivery for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
+      "why": "Both roles center on hands-on technical troubleshooting for customers, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
   ],
   "Implementation|Implementation|VP, Implementation": [
@@ -1302,13 +1169,6 @@
       "dept": "Executive Leadership",
       "family": "Executive Leadership",
       "title": "President and Chief Operating Officer",
-      "band": "6",
-      "why": "Both roles center on company-wide financial and strategic ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
-    },
-    {
-      "dept": "Executive Leadership",
-      "family": "Executive Leadership",
-      "title": "Chief Executive Officer",
       "band": "6",
       "why": "Both roles center on company-wide financial and strategic ownership, at the same level in a different department, worth exploring if that shared focus appeals to you."
     }
