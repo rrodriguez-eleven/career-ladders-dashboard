@@ -2542,14 +2542,14 @@
       }
     },
     "Sales & Marketing||Sales||Business Development Manager (BDM)~Sales Engineer": {
-      "contentHash": "3c69c3b4",
+      "contentHash": "f48065d",
       "dept": "Sales & Marketing",
       "family": "Sales",
       "juniorTitle": "Sales Engineer",
       "seniorTitle": "Business Development Manager (BDM)",
-      "generatedAt": "2026-07-10T05:59:00.179Z",
+      "generatedAt": "2026-07-20T22:16:35.634Z",
       "analysis": {
-        "headline": "Moving from Sales Engineer to Business Development Manager is a 1-band jump from providing technical support in sales cycles to owning full sales cycles and pipeline yourself.",
+        "headline": "Moving from Sales Engineer to Business Development Manager (BDM) is a 1-band jump from technical pre-sales support to owning revenue and the full sales cycle.",
         "section1Title": "Growth Areas",
         "growthAreasSub": "What the BDM role calls for that the Sales Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
@@ -2559,56 +2559,55 @@
               "Partners with Account Executives on technical discovery calls to understand prospect network environments and requirements"
             ],
             "right": [
-              "Identifies and prospects new business opportunities within target markets and verticals",
-              "Builds and manages a pipeline of qualified leads through outbound prospecting and relationship building"
+              "Identifies, develops, and closes new business across a portfolio spanning guest-facing HSIA, network orchestration, and infrastructure solutions",
+              "Owns the full sales cycle from lead generation through contract execution, consistently meeting or exceeding quarterly and annual revenue targets"
             ],
-            "synthesis": "This is a significant shift in focus: from providing technical support within someone else's sales process to owning prospecting and pipeline generation yourself, a different kind of ownership entirely."
+            "synthesis": "Partnering with Account Executives on technical discovery carries over as a strong foundation, but the BDM role shifts from supporting the sales cycle technically to owning the entire cycle and being directly accountable for revenue targets."
           },
           {
-            "theme": "Customer & External Relationships",
+            "theme": "Cross-Functional & Stakeholder Collaboration",
             "left": [
-              "Delivers product demonstrations and proof-of-concept engagements that showcase ElevenOS capabilities"
+              "Partners with Product and Engineering to relay prospect feedback and technical requirements"
             ],
             "right": [
-              "Develops and nurtures relationships with strategic partners and channel opportunities",
-              "Represents Eleven Software at industry events, conferences, and trade shows"
+              "Builds relationships with channel partners, integrators, ISPs, PMS vendors, and technology alliances, and identifies vertical-specific use cases and go-to-market opportunities",
+              "Attends industry events, trade shows, and customer meetings as a brand ambassador"
             ],
-            "synthesis": "Technical demonstration work shifts to relationship-building and external representation at events, a more commercially and externally oriented role."
+            "synthesis": "Relaying technical feedback internally becomes building external relationships with channel partners and representing Eleven publicly, a shift from an internal technical bridge to an external-facing business development role."
           },
           {
             "theme": "Other",
             "left": [
-              "Strong understanding of networking fundamentals and Wi-Fi technologies"
+              "3+ years of experience in a sales engineering, solutions engineering, or technical pre-sales role"
             ],
             "right": [
-              "3+ years of experience in business development, sales, or partnership roles",
-              "Strong prospecting, relationship-building, and negotiation skills"
+              "7+ years of B2B sales or business development experience, preferably in managed services, networking, or SaaS"
             ],
-            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, mainly a shift from technical fluency to sales and negotiation skills as the primary competency."
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a meaningful step up in required tenure alongside the shift from technical to revenue-owning responsibility."
           }
         ],
-        "dayToDaySub": "How the daily work shifts from technical sales support to owning your own pipeline and deals.",
+        "dayToDaySub": "How the daily work shifts from technical pre-sales support to owning the sales cycle.",
         "dayToDay": [
           {
             "theme": "Strategy & Planning",
             "left": [
-              "Responds to technical questions in RFPs, RFIs, and security questionnaires"
+              "Designs and presents technical solutions and network architectures tailored to prospect needs"
             ],
             "right": [
-              "Tracks and reports on business development activities, pipeline health, and conversion metrics"
+              "Maintains accurate pipeline, forecasts, and activity tracking in CRM, and manages deal progression, risks, and next steps with discipline and transparency"
             ],
-            "synthesis": "Day-to-day, expect prospecting and pipeline management activities to replace technical question-answering, a shift from reactive technical support to proactive deal generation."
+            "synthesis": "Day-to-day, expect pipeline ownership and forecasting discipline to replace hands-on technical solution design."
           }
         ],
         "mainTakeaways": [
-          "The jump from Sales Engineer to Business Development Manager shows up most in <strong>Strategy & Planning</strong>, this is a track change from technical support to full sales-cycle ownership, not a technical promotion.",
-          "Day-to-day, that plays out as owning your own prospecting and pipeline rather than supporting deals technically.",
-          "Since this is a shift toward core sales skills, worth discussing with your manager whether shadowing a BDM's prospecting process would help validate this move before committing to it."
+          "The jump from Sales Engineer to BDM shows up most in <strong>Strategy & Planning</strong>, moving from supporting the sales cycle technically to owning it and being accountable for revenue.",
+          "Day-to-day, that plays out as pipeline and forecasting ownership replacing technical solution design work.",
+          "Since this is a track change from technical pre-sales to revenue ownership, worth shadowing a BDM through a full deal cycle before making this move."
         ],
         "worthExploring": [
           {
             "theme": "Strategy & Planning",
-            "rec": "Ask to shadow a BDM through a full prospecting cycle, from initial outreach to close, to see if the day-to-day fits what you're looking for."
+            "rec": "Ask to shadow a BDM through a full deal cycle, from prospecting to contract execution, to see what revenue ownership actually looks like day to day."
           }
         ]
       }
@@ -2686,14 +2685,14 @@
       }
     },
     "Sales & Marketing||Sales||Business Development Manager (BDM)~Sr. Sales Engineer": {
-      "contentHash": "8ac37793",
+      "contentHash": "24241dd6",
       "dept": "Sales & Marketing",
       "family": "Sales",
       "juniorTitle": "Sr. Sales Engineer",
       "seniorTitle": "Business Development Manager (BDM)",
-      "generatedAt": "2026-07-10T05:59:00.180Z",
+      "generatedAt": "2026-07-20T22:16:35.634Z",
       "analysis": {
-        "headline": "Moving from Sr. Sales Engineer to Business Development Manager is a 1-band jump from owning the most complex technical presales work to owning full sales cycles and pipeline.",
+        "headline": "Moving from Sr. Sales Engineer to Business Development Manager (BDM) is a 1-band jump from leading complex technical presales to owning revenue and the full sales cycle.",
         "section1Title": "Growth Areas",
         "growthAreasSub": "What the BDM role calls for that the Sr. Sales Engineer role doesn't, grounded in both job descriptions.",
         "growthAreas": [
@@ -2703,10 +2702,21 @@
               "Leads technical discovery and solution design for the most complex and strategic prospect accounts"
             ],
             "right": [
-              "Identifies and prospects new business opportunities within target markets and verticals",
-              "Builds and manages a pipeline of qualified leads through outbound prospecting and relationship building"
+              "Identifies, develops, and closes new business across a portfolio spanning guest-facing HSIA, network orchestration, and infrastructure solutions",
+              "Develops account plans for strategic prospects and high-value opportunities"
             ],
-            "synthesis": "This is a track change: from leading technical discovery within an existing sales process to generating and owning your own pipeline of net-new opportunities, a different core skill set."
+            "synthesis": "Leading technical discovery for strategic accounts carries over well, but the BDM role extends that into owning the account plan and revenue outcome, not just the technical solution."
+          },
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Mentors and supports the development of junior sales engineers"
+            ],
+            "right": [
+              "Attends industry events, trade shows, and customer meetings as a brand ambassador",
+              "Builds relationships with channel partners, integrators, ISPs, PMS vendors, and technology alliances"
+            ],
+            "synthesis": "Mentoring junior SEs is an internal leadership skill that doesn't directly carry over; the BDM role instead calls for external relationship-building with channel partners and industry stakeholders."
           },
           {
             "theme": "Other",
@@ -2714,13 +2724,12 @@
               "5+ years of experience in a sales engineering, solutions engineering, or technical pre-sales role"
             ],
             "right": [
-              "3+ years of experience in business development, sales, or partnership roles",
-              "Strong prospecting, relationship-building, and negotiation skills"
+              "7+ years of B2B sales or business development experience, preferably in managed services, networking, or SaaS"
             ],
-            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, mainly a shift toward prospecting and negotiation skills as the primary competency rather than technical depth."
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a modest step up in tenure alongside a shift in domain from technical to revenue-owning work."
           }
         ],
-        "dayToDaySub": "How the daily work shifts from leading technical evaluations to owning your own pipeline and deals.",
+        "dayToDaySub": "How the daily work shifts from leading technical presales to owning the sales cycle.",
         "dayToDay": [
           {
             "theme": "Strategy & Planning",
@@ -2728,20 +2737,20 @@
               "Owns technical responses for complex RFPs, RFIs, and security questionnaires"
             ],
             "right": [
-              "Tracks and reports on business development activities, pipeline health, and conversion metrics"
+              "Supports pricing approvals, contract negotiations, and handoff to delivery teams"
             ],
-            "synthesis": "Day-to-day, expect prospecting and pipeline reporting to replace technical RFP ownership, a shift from responding to inbound technical requirements to proactively generating new business."
+            "synthesis": "Day-to-day, expect commercial negotiation and pricing work to replace technical RFP ownership."
           }
         ],
         "mainTakeaways": [
-          "The jump from Sr. Sales Engineer to Business Development Manager shows up most in <strong>Strategy & Planning</strong>, this is a track change to core sales, not a technical promotion.",
-          "Day-to-day, that plays out as owning your own prospecting and pipeline rather than leading technical evaluations within someone else's deal.",
-          "Since this is a genuine track change, worth shadowing a BDM's prospecting cycle to validate the day-to-day is what you're looking for before committing."
+          "The jump from Sr. Sales Engineer to BDM shows up most in <strong>Leadership & People Management</strong>, trading internal SE mentoring for external channel and industry relationship-building.",
+          "Day-to-day, that plays out as commercial negotiation and account planning replacing deep technical solutioning.",
+          "Since this is a track change, worth asking a current BDM how much of the technical depth built as an SE actually carries over day to day."
         ],
         "worthExploring": [
           {
-            "theme": "Strategy & Planning",
-            "rec": "Ask to own a small book of prospecting activity alongside your current SE work, to get a real preview of pipeline generation before making the full move."
+            "theme": "Cross-Functional & Stakeholder Collaboration",
+            "rec": "Ask to join a channel partner or industry event as an observer, to build early exposure to the external relationship-building this role expects."
           }
         ]
       }
@@ -2818,73 +2827,72 @@
       }
     },
     "Sales & Marketing||Sales||Business Development Manager (BDM)~VP of Growth & Marketing": {
-      "contentHash": "de0c87dc",
+      "contentHash": "71cc77fd",
       "dept": "Sales & Marketing",
       "family": "Sales",
       "juniorTitle": "Business Development Manager (BDM)",
       "seniorTitle": "VP of Growth & Marketing",
-      "generatedAt": "2026-07-10T05:59:00.180Z",
+      "generatedAt": "2026-07-20T22:16:35.634Z",
       "analysis": {
-        "headline": "Moving from Business Development Manager to VP of Growth & Marketing is a 2-band jump from owning your own deals and pipeline to leading the company's entire sales and marketing organization.",
+        "headline": "Moving from Business Development Manager (BDM) to VP of Growth & Marketing is a 2-band jump from owning an individual sales portfolio to owning sales and marketing strategy for the entire company.",
         "section1Title": "Growth Areas",
-        "growthAreasSub": "What the VP role calls for that the BDM role doesn't, grounded in both job descriptions.",
+        "growthAreasSub": "What the VP of Growth & Marketing role calls for that the BDM role doesn't, grounded in both job descriptions.",
         "growthAreas": [
-          {
-            "theme": "Leadership & People Management",
-            "left": [
-              "External brand ambassador; provides market and competitor intelligence to Product and Marketing"
-            ],
-            "right": [
-              "Fosters a culture of innovation, collaboration, and agility within the product organization",
-              "Ability to effectively lead and manage high-performing engineering teams"
-            ],
-            "synthesis": "Providing market intelligence carries over conceptually, but the VP role adds direct leadership of a large sales and marketing organization, a full people-management step this role doesn't currently have."
-          },
           {
             "theme": "Strategy & Planning",
             "left": [
-              "Develops and nurtures relationships with strategic partners and channel opportunities"
+              "Develops account plans for strategic prospects and high-value opportunities"
             ],
             "right": [
               "Develops and implements a comprehensive sales strategy that aligns with the company's overall goals and objectives",
               "Continuously evaluates market conditions, competitor activities and industry trends to refine and optimize sales strategies"
             ],
-            "synthesis": "Individual partnership and channel work becomes owning company-wide sales strategy informed by ongoing market and competitive analysis, a broader strategic mandate."
+            "synthesis": "Developing account plans for individual prospects becomes setting company-wide sales strategy, a significant jump from portfolio-level to company-level planning."
+          },
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Owns the full sales cycle from lead generation through contract execution, consistently meeting or exceeding quarterly and annual revenue targets"
+            ],
+            "right": [
+              "Oversees the development of pricing strategies, sales tactics and promotional campaigns",
+              "Ensures the use of CRM tools and data analytics to monitor sales performance"
+            ],
+            "synthesis": "Owning a personal sales cycle and quota becomes overseeing pricing, tactics, and performance monitoring for the entire Sales and Marketing organization."
           },
           {
             "theme": "Other",
             "left": [
-              "3+ years of experience in business development, sales, or partnership roles"
+              "Experience selling into hospitality, MDU, retail, or similar verticals strongly preferred"
             ],
             "right": [
-              "Proven experience in a senior sales or growth leadership role, with a track record of driving revenue growth",
-              "Strong strategic planning and analytical skills"
+              "Proven experience in a senior sales or growth leadership role, with a track record of driving revenue growth"
             ],
-            "synthesis": "These are additional experience thresholds that don't cluster into one theme, mainly a track record of leadership and revenue growth beyond individual deal ownership."
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect the step from vertical-specific selling experience to broad senior revenue-leadership experience."
           }
         ],
-        "dayToDaySub": "How the daily work shifts from owning your own pipeline to leading the entire sales and marketing function.",
+        "dayToDaySub": "How the daily work shifts from owning individual deals to overseeing sales and marketing performance company-wide.",
         "dayToDay": [
           {
-            "theme": "Leadership & People Management",
+            "theme": "Strategy & Planning",
             "left": [
-              "Highly self-directed; defines account strategies and manages pipeline independently"
+              "Maintains accurate pipeline, forecasts, and activity tracking in CRM, and manages deal progression, risks, and next steps with discipline and transparency"
             ],
             "right": [
-              "Oversees the development of pricing strategies, sales tactics and promotional campaigns"
+              "Ensures the use of CRM tools and data analytics to monitor sales performance"
             ],
-            "synthesis": "Day-to-day, expect strategic oversight of pricing, tactics, and campaigns across the whole function to replace management of your own individual pipeline and accounts."
+            "synthesis": "Day-to-day, expect overseeing CRM discipline and performance analytics across the whole team to replace managing your own individual deal pipeline."
           }
         ],
         "mainTakeaways": [
-          "The jump from Business Development Manager to VP of Growth & Marketing shows up most in <strong>Leadership & People Management</strong>, moving from individual deal ownership to leading the entire function.",
-          "Day-to-day, that plays out as strategic oversight across pricing, tactics, and campaigns replacing hands-on pipeline management.",
-          "Since this is a 2-band jump, worth discussing with your manager whether a senior BDM or sales leadership step first would build the missing organizational leadership experience."
+          "This is a large 2-band jump, spanning the Director-level step that normally sits between BDM and this role.",
+          "Day-to-day, that gap shows up as a shift from owning your own deals to overseeing sales and marketing performance company-wide.",
+          "If this is a long-term goal, worth asking your VP what a realistic path through Director, Global Business Development first would look like."
         ],
         "worthExploring": [
           {
             "theme": "Leadership & People Management",
-            "rec": "Ask to lead a small team or a cross-functional go-to-market initiative to start building organizational leadership experience beyond individual deal ownership."
+            "rec": "Ask your VP what a realistic path through Director, Global Business Development first would look like, since that step builds the company-wide strategic experience this role assumes."
           }
         ]
       }
