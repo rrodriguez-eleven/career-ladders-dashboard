@@ -7959,6 +7959,151 @@
           }
         ]
       }
+    },
+    "Development||QA Engineering||QA Engineer~Sr. QA Engineer": {
+      "contentHash": "b8ef45d9",
+      "dept": "Development",
+      "family": "QA Engineering",
+      "juniorTitle": "QA Engineer",
+      "seniorTitle": "Sr. QA Engineer",
+      "generatedAt": "2026-07-21T16:55:34.886Z",
+      "analysis": {
+        "headline": "Moving from QA Engineer to Sr. QA Engineer is a 1-band jump from hands-on network and hardware lab testing to owning automation frameworks, cloud infrastructure, and database validation.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the Sr. QA Engineer role calls for that the QA Engineer role doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Technical Depth & Architecture",
+            "left": [
+              "Designs and manages virtual labs to test network services with a variety of operating systems and hardware",
+              "Tests and helps document new network hardware solutions"
+            ],
+            "right": [
+              "Designs, implements, and maintains advanced test automation frameworks for backend systems, network integrations, and multi-layered web applications",
+              "Ensures cloud architectures deployed on AWS run flawlessly by testing deployments using EC2, Lambda, S3, and DynamoDB, with strict adherence to IAM policies and security groups"
+            ],
+            "synthesis": "Hands-on network and hardware lab testing shifts into designing automation frameworks and validating cloud infrastructure, a significant broadening from physical/network lab work to software-driven backend and cloud testing."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Manages lab set up, procurement, documentation, and support for the Dev Lab"
+            ],
+            "right": [
+              "Formulates and executes T-SQL scripts to validate relational database schemas and data mutations, and manages and tests search/indexing layers built on OpenSearch",
+              "Leads end-to-end testing of RESTful APIs, third-party API integrations, and secure network communication workflows"
+            ],
+            "synthesis": "Lab management and procurement responsibilities give way to deep database and API validation work, a shift from infrastructure logistics to hands-on technical testing of data and integrations."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "At least 3 years of experience with networking and virtualization",
+              "Working knowledge of Bash scripting on Linux or PowerShell on Windows"
+            ],
+            "right": [
+              "8+ years of professional software QA engineering experience, with a heavy emphasis on test automation and backend validation",
+              "Strong proficiency in C# and the .NET ecosystem, alongside experience writing, testing, and debugging PHP backend code"
+            ],
+            "synthesis": "These are additional experience thresholds that don't cluster into one theme, and reflect a significant step up in tenure alongside a shift from networking and scripting skills to full backend programming proficiency."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from network and hardware lab testing to automation, cloud, and AI-assisted testing.",
+        "dayToDay": [
+          {
+            "theme": "Technical Depth & Architecture",
+            "left": [
+              "Ensures that validation labs are configured for validation use cases prior to new feature work going into post-development validation phase"
+            ],
+            "right": [
+              "Incorporates generative AI technologies into the testing workflow to auto-generate mock data, synthesize edge-case scenarios, and optimize test script writing"
+            ],
+            "synthesis": "Day-to-day, expect AI-assisted test generation and automation work to replace physical lab configuration and validation setup."
+          }
+        ],
+        "mainTakeaways": [
+          "The jump from QA Engineer to Sr. QA Engineer shows up most in <strong>Technical Depth & Architecture</strong>, moving from network and hardware lab testing to cloud, database, and API validation.",
+          "Day-to-day, that plays out as automation and AI-assisted testing work replacing hands-on lab and hardware configuration.",
+          "Since this is a meaningful shift in technical domain, worth building hands-on AWS and database testing experience before targeting this move."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Technical Depth & Architecture",
+            "rec": "Ask to shadow or contribute to an AWS or database validation project, to build the cloud and data testing experience this role expects."
+          }
+        ]
+      }
+    },
+    "Development||QA Engineering||QA Manager~Sr. QA Engineer": {
+      "contentHash": "a2aa4799",
+      "dept": "Development",
+      "family": "QA Engineering",
+      "juniorTitle": "Sr. QA Engineer",
+      "seniorTitle": "QA Manager",
+      "generatedAt": "2026-07-21T16:55:34.888Z",
+      "analysis": {
+        "headline": "Moving from Sr. QA Engineer to QA Manager is a 2-band jump from deep technical test engineering to managing the QA team and its day-to-day health.",
+        "section1Title": "Growth Areas",
+        "growthAreasSub": "What the QA Manager role calls for that the Sr. QA Engineer role doesn't, grounded in both job descriptions.",
+        "growthAreas": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [],
+            "right": [
+              "Works with 'Developer-in-Test' to guide and advise on use of testing framework and autotests",
+              "Coordinates and collaborates with BA, Dev, DevOps, and Test teams effectively to deliver story points on time"
+            ],
+            "synthesis": "This is a genuine track change: Sr. QA Engineer has no direct reports or formal leadership scope, while QA Manager assumes guiding others and coordinating across multiple cross-functional teams."
+          },
+          {
+            "theme": "Strategy & Planning",
+            "left": [
+              "Designs, implements, and maintains advanced test automation frameworks for backend systems, network integrations, and multi-layered web applications"
+            ],
+            "right": [
+              "Implements structured testing frameworks (e.g., Cucumber) and autotests",
+              "Produces ST, SIT, and UAT test coverage for user stories"
+            ],
+            "synthesis": "Building automation frameworks carries over as a strong foundation, but the QA Manager role reframes that around structured process ownership across an entire team's output, not just individual technical execution."
+          },
+          {
+            "theme": "Other",
+            "left": [
+              "Strong proficiency in C# and the .NET ecosystem, alongside experience writing, testing, and debugging PHP backend code"
+            ],
+            "right": [
+              "ISTQB Certified Foundation Level Tester",
+              "Agile/Scrum team experience"
+            ],
+            "synthesis": "These are additional hard and/or soft skills that don't cluster into one broader theme, reflecting a shift from deep backend programming proficiency toward formal testing process certification and Agile team fluency."
+          }
+        ],
+        "dayToDaySub": "How the daily work shifts from individual technical testing to leading and coordinating the QA team.",
+        "dayToDay": [
+          {
+            "theme": "Leadership & People Management",
+            "left": [
+              "Identifies, documents, isolates, and tracks bugs through Jira/Azure DevOps, providing deep technical insights (logs, network traces, stack traces) to accelerate developer remediation"
+            ],
+            "right": [
+              "Coordinates and collaborates with BA, Dev, DevOps, and Test teams effectively to deliver story points on time",
+              "Contributes to multiple interrelated projects at the same time"
+            ],
+            "synthesis": "Day-to-day, expect cross-team coordination across multiple concurrent projects to replace deep individual bug diagnostics."
+          }
+        ],
+        "mainTakeaways": [
+          "This is a 2-band jump combined with a genuine track change, from individual deep technical testing to formally leading and coordinating a QA team.",
+          "Day-to-day, that shows up as cross-functional coordination across BA, Dev, DevOps, and Test replacing hands-on technical diagnostics.",
+          "Since this is a track change into people leadership, worth asking a current QA Manager how much hands-on technical testing they still do day to day."
+        ],
+        "worthExploring": [
+          {
+            "theme": "Leadership & People Management",
+            "rec": "Ask to informally guide a junior QA engineer or coordinate a cross-team testing effort, to build the team-coordination experience this role expects."
+          }
+        ]
+      }
     }
   }
 }
